@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-01 16:38+0300\n"
-"PO-Revision-Date: 2019-06-01 16:49+0300\n"
+"PO-Revision-Date: 2019-06-01 20:17+0430\n"
 "Last-Translator: Amirhosseinhpv <support@intel-software.ir>\n"
 "Language-Team: \n"
 "Language: fa\n"
@@ -16,11 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #: handlers/audio.py:118
 msgid "Please wait, your audio is coming..."
-msgstr ""
+msgstr "لطفا شکیبا باشید. آهنگ در حال ارسال است..."
 
 #: handlers/audio.py:134
 msgid "Song is removed by copyright owners"
@@ -28,32 +28,36 @@ msgstr "⛔️ آهنگ توسط صاحبان کپی رایت حذف شده اس
 
 #: handlers/docdb.py:64
 msgid "Got it! Note: it may take time for the song to appear in the search"
-msgstr ""
+msgstr "متوجه شدم! نکته: ممکن است طول بکشد تا آهنگ در جستجو نمایش داده شود"
 
 #: handlers/donation.py:43 handlers/donation.py:113 handlers/settings.py:52
 #: handlers/settings.py:72
 msgid "Close"
-msgstr ""
+msgstr "بستن"
 
 #: handlers/donation.py:46
 msgid "Support us"
-msgstr ""
+msgstr "ما را پشتیبانی کنید"
 
 #: handlers/donation.py:48
 msgid ""
 "Your donations help us to develop new features, increase stability and pay "
 "for our servers."
 msgstr ""
+"کمک‌های مالی شما به ما کمک می‌کند تا ویژگی‌های جدید اضافه کنیم و توانایی "
+"سرورهایمان را بالا ببریم."
 
 #: handlers/donation.py:51 handlers/donation.py:131
 msgid ""
 "For just one donation we will gift your account with a *lifetime* premium "
 "status. There is a short list of premium features you will receive:"
 msgstr ""
+"تنها یک کمک مالی کافی است تا یک حساب مادام‌العمر ویژه را از ما هدیه بگیرید. "
+"بخشی از ویژگی‌های حساب ویژه:"
 
 #: handlers/donation.py:54 handlers/donation.py:134
 msgid "No more ads and spam to you, *forever*"
-msgstr ""
+msgstr "برای *همیشه* از تبلیغات خلاص شدید"
 
 #: handlers/donation.py:55 handlers/donation.py:135
 msgid "An option to disable advertising inline captions"
@@ -69,31 +73,34 @@ msgstr ""
 
 #: handlers/donation.py:58 handlers/donation.py:138
 msgid "More options under /settings command"
-msgstr ""
+msgstr "تنظیمات بیشتر در منوی دستوری /settings قابل مشاهده است"
 
 #: handlers/donation.py:60
 #, python-format
 msgid ""
 "Subscribe to our news channel to be notified of new features: %(channel)s"
 msgstr ""
+"برای با خبر شدن از ویژگی‌های جدید کانال اخبار ما را دنبال کنید:‌ %(channel)s"
 
 #: handlers/donation.py:118
 msgid "You are a premium user!"
-msgstr ""
+msgstr "شما اکنون کاربر ویژه هستید! "
 
 #: handlers/donation.py:120
 msgid ""
 "You're a good person who kindly supports us, so we granted you a *lifetime* "
 "premium status, enjoy it"
 msgstr ""
+"از کمک مالی شما متشکریم. این لطف شما را با یک حساب کاربری ویژه *مادام‌العمر* "
+"جبران می کنیم. از VKM لذت ببرید!"
 
 #: handlers/donation.py:124
 msgid "There is a short list of premium features you have:"
-msgstr ""
+msgstr "این تنها لیست کوچکی از ویژگی‌های حساب کاربری ویژه است:"
 
 #: handlers/donation.py:126
 msgid "You are not premium, yet"
-msgstr ""
+msgstr "حساب شما هنوز ویژه نیست"
 
 #: handlers/donation.py:128
 msgid ""
@@ -166,11 +173,11 @@ msgstr ""
 
 #: handlers/search.py:213
 msgid "What song are you looking for?"
-msgstr ""
+msgstr "به دنبال چه آهنگی هستید؟"
 
 #: handlers/search.py:224
 msgid "What artist are you looking for?"
-msgstr ""
+msgstr "به دنبال چه خواننده یا هنرمندی هستید؟"
 
 #: handlers/search.py:280 handlers/search.py:303
 msgid "You need to search for something before"
@@ -178,7 +185,7 @@ msgstr "شما باید اول جستجویی انجام دهید 🐸"
 
 #: handlers/search.py:308
 msgid "You're at the first page already"
-msgstr ""
+msgstr "شما اکنون در صفحه اول به سر می‌برید"
 
 #: handlers/settings.py:31
 msgid "Enabled"
@@ -235,13 +242,15 @@ msgstr "👌🇮🇷 تنظیمات زبان به روزرسانی شد"
 
 #: handlers/start.py:40
 msgid "/setlang — change language"
-msgstr ""
+msgstr "/setlang - تغییر زبان"
 
 #: handlers/unknowncommand.py:27
 #, python-format
 msgid ""
 "Unknown command: %(command)s. Call /help for a list of available commands."
 msgstr ""
+"دستور %(command)s را متوجه نشدم. برای دیدن فهرست کامل دستورات /help را وارد "
+"نمایید."
 
 #~ msgid ""
 #~ "Thanks! Now you can use personalized commands.\n"

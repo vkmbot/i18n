@@ -3,19 +3,19 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-01 16:38+0300\n"
-"PO-Revision-Date: 2019-06-01 16:54+0300\n"
-"Last-Translator: vkmowner <vkmowner@telegram>\n"
+"PO-Revision-Date: 2019-06-01 18:51+0300\n"
+"Last-Translator: M.Furkan <By_Azade@telegram>\n"
 "Language-Team: English\n"
-"Language: tr\n"
+"Language: Turkish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #: handlers/audio.py:118
 msgid "Please wait, your audio is coming..."
-msgstr ""
+msgstr "Lütfen bekleyin, şarkınız geliyor..."
 
 #: handlers/audio.py:134
 msgid "Song is removed by copyright owners"
@@ -23,129 +23,139 @@ msgstr "⛔️ Şarkı, telif hakkı sahipleri tarafından kaldırıldı"
 
 #: handlers/docdb.py:64
 msgid "Got it! Note: it may take time for the song to appear in the search"
-msgstr ""
+msgstr "Anladım! Not: şarkının aramada görünmesi zaman alabilir."
 
 #: handlers/donation.py:43 handlers/donation.py:113 handlers/settings.py:52
 #: handlers/settings.py:72
 msgid "Close"
-msgstr ""
+msgstr "Kapat"
 
 #: handlers/donation.py:46
 msgid "Support us"
-msgstr ""
+msgstr "Bize ulaş"
 
 #: handlers/donation.py:48
 msgid ""
-"Your donations help us to develop new features, increase stability and pay for "
-"our servers."
+"Your donations help us to develop new features, increase stability and pay for our "
+"servers."
 msgstr ""
+"Bağışlarınız, yeni özellikler geliştirmemize, istikrarı artırmamıza ve "
+"sunucularımız için ödeme yapmamıza yardımcı oluyor."
 
 #: handlers/donation.py:51 handlers/donation.py:131
 msgid ""
-"For just one donation we will gift your account with a *lifetime* premium "
-"status. There is a short list of premium features you will receive:"
+"For just one donation we will gift your account with a *lifetime* premium status. "
+"There is a short list of premium features you will receive:"
 msgstr ""
+"Sadece bir bağış için hesabınıza * ömür boyu * prim statüsü vereceğiz. Alacağınız "
+"premium özelliklerin kısa bir listesi var:"
 
 #: handlers/donation.py:54 handlers/donation.py:134
 msgid "No more ads and spam to you, *forever*"
-msgstr ""
+msgstr "Size daha fazla reklam ve spam yok, *Sonsuza dek*"
 
 #: handlers/donation.py:55 handlers/donation.py:135
 msgid "An option to disable advertising inline captions"
-msgstr ""
+msgstr "Reklamları satır içi altyazıları devre dışı bırakma seçeneği"
 
 #: handlers/donation.py:56 handlers/donation.py:136
 msgid "An option to display audio format info"
-msgstr ""
+msgstr " Ses formatı bilgisini görüntüleme seçeneği"
 
 #: handlers/donation.py:57 handlers/donation.py:137
 msgid "An option to change search results size"
-msgstr ""
+msgstr "Arama sonuçlarının boyutunu değiştirme seçeneği"
 
 #: handlers/donation.py:58 handlers/donation.py:138
 msgid "More options under /settings command"
-msgstr ""
+msgstr "Daha fazla ayar için /settings komutunu kullanın"
 
 #: handlers/donation.py:60
 #, python-format
 msgid "Subscribe to our news channel to be notified of new features: %(channel)s"
 msgstr ""
+"Yeni özelliklerden haberdar olmak için haber kanalımıza abone olun: %(channel)s"
 
 #: handlers/donation.py:118
 msgid "You are a premium user!"
-msgstr ""
+msgstr "Premium kullanıcısın!"
 
 #: handlers/donation.py:120
 msgid ""
 "You're a good person who kindly supports us, so we granted you a *lifetime* "
 "premium status, enjoy it"
 msgstr ""
+"Bizleri nazikçe destekleyen iyi bir insansınız, size *ömür boyu* özel statü "
+"verdik, tadını çıkarın"
 
 #: handlers/donation.py:124
 msgid "There is a short list of premium features you have:"
-msgstr ""
+msgstr "Sahip olduğunuz premium özelliklerin kısa bir listesi:"
 
 #: handlers/donation.py:126
 msgid "You are not premium, yet"
-msgstr ""
+msgstr "Henüz bir premium kullanıcısı değilsiniz"
 
 #: handlers/donation.py:128
 msgid "Use /donate command to support us and get your *lifetime* premium status"
 msgstr ""
+"/donate komutunu kullanarak bize destek olun ve *sonsuza dek* premiuma sahip olun"
 
 #: handlers/favorites.py:34
 msgid "Added to your playlist (/my)"
-msgstr ""
+msgstr "Oynatma listenize eklendi (/my)"
 
 #: handlers/favorites.py:47
 msgid "Removed from your playlist"
-msgstr ""
+msgstr "Oynatma listenizden kaldırıldı"
 
 #: handlers/help.py:16
 msgid "🔥 Commands"
-msgstr ""
+msgstr "🔥 Komutlar"
 
 #: handlers/help.py:17 handlers/start.py:37
 msgid "Just send me an artist and/or a song name and I will find music for you!"
 msgstr ""
+"Sadece bana bir sanatçı ve / veya bir şarkı adı gönderin, sizin için müzik "
+"bulacağım!"
 
 #: handlers/help.py:18 handlers/start.py:38
 msgid "/song — search by song title"
-msgstr ""
+msgstr "/song — şarkı adı ile ara"
 
 #: handlers/help.py:19 handlers/start.py:39
 msgid "/artist — search for artist name"
-msgstr ""
+msgstr "/artist — sanaçtı,şarkıcı adı ile ara"
 
 #: handlers/help.py:20
 msgid "/my — list your playlist"
-msgstr ""
+msgstr "/my — oynatma listenizi listeleyin"
 
 #: handlers/help.py:21
 msgid "/top — popular songs"
-msgstr ""
+msgstr "/top — popüler şarkılar"
 
 #: handlers/help.py:22 handlers/start.py:41
 msgid "/settings — change settings"
-msgstr ""
+msgstr "/settings — ayarları değiştirin"
 
 #: handlers/help.py:23
 msgid "/donate — support authors"
-msgstr ""
+msgstr "/donate — yapımcıya destek olun"
 
 #: handlers/help.py:24
 msgid "/premium — premium info"
-msgstr ""
+msgstr "/premium — premium bilgileri"
 
 #: handlers/help.py:26
 #, python-format
 msgid "Official news channel: %(channel)s"
-msgstr ""
+msgstr "Resmi haber kanalı: %(channel)s"
 
 #: handlers/help.py:27
 #, python-format
 msgid "Contact information: %(contact)s"
-msgstr ""
+msgstr "İletişim bilgileri: %(contact)s"
 
 #: handlers/search.py:117 handlers/search.py:172
 msgid "I found nothing"
@@ -154,15 +164,15 @@ msgstr "Hiç bir şey bulamadım 😔"
 #: handlers/search.py:135
 #, python-format
 msgid "Results %(first)d-%(last)d of %(total)d\n"
-msgstr ""
+msgstr "Sonuçlar %(first)d-%(last)d of %(total)d\n"
 
 #: handlers/search.py:213
 msgid "What song are you looking for?"
-msgstr ""
+msgstr "Hangi şarkıyı arıyorsun?"
 
 #: handlers/search.py:224
 msgid "What artist are you looking for?"
-msgstr ""
+msgstr "Hangi sanatçıyı arıyorsunuz?"
 
 #: handlers/search.py:280 handlers/search.py:303
 msgid "You need to search for something before"
@@ -170,7 +180,7 @@ msgstr "Önce bir şey aramalısın 🐸"
 
 #: handlers/search.py:308
 msgid "You're at the first page already"
-msgstr ""
+msgstr "Zaten ilk sayfadasınız"
 
 #: handlers/settings.py:31
 msgid "Enabled"
@@ -192,22 +202,22 @@ msgstr "Bit hızı önizlemesi: %s"
 #: handlers/settings.py:40
 #, python-format
 msgid "Like (heart) buttons: %s"
-msgstr ""
+msgstr "Beğen (kalp) butonu: %s"
 
 #: handlers/settings.py:43
 #, python-format
 msgid "Inline mode captions: %s"
-msgstr ""
+msgstr "Satır içi mod başlığı: %s"
 
 #: handlers/settings.py:46
 #, python-format
 msgid "Show audio format: %s"
-msgstr ""
+msgstr "Ses formatını göster: %s"
 
 #: handlers/settings.py:49
 #, python-format
 msgid "Search results: %d"
-msgstr ""
+msgstr "Arama sonuçları: %d"
 
 #: handlers/settings.py:54
 msgid "What would you like to change?"
@@ -219,7 +229,7 @@ msgstr "Lütfen yeni bir dil seçin."
 
 #: handlers/settings.py:83
 msgid "Please help us with a donation (/donate) to access this feature"
-msgstr ""
+msgstr "Lütfen bu özelliğe erişmek için bize bağışta bulunun (/donate)"
 
 #: handlers/settings.py:141
 msgid "Language settings updated"
@@ -227,12 +237,14 @@ msgstr "Dil ayarları güncellendi"
 
 #: handlers/start.py:40
 msgid "/setlang — change language"
-msgstr ""
+msgstr "/setlang — dili değiştir"
 
 #: handlers/unknowncommand.py:27
 #, python-format
 msgid "Unknown command: %(command)s. Call /help for a list of available commands."
 msgstr ""
+"Bilinmeyen komut: %(command)s. Mevcut komutların bir listesini /help yazarak "
+"bulabilirsiniz."
 
 #~ msgid ""
 #~ "Thanks! Now you can use personalized commands.\n"
@@ -241,8 +253,7 @@ msgstr ""
 #~ "Teşekkürler! Artık kişiselleştirilmiş komutları kullanabilirsiniz.\n"
 #~ "Örneğin,VK daki seslerinize erişmek için /my komutunu kullanın."
 
-#~ msgid ""
-#~ "What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
+#~ msgid "What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
 #~ msgstr "Hangi sanatçıyı arıyorsun? Örneğin «Lera Lynn» veya «Wiz Khalifa»"
 
 #~ msgid ""
@@ -251,15 +262,14 @@ msgstr ""
 
 #~ msgid "intro_msg"
 #~ msgstr ""
-#~ "Merhaba! Sadece bana bir sanatçı ve / veya bir şarkı adı gönderin, sizin "
-#~ "için müzik bulacağım!\n"
+#~ "Merhaba! Sadece bana bir sanatçı ve / veya bir şarkı adı gönderin, sizin için "
+#~ "müzik bulacağım!\n"
 #~ "/song — şarkı adından ara\n"
 #~ "/artist — şarkıcı adından ara\n"
 #~ "/setlang — dili değiştir\n"
 #~ "/settings —ayarları değiştir"
 
-#~ msgid ""
-#~ "This command can not be used in a group chat, send it as a private message"
+#~ msgid "This command can not be used in a group chat, send it as a private message"
 #~ msgstr ""
 #~ "Bu komut bir Grup sohbetinde kullanılamaz, özel mesaj olarak gönderilebilir"
 
@@ -282,8 +292,7 @@ msgstr ""
 #~ msgid "Ok, we won't bother you for a while"
 #~ msgstr "Tamam, bir süre seni rahatsız etmeyeceğim"
 
-#~ msgid ""
-#~ "If you like this bot there are a few ways you can support the developer!"
+#~ msgid "If you like this bot there are a few ways you can support the developer!"
 #~ msgstr "Bu botu beğendiyseniz geliştiriciyi desteklemenin birkaç yolu var!"
 
 #~ msgid "To select new language, use the following commands"
@@ -355,8 +364,8 @@ msgstr ""
 #~ msgstr "Bu şarkı için şarkı sözleri bulunamadı 😔"
 
 #~ msgid ""
-#~ "Oops! Looks like your VK authorization is lost. Please, authorize me again "
-#~ "via the link %s"
+#~ "Oops! Looks like your VK authorization is lost. Please, authorize me again via "
+#~ "the link %s"
 #~ msgstr ""
-#~ "Oops! Looks like your VK authorization is lost. Please, authorize me again "
-#~ "via the link %s"
+#~ "Oops! Looks like your VK authorization is lost. Please, authorize me again via "
+#~ "the link %s"

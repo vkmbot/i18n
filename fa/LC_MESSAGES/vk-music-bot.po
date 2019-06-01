@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-01 16:38+0300\n"
-"PO-Revision-Date: 2019-06-01 21:31+0430\n"
+"PO-Revision-Date: 2019-06-01 21:35+0430\n"
 "Last-Translator: Amirhosseinhpv <support@intel-software.ir>\n"
 "Language-Team: \n"
 "Language: fa\n"
@@ -119,7 +119,7 @@ msgstr "از لیست آهنگ‌های شما حذف شد"
 
 #: handlers/help.py:16
 msgid "🔥 Commands"
-msgstr "🔥 دستورات"
+msgstr "🔥 دستورها"
 
 #: handlers/help.py:17 handlers/start.py:37
 msgid ""

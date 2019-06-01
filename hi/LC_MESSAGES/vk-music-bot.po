@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-01 16:38+0300\n"
-"PO-Revision-Date: 2019-06-02 00:07+0530\n"
+"PO-Revision-Date: 2019-06-02 00:23+0530\n"
 "Last-Translator: vkmowner <vkmowner@telegram>\n"
 "Language-Team: Hindi\n"
 "Language: hi_IN\n"
@@ -110,7 +110,7 @@ msgstr "आपकी प्लेलिस्ट से निकाल दि�
 
 #: handlers/help.py:16
 msgid "🔥 Commands"
-msgstr ""
+msgstr "🔥 आदेश"
 
 #: handlers/help.py:17 handlers/start.py:37
 msgid "Just send me an artist and/or a song name and I will find music for you!"
@@ -118,31 +118,31 @@ msgstr "बस मुझे एक कलाकार का नाम और / 
 
 #: handlers/help.py:18 handlers/start.py:38
 msgid "/song — search by song title"
-msgstr ""
+msgstr "/song — शीर्षक से गीत को खोजें"
 
 #: handlers/help.py:19 handlers/start.py:39
 msgid "/artist — search for artist name"
-msgstr ""
+msgstr "/artist — कलाकार के लिए खोज"
 
 #: handlers/help.py:20
 msgid "/my — list your playlist"
-msgstr ""
+msgstr "/my —मेरी प्लेलिस्ट"
 
 #: handlers/help.py:21
 msgid "/top — popular songs"
-msgstr ""
+msgstr "/top — लोकप्रिय गीत"
 
 #: handlers/help.py:22 handlers/start.py:41
 msgid "/settings — change settings"
-msgstr ""
+msgstr "/settings — सेटिंग्स बदलें"
 
 #: handlers/help.py:23
 msgid "/donate — support authors"
-msgstr ""
+msgstr "/donate — हमें दान करें"
 
 #: handlers/help.py:24
 msgid "/premium — premium info"
-msgstr ""
+msgstr "/premium — प्रीमियम जानकारी"
 
 #: handlers/help.py:26
 #, python-format
@@ -226,7 +226,7 @@ msgstr "कृपया नई भाषा का चयन करें"
 
 #: handlers/settings.py:83
 msgid "Please help us with a donation (/donate) to access this feature"
-msgstr ""
+msgstr "कृपया इस सुविधा और हमारी मदद के लीये (/donate) का उपयोग करें"
 
 #: handlers/settings.py:141
 msgid "Language settings updated"
@@ -234,12 +234,12 @@ msgstr "👌 भाषा बदल दी गई है"
 
 #: handlers/start.py:40
 msgid "/setlang — change language"
-msgstr ""
+msgstr "/setlang — भाषा बदलें"
 
 #: handlers/unknowncommand.py:27
 #, python-format
 msgid "Unknown command: %(command)s. Call /help for a list of available commands."
-msgstr ""
+msgstr "अज्ञात आदेश: %(command)s. उपलब्ध आदेशों की सूची के लिए /help का उपयोग करें।"
 
 #~ msgid ""
 #~ "Thanks! Now you can use personalized commands.\n"

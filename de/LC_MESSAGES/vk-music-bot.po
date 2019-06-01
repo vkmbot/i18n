@@ -15,7 +15,7 @@ msgstr ""
 
 #: handlers/audio.py:118
 msgid "Please wait, your audio is coming..."
-msgstr ""
+msgstr "Einen Moment bitte, deine Audio kommt gleich..."
 
 #: handlers/audio.py:134
 msgid "Song is removed by copyright owners"
@@ -23,132 +23,141 @@ msgstr "⛔️ Song wurde von Copyright-Inhabern entfernt"
 
 #: handlers/docdb.py:64
 msgid "Got it! Note: it may take time for the song to appear in the search"
-msgstr ""
+msgstr "Verstanden! (Es dauert vielleicht einen Moment bis der Song in der Suche erscheint)"
 
 #: handlers/donation.py:43 handlers/donation.py:113 handlers/settings.py:52
 #: handlers/settings.py:72
 msgid "Close"
-msgstr ""
+msgstr "Schließen"
 
 #: handlers/donation.py:46
 msgid "Support us"
-msgstr ""
+msgstr "Unterstütze uns"
 
 #: handlers/donation.py:48
 msgid ""
 "Your donations help us to develop new features, increase stability and pay "
 "for our servers."
-msgstr ""
+msgstr "" 
+"Deine Spende hilft uns neue Fähigkeiten zu entwickeln, Stabilität zu verbessern"
+"und unsere Server zu bezahlen."
 
 #: handlers/donation.py:51 handlers/donation.py:131
 msgid ""
 "For just one donation we will gift your account with a *lifetime* premium "
 "status. There is a short list of premium features you will receive:"
 msgstr ""
+"Mit nur einer Spende bekommst du lebenslänglichen Premium Zugang."
+"Hier ist eine kurze Liste von Premium Vorteilen die du erhältst:"
 
 #: handlers/donation.py:54 handlers/donation.py:134
 msgid "No more ads and spam to you, *forever*"
-msgstr ""
+msgstr "Keine Werbung, *nie mehr*"
 
 #: handlers/donation.py:55 handlers/donation.py:135
 msgid "An option to disable advertising inline captions"
-msgstr ""
+msgstr "Eine Option Inline-Bildunterschriften für Werbung auszuschalten"
 
 #: handlers/donation.py:56 handlers/donation.py:136
 msgid "An option to display audio format info"
-msgstr ""
+msgstr "Eine Option Informationen über die Audiodatei anzuzeigen"
 
 #: handlers/donation.py:57 handlers/donation.py:137
 msgid "An option to change search results size"
-msgstr ""
+msgstr "Eine Option die Suchergebnis größe zu ändern"
 
 #: handlers/donation.py:58 handlers/donation.py:138
 msgid "More options under /settings command"
-msgstr ""
+msgstr "Mehr Optionen unter dem /settings befehl "
 
 #: handlers/donation.py:60
 #, python-format
 msgid ""
 "Subscribe to our news channel to be notified of new features: %(channel)s"
 msgstr ""
+"Abonnieren Sie unseren News-Kanal um über neue features informiert zu sein: %(channel)s"
 
 #: handlers/donation.py:118
 msgid "You are a premium user!"
-msgstr ""
+msgstr "Sie sind ein Premium-Nutzer"
 
 #: handlers/donation.py:120
 msgid ""
 "You're a good person who kindly supports us, so we granted you a *lifetime* "
 "premium status, enjoy it"
 msgstr ""
+"Sie sind eine gute Person, die uns unterstützt. Deshalb gewähren wir ihnen *lebenslänglichen* "
+"Premium Status. Viel Spaß damit :)"
 
 #: handlers/donation.py:124
 msgid "There is a short list of premium features you have:"
-msgstr ""
+msgstr "Hier ist eine kurze Liste mit Premium Features die Sie haben:"
 
 #: handlers/donation.py:126
 msgid "You are not premium, yet"
-msgstr ""
+msgstr "Sie sind noch nicht Premium"
 
 #: handlers/donation.py:128
 msgid ""
 "Use /donate command to support us and get your *lifetime* premium status"
 msgstr ""
+"Nutzen Sie /donate um uns zu unterstützen und erhalten *lebenslänglichen* Premium Status" 
 
 #: handlers/favorites.py:34
 msgid "Added to your playlist (/my)"
-msgstr ""
+msgstr "Zu ihrer Playlist hizugefügt (/my)"
 
 #: handlers/favorites.py:47
 msgid "Removed from your playlist"
-msgstr ""
+msgstr "Von ihrer Playlist entfernt"
 
 #: handlers/help.py:16
 msgid "🔥 Commands"
-msgstr ""
+msgstr "🔥 Befehle"
 
 #: handlers/help.py:17 handlers/start.py:37
 msgid ""
 "Just send me an artist and/or a song name and I will find music for you!"
 msgstr ""
+"Schicken sie mir einen Künstler und/oder Song-name und ich finde die Musik!"
 
 #: handlers/help.py:18 handlers/start.py:38
 msgid "/song — search by song title"
-msgstr ""
+msgstr "/song — Suche nach Songname"
 
 #: handlers/help.py:19 handlers/start.py:39
 msgid "/artist — search for artist name"
-msgstr ""
+msgstr "/artist — Suche nach Künstler"
 
 #: handlers/help.py:20
 msgid "/my — list your playlist"
-msgstr ""
+msgstr "/my — Ihre Playlist"
 
 #: handlers/help.py:21
 msgid "/top — popular songs"
-msgstr ""
+msgstr "/top — populäre Songs"
 
 #: handlers/help.py:22 handlers/start.py:41
 msgid "/settings — change settings"
-msgstr ""
+msgstr "/settings — Ändere Einstellungen"
 
 #: handlers/help.py:23
 msgid "/donate — support authors"
-msgstr ""
+msgstr "/donate — Unterstütze Autoren"
 
 #: handlers/help.py:24
 msgid "/premium — premium info"
-msgstr ""
+msgstr "/Premium — Premium infos"
 
 #: handlers/help.py:26
 #, python-format
 msgid "Official news channel: %(channel)s"
-msgstr ""
+msgstr "Offizieller News-Kanal: %(channel)s"
 
 #: handlers/help.py:27
 #, python-format
 msgid "Contact information: %(contact)s"
-msgstr ""
+msgstr "Kontakt Information: %/contact)s"
 
 #: handlers/search.py:117 handlers/search.py:172
 msgid "I found nothing"
@@ -157,15 +166,15 @@ msgstr "Ich habe nichts gefunden 😔"
 #: handlers/search.py:135
 #, python-format
 msgid "Results %(first)d-%(last)d of %(total)d\n"
-msgstr ""
+msgstr "Ergebnis %(first)d-%(last)d of %(total)d\n"
 
 #: handlers/search.py:213
 msgid "What song are you looking for?"
-msgstr ""
+msgstr "Nach welchem Lied suchen Sie ?"
 
 #: handlers/search.py:224
 msgid "What artist are you looking for?"
-msgstr ""
+msgstr "Nach welchem Künstler suchen Sie ?"
 
 #: handlers/search.py:280 handlers/search.py:303
 msgid "You need to search for something before"

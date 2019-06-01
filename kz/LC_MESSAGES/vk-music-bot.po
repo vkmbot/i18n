@@ -1,0 +1,375 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-01 16:38+0300\n"
+"PO-Revision-Date: 2019-06-01 16:51+0300\n"
+"Last-Translator: vkmowner <vkmowner@telegram>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: bot.py\n"
+
+#: handlers/audio.py:118
+msgid "Please wait, your audio is coming..."
+msgstr ""
+
+#: handlers/audio.py:134
+msgid "Song is removed by copyright owners"
+msgstr ""
+
+#: handlers/docdb.py:64
+msgid "Got it! Note: it may take time for the song to appear in the search"
+msgstr ""
+"Орындалды! Назар салыңыз: өлеңнің іздеу нәтижелерінде шығуы үшін кей уақыт "
+"қажет болады"
+
+#: handlers/donation.py:43 handlers/donation.py:113 handlers/settings.py:52
+#: handlers/settings.py:72
+msgid "Close"
+msgstr ""
+
+#: handlers/donation.py:46
+msgid "Support us"
+msgstr ""
+
+#: handlers/donation.py:48
+msgid ""
+"Your donations help us to develop new features, increase stability and pay "
+"for our servers."
+msgstr ""
+
+#: handlers/donation.py:51 handlers/donation.py:131
+msgid ""
+"For just one donation we will gift your account with a *lifetime* premium "
+"status. There is a short list of premium features you will receive:"
+msgstr ""
+
+#: handlers/donation.py:54 handlers/donation.py:134
+msgid "No more ads and spam to you, *forever*"
+msgstr ""
+
+#: handlers/donation.py:55 handlers/donation.py:135
+msgid "An option to disable advertising inline captions"
+msgstr ""
+
+#: handlers/donation.py:56 handlers/donation.py:136
+msgid "An option to display audio format info"
+msgstr ""
+
+#: handlers/donation.py:57 handlers/donation.py:137
+msgid "An option to change search results size"
+msgstr ""
+
+#: handlers/donation.py:58 handlers/donation.py:138
+msgid "More options under /settings command"
+msgstr ""
+
+#: handlers/donation.py:60
+#, python-format
+msgid ""
+"Subscribe to our news channel to be notified of new features: %(channel)s"
+msgstr ""
+
+#: handlers/donation.py:118
+msgid "You are a premium user!"
+msgstr ""
+
+#: handlers/donation.py:120
+msgid ""
+"You're a good person who kindly supports us, so we granted you a *lifetime* "
+"premium status, enjoy it"
+msgstr ""
+
+#: handlers/donation.py:124
+msgid "There is a short list of premium features you have:"
+msgstr ""
+
+#: handlers/donation.py:126
+msgid "You are not premium, yet"
+msgstr ""
+
+#: handlers/donation.py:128
+msgid ""
+"Use /donate command to support us and get your *lifetime* premium status"
+msgstr ""
+
+#: handlers/favorites.py:34
+msgid "Added to your playlist (/my)"
+msgstr "Сіздің плейлистіңізге қосылды (/my)"
+
+#: handlers/favorites.py:47
+msgid "Removed from your playlist"
+msgstr "Сіздің плейлистіңізден өшірілді"
+
+#: handlers/help.py:16
+msgid "🔥 Commands"
+msgstr ""
+
+#: handlers/help.py:17 handlers/start.py:37
+msgid ""
+"Just send me an artist and/or a song name and I will find music for you!"
+msgstr ""
+
+#: handlers/help.py:18 handlers/start.py:38
+msgid "/song — search by song title"
+msgstr ""
+
+#: handlers/help.py:19 handlers/start.py:39
+msgid "/artist — search for artist name"
+msgstr ""
+
+#: handlers/help.py:20
+#| msgid "Removed from your playlist"
+msgid "/my — list your playlist"
+msgstr ""
+
+#: handlers/help.py:21
+msgid "/top — popular songs"
+msgstr ""
+
+#: handlers/help.py:22 handlers/start.py:41
+msgid "/settings — change settings"
+msgstr ""
+
+#: handlers/help.py:23
+msgid "/donate — support authors"
+msgstr ""
+
+#: handlers/help.py:24
+msgid "/premium — premium info"
+msgstr ""
+
+#: handlers/help.py:26
+#, python-format
+msgid "Official news channel: %(channel)s"
+msgstr ""
+
+#: handlers/help.py:27
+#, python-format
+msgid "Contact information: %(contact)s"
+msgstr ""
+
+#: handlers/search.py:117 handlers/search.py:172
+msgid "I found nothing"
+msgstr "Ештеңе табылмады 😔"
+
+#: handlers/search.py:135
+#, python-format
+msgid "Results %(first)d-%(last)d of %(total)d\n"
+msgstr ""
+
+#: handlers/search.py:213
+msgid "What song are you looking for?"
+msgstr "Қай өлеңді іздедіңіз?"
+
+#: handlers/search.py:224
+msgid "What artist are you looking for?"
+msgstr "Қай орындаушыны іздедіңіз?"
+
+#: handlers/search.py:280 handlers/search.py:303
+msgid "You need to search for something before"
+msgstr "Алдымен бірдеңе іздестіріп көріңіз 🐸"
+
+#: handlers/search.py:308
+msgid "You're at the first page already"
+msgstr "Сіз бірінші беттесіз"
+
+#: handlers/settings.py:31
+msgid "Enabled"
+msgstr "Қосылған"
+
+#: handlers/settings.py:32
+msgid "Disabled"
+msgstr "Сөндірілген"
+
+#: handlers/settings.py:35
+msgid "Language"
+msgstr "Тіл"
+
+#: handlers/settings.py:37
+#, python-format
+msgid "Bitrate preview: %s"
+msgstr "Битрейтті көрсету: %s"
+
+#: handlers/settings.py:40
+#, python-format
+msgid "Like (heart) buttons: %s"
+msgstr "Ұнату (жүрек) батырмалары: %s"
+
+#: handlers/settings.py:43
+#, python-format
+msgid "Inline mode captions: %s"
+msgstr ""
+
+#: handlers/settings.py:46
+#, python-format
+msgid "Show audio format: %s"
+msgstr ""
+
+#: handlers/settings.py:49
+#, python-format
+msgid "Search results: %d"
+msgstr ""
+
+#: handlers/settings.py:54
+msgid "What would you like to change?"
+msgstr "Қандай опцияларды өзгерткіңіз келеді?"
+
+#: handlers/settings.py:74
+msgid "Please, select new language"
+msgstr "Жаңа тілді таңдауыңызды сұраймыз"
+
+#: handlers/settings.py:83
+msgid "Please help us with a donation (/donate) to access this feature"
+msgstr ""
+
+#: handlers/settings.py:141
+msgid "Language settings updated"
+msgstr "👌Kz Тіл баптаулары жаңартылды"
+
+#: handlers/start.py:40
+msgid "/setlang — change language"
+msgstr ""
+
+#: handlers/unknowncommand.py:27
+#, python-format
+msgid ""
+"Unknown command: %(command)s. Call /help for a list of available commands."
+msgstr ""
+
+#~ msgid "We only accept %(types)s audio files"
+#~ msgstr "Біз тек %(types)s аудио файлдарын қабылдаймыз"
+
+#~ msgid "We require artist and title tags to be set"
+#~ msgstr "Аудиофайлда орындаушы мен атаудың тэгі міндетті түрде болуы керек"
+
+#~ msgid "Audio must be at least %(seconds)d seconds long"
+#~ msgstr "Тректің ұзақтығы %(seconds)d секундтан кем болмауы керек"
+
+#~ msgid "Song bitrate must be in range from %(lowest)d to %(highest)d"
+#~ msgstr "Аудионың битрейті %(lowest)d -дан %(highest)d -ға дейін болуы керек"
+
+#~ msgid "We already have this song, but thank you anyway!"
+#~ msgstr "Бізде бұл өлең бар, қайткенмен, Рахмет!"
+
+#~ msgid "Oops, something went wrong. Please try again later."
+#~ msgstr "Ой, бірдеңе дұрыс болмады. Кейінірек қайталап көруіңізді сұраймыз."
+
+#~ msgid "Choose a song number from 1 to %d"
+#~ msgstr "1 ден бастап %d дейін өлең нөмірін таңдаңыз"
+
+#~ msgid "Download something first!"
+#~ msgstr "Алдымен қандай болмасын өлеңді жүктеңіз!"
+
+#~ msgid ""
+#~ "This command can not be used in a group chat, send it as a private message"
+#~ msgstr ""
+#~ "Бұл команда топтық чатта қолданыла алмайды , оны жеке хабарлама ретінде "
+#~ "жіберіңіз"
+
+#~ msgid ""
+#~ "Hi! Just send me an artist and/or a song name and I will find music for "
+#~ "you!\n"
+#~ "/song — search by song title\n"
+#~ "/artist — search for artist name\n"
+#~ "/setlang — change language\n"
+#~ "/settings — change settings\n"
+#~ msgstr ""
+#~ "Сәлем! Маған орындаушы есімін және/немесе композицияның атауын жіберіңіз, "
+#~ "ал мен ол өлеңді сізге тауып беремін!\n"
+#~ "/song — композиция бойынша іздеу\n"
+#~ "/artist — орындаушы бойынша іздеу\n"
+#~ "/setlang — тілді өзгерту\n"
+#~ "/settings — баптауларды өзгерту\n"
+
+#~ msgid ""
+#~ "🔥 Commands\n"
+#~ "Just send me an artist and/or a song name and I will find music for you!\n"
+#~ "/song — search by song title (useful for group chats)\n"
+#~ "/artist — search for artist name\n"
+#~ "/my — list your playlist\n"
+#~ "/settings — change settings\n"
+#~ "\n"
+#~ "Official news channel: %(channel)s\n"
+#~ "Contact information: %(contact)s\n"
+#~ "\n"
+#~ "BTC: `%(btc)s`\n"
+#~ msgstr ""
+#~ "🔥 Командалар\n"
+#~ "Маған орындаушы есімін және/немесе композицияның атауын жіберіңіз, ал мен "
+#~ "ол өлеңді сізге тауып беремін!\n"
+#~ "/song — композиция бойынша іздеу (топтық чаттарда қолайлы)\n"
+#~ "/artist — орындаушы бойынша іздеу\n"
+#~ "/my — сіздің плейлистіңіз\n"
+#~ "/setlang — тілді өзгерту\n"
+#~ "/settings — баптауларды өзгерту\n"
+#~ "\n"
+#~ "Жаңалықтар жүктелетін ресми канал: %(channel)s\n"
+#~ "Боттағы контакт пен жарнама: %(contact)s\n"
+#~ "\n"
+#~ "BTC: `%(btc)s`\n"
+
+#~ msgid "Donate"
+#~ msgstr "💸 Жобаға көмектесу"
+
+#~ msgid "Leave a positive feedback"
+#~ msgstr "🌟 Жағымды пікір қалдыру"
+
+#~ msgid "Remind later"
+#~ msgstr "Кейінірек ескерту"
+
+#~ msgid ""
+#~ "Please rate us 5 stars in the bot-store: https://telegram.me/storebot?"
+#~ "start=vkmusic_bot"
+#~ msgstr ""
+#~ "Бізге боттар каталогында баға беруіңізді сұраймыз ⭐️⭐️⭐️⭐️⭐️ : https://"
+#~ "telegram.me/storebot?start=vkmusic_bot"
+
+#~ msgid "Ok, we won't bother you for a while"
+#~ msgstr "Жақсы, біз сізді әзірше мазаламаймыз"
+
+#~ msgid ""
+#~ "If you like this bot there are a few ways you can support the developer!"
+#~ msgstr "Егер сізге бұл бот ұнаса, бот әзірлеушісіне көмектесуіңізге болады!"
+
+#~ msgid "You didn't specify the artist"
+#~ msgstr "Сіз орындаушыны көрсетпедіңіз"
+
+#~ msgid "Please reply to an audio message"
+#~ msgstr "Аудио хабарламаға жауап беруіңізді сұраймыз"
+
+#~ msgid ""
+#~ "You suggested edit for artist: \"%(new_artist)s\"\n"
+#~ "We will review your suggestion and store it in our database. Thank you!"
+#~ msgstr ""
+#~ "Сіз орындаушыға \"%(new_artist)s\" деген өңдеу енгізуді ұсындыңыз \n"
+#~ "Біз сіздің ұсынысыңызды қарастырып, дерекқорға орналастырамыз. Рахмет!"
+
+#~ msgid "To select new language, use the following commands"
+#~ msgstr "Тілді өзгерту үшін келесі командаларды қолданыңыз"
+
+#~ msgid ""
+#~ "Your playlist is empty. Upload MP3 audios or use /add to add songs from "
+#~ "search to it"
+#~ msgstr ""
+#~ "Сіздің плейлистіңіз бос. Сіз ботқа аудио файлдар жүктей аласыз және /add "
+#~ "командасын іздеуден тректерді қосу үшін пайдалана аласыз"
+
+#~ msgid "Caption under audios: %s"
+#~ msgstr "Тректер астындағы жазбалар: %s"
+
+#~ msgid "Results with buttons: %s"
+#~ msgstr "Батырмамен нәтижелер: %s"
+
+#~ msgid "Cancel"
+#~ msgstr "Кейінге қалдыру"
+
+#~ msgid "I like this bot!"
+#~ msgstr "Маған бұл бот ұнайды!"

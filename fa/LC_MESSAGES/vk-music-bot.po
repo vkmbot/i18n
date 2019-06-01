@@ -227,7 +227,7 @@ msgstr "👌🇮🇷 تنظیمات زبان به روزرسانی شد"
 
 #: handlers/start.py:40
 msgid "/setlang — change language"
-msgstr "/setland - تغییر زبان"
+msgstr "/setlang - تغییر زبان"
 
 #: handlers/unknowncommand.py:27
 #, python-format

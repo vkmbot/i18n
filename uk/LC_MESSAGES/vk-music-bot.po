@@ -24,7 +24,396 @@ msgid "Please wait, your audio is coming..."
 msgstr ""
 
 #: handlers/audio.py:134
+msgid "Song is removed by copy# Ukrainian translations for PACKAGE package
+# Українські переклади для пакунку PACKAGE.
+# Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Nazar Bulavko <functionbyx@gmail.com>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-01 16:38+0300\n"
+"PO-Revision-Date: 2019-06-01 19:02+0300\n"
+"Last-Translator: Nazar Bulavko <functionbyx@gmail.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.3\n"
+
+#: handlers/audio.py:118
+msgid "Please wait, your audio is coming..."
+msgstr "Будь ласка, почекайте, ваш звук йде..."
+
+#: handlers/audio.py:134
 msgid "Song is removed by copyright owners"
+msgstr "Пісня видалена з-за скарги власника"
+
+#: handlers/docdb.py:64
+msgid "Got it! Note: it may take time for the song to appear in the search"
+msgstr "Є контакт! Застереження: поява пісні у пошуку займе деякий час"
+
+#: handlers/donation.py:43 handlers/donation.py:113 handlers/settings.py:52
+#: handlers/settings.py:72
+msgid "Close"
+msgstr "Зачинити"
+
+#: handlers/donation.py:46
+msgid "Support us"
+msgstr "Підтримайте нас"
+
+#: handlers/donation.py:48
+msgid ""
+"Your donations help us to develop new features, increase stability and pay for "
+"our servers."
+msgstr ""
+"Ваші пожертви допомагають нам розробляти нові функції, збільшувати "
+"стабільність, та платити за наші сервери"
+
+#: handlers/donation.py:51 handlers/donation.py:131
+msgid ""
+"For just one donation we will gift your account with a *lifetime* premium "
+"status. There is a short list of premium features you will receive:"
+msgstr ""
+"Всього за одну пожертву, ми подаруємо *довічний* преміум статус для вашого "
+"акаунту. Короткий список преміум функцій які ви отримаєте:"
+
+#: handlers/donation.py:54 handlers/donation.py:134
+msgid "No more ads and spam to you, *forever*"
+msgstr "Більше ніякої реклами та спаму для вас *довічно*"
+
+#: handlers/donation.py:55 handlers/donation.py:135
+msgid "An option to disable advertising inline captions"
+msgstr "Опція для вимкнення вбудованих рекламних підписів"
+
+#: handlers/donation.py:56 handlers/donation.py:136
+msgid "An option to display audio format info"
+msgstr "Опція для показу формату аудіо"
+
+#: handlers/donation.py:57 handlers/donation.py:137
+msgid "An option to change search results size"
+msgstr "Опція для зміни розмірів результатів пошуку"
+
+#: handlers/donation.py:58 handlers/donation.py:138
+msgid "More options under /settings command"
+msgstr "Більше опцій під командою /settings"
+
+#: handlers/donation.py:60
+#, python-format
+msgid "Subscribe to our news channel to be notified of new features: %(channel)s"
+msgstr ""
+"Підпишіться до нашого каналу новин, для того щоб бути проінформованим про нові "
+"функції:%(channel)s"
+
+#: handlers/donation.py:118
+msgid "You are a premium user!"
+msgstr "Ви преміум користувач!"
+
+#: handlers/donation.py:120
+msgid ""
+"You're a good person who kindly supports us, so we granted you a *lifetime* "
+"premium status, enjoy it"
+msgstr ""
+"Ви хороша людина, яка підтримала нас, тому ми надали вам *довічний* преміум "
+"статус, насолоджуйтесь"
+
+#: handlers/donation.py:124
+msgid "There is a short list of premium features you have:"
+msgstr "Короткий список преміум функцій:"
+
+#: handlers/donation.py:126
+msgid "You are not premium, yet"
+msgstr "Ви все ще не преміум користувач"
+
+#: handlers/donation.py:128
+msgid "Use /donate command to support us and get your *lifetime* premium status"
+msgstr ""
+"Використайте /donate команду для того щоб підтримати нас і отримати *довічний* "
+"преміум статус"
+
+#: handlers/favorites.py:34
+msgid "Added to your playlist (/my)"
+msgstr "Додано до плейлисту (/my)"
+
+#: handlers/favorites.py:47
+msgid "Removed from your playlist"
+msgstr "Видалено з плейлисту"
+
+#: handlers/help.py:16
+msgid "🔥 Commands"
+msgstr "🔥 Команди"
+
+#: handlers/help.py:17 handlers/start.py:37
+msgid "Just send me an artist and/or a song name and I will find music for you!"
+msgstr ""
+"Просто надійшли мені виконавця та/або ім'я пісні і я знайду музику для тебе!"
+
+#: handlers/help.py:18 handlers/start.py:38
+msgid "/song — search by song title"
+msgstr "/song — пошук за назвою пісні"
+
+#: handlers/help.py:19 handlers/start.py:39
+msgid "/artist — search for artist name"
+msgstr "/artist — пошук імені виконавця"
+
+#: handlers/help.py:20
+#| msgid "Removed from your playlist"
+msgid "/my — list your playlist"
+msgstr "/my — показати ваш плейлист"
+
+#: handlers/help.py:21
+msgid "/top — popular songs"
+msgstr "/top — популярні пісні"
+
+#: handlers/help.py:22 handlers/start.py:41
+msgid "/settings — change settings"
+msgstr "/settings — змінити налаштування"
+
+#: handlers/help.py:23
+msgid "/donate — support authors"
+msgstr "/donate — підтримати авторів"
+
+#: handlers/help.py:24
+msgid "/premium — premium info"
+msgstr "/premium — інформація про преміум"
+
+#: handlers/help.py:26
+#, python-format
+msgid "Official news channel: %(channel)s"
+msgstr "Офіційний канал новин: %(канал)и"
+
+#: handlers/help.py:27
+#, python-format
+msgid "Contact information: %(contact)s"
+msgstr "Контактна інформація: %(контакт)и"
+
+#: handlers/search.py:117 handlers/search.py:172
+msgid "I found nothing"
+msgstr "Я нічого не знайшов"
+
+#: handlers/search.py:135
+#, python-format
+msgid "Results %(first)d-%(last)d of %(total)d\n"
+msgstr "Результати з %(first)d по %(last)d із %(total)d\n"
+
+#: handlers/search.py:213
+msgid "What song are you looking for?"
+msgstr "Яку пісню шукаєш?"
+
+#: handlers/search.py:224
+msgid "What artist are you looking for?"
+msgstr "Якого виконавця шукаєш?"
+
+#: handlers/search.py:280 handlers/search.py:303
+msgid "You need to search for something before"
+msgstr "Для початку, знайди щось"
+
+#: handlers/search.py:308
+msgid "You're at the first page already"
+msgstr "Ти вже на першій сторінці"
+
+#: handlers/settings.py:31
+msgid "Enabled"
+msgstr "Увімкнено"
+
+#: handlers/settings.py:32
+msgid "Disabled"
+msgstr "Вимкнено"
+
+#: handlers/settings.py:35
+msgid "Language"
+msgstr "Мова"
+
+#: handlers/settings.py:37
+#, python-format
+msgid "Bitrate preview: %s"
+msgstr "Передогляд бітрейту: %s"
+
+#: handlers/settings.py:40
+#, python-format
+msgid "Like (heart) buttons: %s"
+msgstr "Кнопки вподобання: %s"
+
+#: handlers/settings.py:43
+#, python-format
+msgid "Inline mode captions: %s"
+msgstr "Заголовки вбудованого режиму: %s"
+
+#: handlers/settings.py:46
+#, python-format
+msgid "Show audio format: %s"
+msgstr "Показати формат аудіо: %s"
+
+#: handlers/settings.py:49
+#, python-format
+msgid "Search results: %d"
+msgstr "Результати пошуку: %d"
+
+#: handlers/settings.py:54
+msgid "What would you like to change?"
+msgstr "Що ти хочеш змінити?"
+
+#: handlers/settings.py:74
+msgid "Please, select new language"
+msgstr "Будь ласка, обери нову мову інтерфейсу"
+
+#: handlers/settings.py:83
+msgid "Please help us with a donation (/donate) to access this feature"
+msgstr "Будь ласка допоможіть нам пожертвуванням(/donate) для доступу "
+
+#: handlers/settings.py:141
+msgid "Language settings updated"
+msgstr "Налаштування мови оновлені"
+
+#: handlers/start.py:40
+msgid "/setlang — change language"
+msgstr "/setlang — змінити мову"
+
+#: handlers/unknowncommand.py:27
+#, python-format
+msgid "Unknown command: %(command)s. Call /help for a list of available commands."
+msgstr ""
+"Невідома команда: %(команда)и. Використайте /help для списку доступних команд"
+
+#~ msgid "Empty file size, skipping"
+#~ msgstr "Пустий файл, пропуск"
+
+#~ msgid "We don't support '%(mime_type)s' audio yet"
+#~ msgstr "Ми поки не підтримуємо '%(mime_type)s' формат"
+
+#~ msgid "We require artist and title tags to be set"
+#~ msgstr "Аудіофайл повинен містити мітки виконавця та назви"
+
+#~ msgid "Audio must be at least %(seconds)d seconds long"
+#~ msgstr "Тривалість пісні повинна бути не менше %(seconds)d секунд"
+
+#~ msgid "Song bitrate must be in range from %(lowest)d to %(highest)d"
+#~ msgstr "Бітрейт пісні повинен бути в інтервалі з %(lowest)d до %(highest)d"
+
+#~ msgid "We already have this song, but thank you anyway!"
+#~ msgstr "У нас вже є ця пісня, але дякуємо!"
+
+#~ msgid "Oops, something went wrong. Please try again later."
+#~ msgstr "Овва, щось пішло не так. Будь ласка, спробуй пізніше."
+
+#~ msgid "Choose a song number from 1 to %d"
+#~ msgstr "Вибери номер пісні з 1 по %d"
+
+#~ msgid "Download something first!"
+#~ msgstr "Спочатку щось завантаж!"
+
+#~ msgid ""
+#~ "This command can not be used in a group chat, send it as a private message"
+#~ msgstr ""
+#~ "Ця команда не може бути застосована у груповому чаті, надішліть її як "
+#~ "особисте повідомлення"
+
+#~ msgid ""
+#~ "Hi! Just send me an artist and/or a song name and I will find music for "
+#~ "you!\n"
+#~ "/song — search by song title\n"
+#~ "/artist — search for artist name\n"
+#~ "/setlang — change language\n"
+#~ "/settings — change settings\n"
+#~ msgstr ""
+#~ "Привіт! Просто надішли мені ім'я виконавця і/або назву пісні і я знайду "
+#~ "музику для тебе!\n"
+#~ "/song — пошук за назвою пісні\n"
+#~ "/artist — пошук за іменем виконавця\n"
+#~ "/setlang — змінити мову\n"
+#~ "/settings — змінити налаштування\n"
+
+#~ msgid ""
+#~ "🔥 Commands\n"
+#~ "Just send me an artist and/or a song name and I will find music for you!\n"
+#~ "/song — search by song title (useful for group chats)\n"
+#~ "/artist — search for artist name\n"
+#~ "/my — list your playlist\n"
+#~ "/settings — change settings\n"
+#~ "\n"
+#~ "Official news channel: %(channel)s\n"
+#~ "Contact information: %(contact)s\n"
+#~ "\n"
+#~ "BTC: `%(btc)s`\n"
+#~ msgstr ""
+#~ "🔥 Команди\n"
+#~ "Просто надішли мені ім'я виконавця і/або назву пісні і я знайду музику для "
+#~ "тебе!\n"
+#~ "/song — пошук за назвою пісні (корисно використовувати це у групових чатах)\n"
+#~ "/artist — пошук за іменем виконавця\n"
+#~ "/my — відобразити плейлист\n"
+#~ "/settings — змінити налаштування\n"
+#~ "\n"
+#~ "Офіційний канал новин: %(channel)s\n"
+#~ "Контакт: %(contact)s\n"
+#~ "\n"
+#~ "BTC: `%(btc)s`\n"
+
+#~ msgid "Donate"
+#~ msgstr "Підтримати"
+
+#~ msgid "Remind later"
+#~ msgstr "Нагадати пізніше"
+
+#~ msgid "Ok, we won't bother you for a while"
+#~ msgstr "ОК, ми не будемо поки тебе турбувати"
+
+#~ msgid "Leave a positive feedback"
+#~ msgstr "Залиш позитивний відгук"
+
+#~ msgid ""
+#~ "Please rate us 5 stars in the bot-store: https://telegram.me/storebot?"
+#~ "start=vkmusic_bot"
+#~ msgstr ""
+#~ "Якщо тобі подобається цей бот, будь ласка, оціни його у ⭐️⭐️⭐️⭐️⭐️ зірочок у "
+#~ "магазині ботів: https://telegram.me/storebot?start=vkmusic_bot"
+
+#~ msgid ""
+#~ "If you like this bot there are a few ways you can support the developer!"
+#~ msgstr ""
+#~ "Якщо тобі подобається цей бот, то існує декілька шляхів для того, щоб "
+#~ "підтримати розробника!"
+
+#~ msgid "You didn't specify the artist"
+#~ msgstr "Ти не вказав виконавця"
+
+#~ msgid "Please reply to an audio message"
+#~ msgstr "Будь ласка, дай відповідь на голосове повідомлення"
+
+#
+#~ msgid ""
+#~ "You suggested edit for artist: \"%(new_artist)s\"\n"
+#~ "We will review your suggestion and store it in our database. Thank you!"
+#~ msgstr ""
+#~ "Було запропонувано нового виконавця: \"%(new_artist)s\"Ми переглянемо твою "
+#~ "пропозицію і збережемо її у нашу базу даних. Спасибі!"
+
+#~ msgid "To select new language, use the following commands"
+#~ msgstr "Щоб вибрати іншу мову інтерфейсу, використай наступні команди"
+
+#~ msgid "I like this bot!"
+#~ msgstr "Мені подобається цей бот!"
+
+#~ msgid ""
+#~ "Your playlist is empty. Upload MP3 audios or use /add to add songs from "
+#~ "search to it"
+#~ msgstr ""
+#~ "Плейлист пустий. Завантажте MP3 файл або використайте /add щоб додати пісні "
+#~ "з пошуку"
+
+#~ msgid "Caption under audios: %s"
+#~ msgstr "Підписи під піснями: %s"
+
+#~ msgid "Results with buttons: %s"
+#~ msgstr "Результати з клавішами: %s"
+
+#~ msgid "Cancel"
+#~ msgstr "Скасувати"
+right owners"
 msgstr ""
 
 #: handlers/docdb.py:64

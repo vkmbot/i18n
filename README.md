@@ -10,4 +10,5 @@ Do not hesitate to message me [@vkmowner](https://telegram.me/vkmowner) in Teleg
     * Keep `\n` symbols in their places
     * Try to keep the same line lengths as the original English
     * Do not translate commands (e.g. `/song`, `/artist`, `/my`, etc) — let them be in English
+    * Do not translate or remove placeholders (e.g. `%s`, `%(channel)s`)
 5. Save, commit and send you changes as a pull request to the repo

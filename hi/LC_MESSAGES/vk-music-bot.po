@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-01 16:38+0300\n"
-"PO-Revision-Date: 2019-06-02 00:23+0530\n"
+"PO-Revision-Date: 2019-06-02 13:12+0300\n"
 "Last-Translator: vkmowner <vkmowner@telegram>\n"
 "Language-Team: Hindi\n"
 "Language: hi_IN\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: handlers/audio.py:118
 msgid "Please wait, your audio is coming..."
@@ -240,107 +240,3 @@ msgstr "/setlang — भाषा बदलें"
 #, python-format
 msgid "Unknown command: %(command)s. Call /help for a list of available commands."
 msgstr "अज्ञात आदेश: %(command)s. उपलब्ध आदेशों की सूची के लिए /help का उपयोग करें।"
-
-#~ msgid ""
-#~ "Thanks! Now you can use personalized commands.\n"
-#~ "For example, use /my to access your VK audio"
-#~ msgstr ""
-#~ "शुक्रिया! अब आप व्यक्तिगत सेवाओं का लुत्फ उठा सकते है।\n"
-#~ "उदाहरण के लिए, /my के प्रयोग से आप अपने गानो को देख पाएंगे "
-
-#~ msgid "What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
-#~ msgstr "आप किस कलाकार को ढ सुनना चाहते है? उदाहरण के लिए «Billie Eilish» या «Imagine Dragons»"
-
-#~ msgid "What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
-#~ msgstr "आप किस गाने को सुनना चाहते है? उदाहरण के लिए «This is America» या «Bullet in a Gun»"
-
-#~ msgid "intro_msg"
-#~ msgstr ""
-#~ "नमस्ते! मुझे किसी भी कलाकार या गाने का नाम भेजिए और मै आपके लिए संगीत खोज कर ले आऊंगा!\n"
-#~ "/song — गाने के नाम अनुसार संगीत खोज \n"
-#~ "/artist — कलाकार अनुसार संगीत खोजे\n"
-#~ "/setlang — भाषा बदले\n"
-#~ "/settings — सेटिंग्स बदले"
-
-#~ msgid "This command can not be used in a group chat, send it as a private message"
-#~ msgstr "इस आदेश को आप समूह वार्तालाप में इस्तेमाल नहीं कर सकते, इसे एक निजी संदेश (Private Message) के रूप में भेजे"
-
-#~ msgid "Donate"
-#~ msgstr "💸 दान करे"
-
-#~ msgid "Leave a positive feedback"
-#~ msgstr "🌟 सकारात्मक प्रतिक्रिया दे"
-
-#~ msgid "Remind later"
-#~ msgstr "⏰ बाद म याद दिलाए"
-
-#~ msgid "Please rate us 5 stars in the bot-store: https://telegram.me/storebot?start=vkmusic_bot"
-#~ msgstr "कृप्या हमें bot-store में ⭐️⭐️⭐️⭐️⭐️ पांच स्टार दे : https://telegram.me/storebot?start=vkmusic_bot"
-
-#~ msgid "Ok, we won't bother you for a while"
-#~ msgstr "ठीक है, हम आपको कुछ देर तक परेशान नहीं करेंगे "
-
-#~ msgid "If you like this bot there are a few ways you can support the developer!"
-#~ msgstr "अगर आपको यह बॉट पसंद आया हो तो आप इन कुछ तरीको से निर्माता को प्रोत्साहन दे सकते है"
-
-#~ msgid "To select new language, use the following commands"
-#~ msgstr "भाषा बदलने के लिए नीचे दिए गए आदेहस का इस्तेमाल करे"
-
-#~ msgid "Lyrics icon: %s"
-#~ msgstr "गाने के बोल का आइकन: %s"
-
-#~ msgid "Cancel"
-#~ msgstr "रद्द करें"
-
-#~ msgid "Unlink VK (id %s)"
-#~ msgstr "VK कों अनलिंक करे   (id %s)"
-
-#~ msgid "Oops, something went wrong. Please try again later."
-#~ msgstr "तकनीकी खराबीया पाईं गई कृप्या कुछ समय बाद फिर कोशिश करे"
-
-#~ msgid "unknown_user_in_chat_msg"
-#~ msgstr ""
-#~ "नमस्ते। हम पहली बार मिल रहे है\n"
-#~ "कृप्या मुझे Private Message /start भेजे, फिर मै आपको आगे के अनुदेश दे पाऊंगा "
-
-#~ msgid "To access all features you need to authorize me in your VK, follow [the link](%s) to do it"
-#~ msgstr "सारी विशेषताएं इस्तेमाल करने के लिए आपको मुझे इजाज़त देनी होगी, कृप्या [इस लिंक](%s) का प्रयोग करे"
-
-#~ msgid "Wall"
-#~ msgstr "दीवार"
-
-#~ msgid "Audio"
-#~ msgstr "संगीत"
-
-#~ msgid "Albums"
-#~ msgstr "एल्बम"
-
-#~ msgid "I like this bot!"
-#~ msgstr "मुझे यह बॉट पसंद है!"
-
-#~ msgid "To access this feature you need to authorize me in VK"
-#~ msgstr "आपको मुझे VK me इजाज़त देनी पड़ेगी "
-
-#~ msgid "Oops! You need to give me access to your friends. Please, authorize me again via [this link](%s)"
-#~ msgstr "आपको मुझे अपने फ्रेंडस देखने की इजाज़त देनी पड़ेगी कृप्या वापस कोशिश करे [इस लिंक](%s) को दबाए"
-
-#~ msgid "Error"
-#~ msgstr "एरर"
-
-#~ msgid "Song is too big"
-#~ msgstr "यह गाना बहुत बड़ा है"
-
-#~ msgid "Download"
-#~ msgstr "डाउनलोड"
-
-#~ msgid "Choose a song number from 1 to %d"
-#~ msgstr "1 से %d तक किसी भी गाने का चयन करे"
-
-#~ msgid "Download something before!"
-#~ msgstr "पहले कुच्छ डाउनलोड करे!"
-
-#~ msgid "No lyrics found"
-#~ msgstr "इस गाने के बोल नहीं मिल पाए 😔"
-
-#~ msgid "Oops! Looks like your VK authorization is lost. Please, authorize me again via the link %s"
-#~ msgstr "आपका VK Authorization खतम हो चुका है. कृप्या फिर Authorize कर दे लिंक : %s"

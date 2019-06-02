@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-01 16:38+0300\n"
-"PO-Revision-Date: 2019-06-01 20:47+0200\n"
-"Last-Translator: Josep <@Josepdal>\n"
+"PO-Revision-Date: 2019-06-02 12:58+0300\n"
+"Last-Translator: vkmowner <vkmowner@telegram>\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Poedit-Bookmarks: -1,13,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 #: handlers/audio.py:118
@@ -29,7 +29,7 @@ msgstr "La canción fue eliminada por los propietarios de los derechos de autor"
 
 #: handlers/docdb.py:64
 msgid "Got it! Note: it may take time for the song to appear in the search"
-msgstr "¡Listo! Recuerde: La canción puede tardar en aparecer en los resultados de búsqueda."
+msgstr "¡Listo! Recuerde: La canción puede tardar en aparecer en los resultados de búsqueda"
 
 #: handlers/donation.py:43 handlers/donation.py:113 handlers/settings.py:52
 #: handlers/settings.py:72
@@ -42,7 +42,7 @@ msgstr "Apóyenos"
 
 #: handlers/donation.py:48
 msgid "Your donations help us to develop new features, increase stability and pay for our servers."
-msgstr "Sus donaciones nos ayudan a desarrollar nuevas funciones, aumentar la estabilidad y pagar nuestros servidores"
+msgstr "Sus donaciones nos ayudan a desarrollar nuevas funciones, aumentar la estabilidad y pagar nuestros servidores."
 
 #: handlers/donation.py:51 handlers/donation.py:131
 msgid "For just one donation we will gift your account with a *lifetime* premium status. There is a short list of premium features you will receive:"
@@ -54,7 +54,7 @@ msgstr "No más anuncios ni spam para usted, *jamás*"
 
 #: handlers/donation.py:55 handlers/donation.py:135
 msgid "An option to disable advertising inline captions"
-msgstr "Una opción para desactivar los anuncios en los subtítulos de los resultados en línea."
+msgstr "Una opción para desactivar los anuncios en los subtítulos de los resultados en línea"
 
 #: handlers/donation.py:56 handlers/donation.py:136
 msgid "An option to display audio format info"
@@ -79,7 +79,7 @@ msgstr "¡Usted es un usuario premium!"
 
 #: handlers/donation.py:120
 msgid "You're a good person who kindly supports us, so we granted you a *lifetime* premium status, enjoy it"
-msgstr "Gracias por apoyarnos, le concedemos premium *de por vida*, disfrútelo!"
+msgstr "Gracias por apoyarnos, le concedemos premium *de por vida*, disfrútelo"
 
 #: handlers/donation.py:124
 msgid "There is a short list of premium features you have:"
@@ -111,7 +111,7 @@ msgstr "¡Mándeme un cantante y/o nombre de una canción y encontraré la músi
 
 #: handlers/help.py:18 handlers/start.py:38
 msgid "/song — search by song title"
-msgstr "/song — buscar por título "
+msgstr "/song — buscar por título"
 
 #: handlers/help.py:19 handlers/start.py:39
 msgid "/artist — search for artist name"
@@ -220,7 +220,7 @@ msgstr "Por favor, elija un idioma"
 
 #: handlers/settings.py:83
 msgid "Please help us with a donation (/donate) to access this feature"
-msgstr "Por favor, ayúdenos con una donación (/donate) para acceder a esta característica "
+msgstr "Por favor, ayúdenos con una donación (/donate) para acceder a esta característica"
 
 #: handlers/settings.py:141
 msgid "Language settings updated"
@@ -234,114 +234,3 @@ msgstr "/setlang — cambiar idioma"
 #, python-format
 msgid "Unknown command: %(command)s. Call /help for a list of available commands."
 msgstr "Comando desconocido: %(command)s. Escriba /help para una lista con todos los comandos disponibles."
-
-#~ msgid "Empty file size, skipping"
-#~ msgstr "Tamaño del archivo vacío, saltando"
-
-#~ msgid "We don't support '%(mime_type)s' audio yet"
-#~ msgstr "Aún no soportamos audios en formato ‘%(mime_type)s’"
-
-#~ msgid "We require artist and title tags to be set"
-#~ msgstr "Necesitamos que las etiquetas de artista y de título estén establecidas"
-
-#~ msgid "Audio must be at least %(seconds)d seconds long"
-#~ msgstr "El audio debe ser de al menos %(seconds)d segundos de duración"
-
-#~ msgid "Song bitrate must be in range from %(lowest)d to %(highest)d"
-#~ msgstr "El bitrate de la canción debe estar en un rango de entre %(lowest)d y %(highest)d"
-
-#~ msgid "We already have this song, but thank you anyway!"
-#~ msgstr "Ya tenemos esta canción, ¡pero gracias de todas formas!"
-
-#~ msgid "Oops, something went wrong. Please try again later."
-#~ msgstr "Ups, algo salió mal. Por favor, inténtelo de nuevo más tarde."
-
-#~ msgid "Choose a song number from 1 to %d"
-#~ msgstr "Elija un número de canción del 1 al %d"
-
-#~ msgid "Download something first!"
-#~ msgstr "¡Descargue algo primero!"
-
-#~ msgid "This command can not be used in a group chat, send it as a private message"
-#~ msgstr "Este comando no puede usarse en grupos, envíelo como mensaje privado"
-
-#~ msgid "Hi! Just send me an artist and/or a song name and I will find music for you!\n"
-#~ "/song — search by song title\n"
-#~ "/artist — search for artist name\n"
-#~ "/setlang — change language\n"
-#~ "/settings — change settings\n"
-#~ msgstr "¡Hola! ¡Envíeme el nombre de un artista o de una canción y encontraré música para usted!\n"
-#~ "/song — buscar por título\n"
-#~ "/artist — buscar por artista\n"
-#~ "/setlang — cambiar idioma\n"
-#~ "/settings — cambiar ajustes\n"
-
-#~ msgid "🔥 Commands\n"
-#~ "Just send me an artist and/or a song name and I will find music for you!\n"
-#~ "/song — search by song title (useful for group chats)\n"
-#~ "/artist — search for artist name\n"
-#~ "/my — list your playlist\n"
-#~ "/settings — change settings\n"
-#~ "\n"
-#~ "Official news channel: %(channel)s\n"
-#~ "Contact information: %(contact)s\n"
-#~ "\n"
-#~ "BTC: `%(btc)s`\n"
-#~ msgstr "🔥 Comandos\n"
-#~ "¡Envíeme el nombre de un artista o de una canción y encontraré música para usted!\n"
-#~ "song — buscar por canción (útil para grupos)\n"
-#~ "/artist — buscar por artista\n"
-#~ "/my — su lista de reproducción\n"
-#~ "/settings — cambiar ajustes\n"
-#~ "\n"
-#~ "Canal oficial de noticias: %(channel)s\n"
-#~ "Información de contacto: %(contact)s\n"
-#~ "\n"
-#~ "BTC: `%(btc)s`\n"
-
-#~ msgid "Donate"
-#~ msgstr "Donar"
-
-#~ msgid "Remind later"
-#~ msgstr "Recordar más tarde"
-
-#~ msgid "Ok, we won't bother you for a while"
-#~ msgstr "Vale, no le molestaremos por un tiempo"
-
-#~ msgid "Leave a positive feedback"
-#~ msgstr "Dejar un feedback positivo"
-
-#~ msgid "Please rate us 5 stars in the bot-store: https://telegram.me/storebot?start=vkmusic_bot"
-#~ msgstr "Por favor, valórenos con 5 estrellas en StoreBot: https://t.me/storebot?start=vkmusic_bot"
-
-#~ msgid "If you like this bot there are a few ways you can support the developer!"
-#~ msgstr "¡Si le gusta este bot, hay algunas formas de apoyar a su desarrollador!"
-
-#~ msgid "You didn't specify the artist"
-#~ msgstr "No especificaste el artista"
-
-#~ msgid "Please reply to an audio message"
-#~ msgstr "Por favor, responda a un mensaje de audio"
-
-#~ msgid "You suggested edit for artist: \"%(new_artist)s\"\n"
-#~ "We will review your suggestion and store it in our database. Thank you!"
-#~ msgstr "Su edición sugerida para el artista: \"%(new_artist)s\"\n"
-#~ "Revisaremos su sugerencia y lo almacenaremos en nuestra base de datos. ¡Gracias!"
-
-#~ msgid "To select new language, use the following commands"
-#~ msgstr "Para elegir otro idioma, use los siguientes comandos"
-
-#~ msgid "I like this bot!"
-#~ msgstr "¡Me gusta este bot!"
-
-#~ msgid "Your playlist is empty. Upload MP3 audios or use /add to add songs from search to it"
-#~ msgstr "Su lista de reproducción está vacía. Suba audios en MP3 o use /add para añadir canciones desde la búsqueda"
-
-#~ msgid "Caption under audios: %s"
-#~ msgstr "Comentario debajo de los audios: %s"
-
-#~ msgid "Results with buttons: %s"
-#~ msgstr "Resultados con botones: %s"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancelar"

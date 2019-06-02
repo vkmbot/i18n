@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-01 16:38+0300\n"
-"PO-Revision-Date: 2019-06-01 18:38+0200\n"
+"PO-Revision-Date: 2019-06-02 13:11+0300\n"
 "Last-Translator: vkmowner <vkmowner@telegram>\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -11,15 +11,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: handlers/audio.py:118
 msgid "Please wait, your audio is coming..."
-msgstr "Bitte warten, ihre Audio kommt gleich"
+msgstr "Bitte warten, ihre Audio kommt gleich..."
 
 #: handlers/audio.py:134
 msgid "Song is removed by copyright owners"
-msgstr "⛔️ Song wurde von Copyright-Inhabern entfernt"
+msgstr "Song wurde von Copyright-Inhabern entfernt"
 
 #: handlers/docdb.py:64
 msgid "Got it! Note: it may take time for the song to appear in the search"
@@ -83,7 +83,7 @@ msgstr ""
 
 #: handlers/donation.py:118
 msgid "You are a premium user!"
-msgstr "Sie sind ein Premium-Nutzer"
+msgstr "Sie sind ein Premium-Nutzer!"
 
 #: handlers/donation.py:120
 msgid ""
@@ -254,76 +254,3 @@ msgid ""
 msgstr ""
 "Unbekannter Befehl: %(command)s. Nutze /help für eine Liste verfügbarer "
 "Befehle."
-
-#~ msgid ""
-#~ "What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
-#~ msgstr ""
-#~ "Nach welchem Künstler suchst du? Zum Beispiel «Lera Lynn» oder «Wiz "
-#~ "Khalifa»"
-
-#~ msgid ""
-#~ "What song are you looking for? For example «Get Lucky» or «Take Me To "
-#~ "Church»"
-#~ msgstr ""
-#~ "Nach welchem Lied suchst du? Zum Beispiel «Get Lucky» oder «Take Me To "
-#~ "Church»"
-
-#~ msgid "intro_msg"
-#~ msgstr ""
-#~ "Sende mir einfach einen Songtitel/den Namen eines Künstlers und ich werde "
-#~ "Musik für dich finden!\n"
-#~ "/song — suche nach einem Songtitel\n"
-#~ "/artist — suche nach einem Künstlernamen\n"
-#~ "/setlang — Sprache ändern\n"
-
-#~ msgid "help_cmd_reply"
-#~ msgstr ""
-#~ "🔥 Kommandos\n"
-#~ "Sende mir einfach einen Songtitel/den Namen eines Künstlers und ich werde "
-#~ "Musik für dich finden!\n"
-#~ "/song — suche nach einem Songtitel (nützlich für Gruppenchats)\n"
-#~ "/artist — suche nach einem Künstlernamen\n"
-#~ "/my — greuf auf dein vk audio zu\n"
-#~ "\n"
-#~ "Offizieller Kanal für Neuigkeiten: @vkmusic_bot_news\n"
-#~ "Kontaktinformationen: @vkmowner\n"
-
-#~ msgid "Oops, something went wrong. Please try again later."
-#~ msgstr ""
-#~ "Ups, irgendetwas ist falsch gelaufen. Bitte versuch es später erneut."
-
-#~ msgid "unknown_user_in_chat_msg"
-#~ msgstr ""
-#~ "Hallo! Sieht so aus, als hätten wir uns noch nicht gesehen!😳\n"
-#~ "Sende mir die private Nachricht /start, und ich werde dir sagen was du "
-#~ "als nächstes tun musst"
-
-#~ msgid ""
-#~ "To access all features you need to authorize me in your VK, follow [the "
-#~ "link](%s) to do it"
-#~ msgstr ""
-#~ "Um alle Funktionen zu nutzen musst du mich in deinem VK authorisieren, "
-#~ "folge dem [Link](%s) um das zu machen"
-
-#~ msgid "To access this feature you need to authorize me in VK"
-#~ msgstr ""
-#~ "Um diese Funktion nutzen zu können, musst du mich in VK authorisieren"
-
-#~ msgid ""
-#~ "Oops! You need to give me access to your friends. Please, authorize me "
-#~ "again via [this link](%s)"
-#~ msgstr ""
-#~ "Um alle Funktionen zu nutzen musst du mich in deinem VK authorisieren, "
-#~ "folge dem [Link](%s) um das zu machen"
-
-#~ msgid "Song is too big"
-#~ msgstr "Das Lied ist zu groß 😔"
-
-#~ msgid "Choose a song number from 1 to %d"
-#~ msgstr "Wähle eine Liednummer von 1 bis %d"
-
-#~ msgid "Download something before!"
-#~ msgstr "Lade erst was herunter!"
-
-#~ msgid "No lyrics found"
-#~ msgstr "Keine Liedtexte für dieses Lied gefunden 😔"

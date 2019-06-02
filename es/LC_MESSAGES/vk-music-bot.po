@@ -78,8 +78,8 @@ msgid "You are a premium user!"
 msgstr "¡Usted es un usuario premium!"
 
 #: handlers/donation.py:120
-msgid "You're a good person who kindly supports us, so we granted you a *lifetime* premium status, enjoy it"
-msgstr "Gracias por apoyarnos, le concedemos premium *de por vida*, disfrútelo"
+msgid "You're a good person who kindly supports us, so we granted you a *lifetime* premium status, enjoy it."
+msgstr "Gracias por apoyarnos, le concedemos premium *de por vida*, disfrútelo."
 
 #: handlers/donation.py:124
 msgid "There is a short list of premium features you have:"

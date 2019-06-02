@@ -85,8 +85,8 @@ msgstr "आप एक प्रीमियम उपयोगकर्ता �
 
 #: handlers/donation.py:120
 #, fuzzy
-msgid "You're a good person who kindly supports us, so we granted you a *lifetime* premium status, enjoy it"
-msgstr "आप एक दयालु व्यक्ति हैं जो हमारा समर्थन करते हैं, इसलिए हमने आपको एक *lifetime* प्रीमियम का दर्जा दिया है, इसका आनंद लें"
+msgid "You're a good person who kindly supports us, so we granted you a *lifetime* premium status, enjoy it."
+msgstr "आप एक दयालु व्यक्ति हैं जो हमारा समर्थन करते हैं, इसलिए हमने आपको एक *lifetime* प्रीमियम का दर्जा दिया है, इसका आनंद लें."
 
 #: handlers/donation.py:124
 msgid "There is a short list of premium features you have:"

@@ -86,7 +86,7 @@ msgstr ""
 #: handlers/donation.py:120
 msgid ""
 "You're a good person who kindly supports us, so we granted you a *lifetime* "
-"premium status, enjoy it"
+"premium status, enjoy it."
 msgstr ""
 
 #: handlers/donation.py:124

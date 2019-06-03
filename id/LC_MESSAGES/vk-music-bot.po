@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-01 16:38+0300\n"
-"PO-Revision-Date: 2019-06-02 17:04+0300\n"
+"PO-Revision-Date: 2019-06-03 12:47+0800\n"
 "Last-Translator: vkmowner <vkmowner@telegram>\n"
 "Language-Team: \n"
 "Language: id_ID\n"
@@ -22,16 +22,16 @@ msgstr ""
 
 #: handlers/audio.py:118
 msgid "Please wait, your audio is coming..."
-msgstr "Harap tunggu, audio Anda akan datang ..."
+msgstr "Harap tunggu, Lagu kamu akan muncul ..."
 
 #: handlers/audio.py:134
 msgid "Song is removed by copyright owners"
-msgstr "Lagu dihapus oleh pemilik hak cipta"
+msgstr "Lagu dihapus, terkait Hak Cipta"
 
 #: handlers/docdb.py:64
 msgid "Got it! Note: it may take time for the song to appear in the search"
 msgstr ""
-"Mengerti! Catatan: mungkin perlu waktu hingga lagu muncul dalam pencarian"
+"Mengerti! Catatan: mungkin butuh waktu sampai lagu muncul dalam pencarian"
 
 #: handlers/donation.py:43 handlers/donation.py:113 handlers/settings.py:52
 #: handlers/settings.py:72
@@ -47,21 +47,20 @@ msgid ""
 "Your donations help us to develop new features, increase stability and pay "
 "for our servers."
 msgstr ""
-"Donasi Anda membantu kami mengembangkan fitur baru, meningkatkan stabilitas, "
-"dan membayar server kami."
+"Donasi kamu membantu kami untuk mengembangkan fitur baru, meningkatkan "
+"stabilitas, dan membayar server kami."
 
 #: handlers/donation.py:51 handlers/donation.py:131
 msgid ""
 "For just one donation we will gift your account with a *lifetime* premium "
 "status. There is a short list of premium features you will receive:"
 msgstr ""
-"Untuk hanya satu donasi, kami akan menghadiahkan akun Anda dengan status "
-"Premium *seumur hidup*. Ada daftar singkat fitur premium yang akan Anda "
-"terima:"
+"Untuk hanya satu donasi, kami akan memberi akun kamu dengan status Premium "
+"*seumur hidup*. Ada daftar singkat fitur premium yang akan kamu dapatkan:"
 
 #: handlers/donation.py:54 handlers/donation.py:134
 msgid "No more ads and spam to you, *forever*"
-msgstr "Tidak ada lagi iklan dan spam untuk Anda, *selamanya*"
+msgstr "Tidak ada lagi iklan dan spam untuk kamu, *selamanya*"
 
 #: handlers/donation.py:55 handlers/donation.py:135
 msgid "An option to disable advertising inline captions"
@@ -88,38 +87,38 @@ msgstr ""
 
 #: handlers/donation.py:118
 msgid "You are a premium user!"
-msgstr "Anda adalah pengguna premium!"
+msgstr "Kamu adalah pengguna premium!"
 
 #: handlers/donation.py:120
 msgid ""
 "You're a good person who kindly supports us, so we granted you a *lifetime* "
 "premium status, enjoy it."
 msgstr ""
-"Anda adalah orang baik yang dengan ramah mendukung kami, jadi kami "
-"memberikan Anda status premium *seumur hidup*, nikmatilah."
+"Kamu orang baik yang ramah mendukung kami, jadi kami memberikan kamu status "
+"premium *seumur hidup*, nikmatilah."
 
 #: handlers/donation.py:124
 msgid "There is a short list of premium features you have:"
-msgstr "Ada daftar singkat fitur premium yang Anda miliki:"
+msgstr "Ada daftar singkat fitur premium yang kamu miliki:"
 
 #: handlers/donation.py:126
 msgid "You are not premium, yet"
-msgstr "Anda belum premium"
+msgstr "Kamu belum premium"
 
 #: handlers/donation.py:128
 msgid ""
 "Use /donate command to support us and get your *lifetime* premium status"
 msgstr ""
-"Gunakan perintah /donate untuk mendukung kami dan dapatkan status premium "
-"*seumur hidup* Anda"
+"Gunakan /donate untuk mendukung kami dan dapatkan status premium *seumur "
+"hidup* kamu"
 
 #: handlers/favorites.py:34
 msgid "Added to your playlist (/my)"
-msgstr "Ditambahkan ke daftar putar Anda (/my)"
+msgstr "Ditambahkan ke daftar putar kamu (/my)"
 
 #: handlers/favorites.py:47
 msgid "Removed from your playlist"
-msgstr "Dihapus dari daftar putar Anda"
+msgstr "Dihapus dari daftar putar kamu"
 
 #: handlers/help.py:16
 msgid "🔥 Commands"
@@ -129,8 +128,8 @@ msgstr "🔥 Perintah"
 msgid ""
 "Just send me an artist and/or a song name and I will find music for you!"
 msgstr ""
-"Kirimkan saya nama artis dan/atau nama lagu dan saya akan mencarikan musik "
-"untuk Anda!"
+"Kirimkan nama artis dan/atau nama lagu dan saya akan mencarikan musik untuk "
+"kamu!"
 
 #: handlers/help.py:18 handlers/start.py:38
 msgid "/song — search by song title"
@@ -142,7 +141,7 @@ msgstr "/artist — cari berdasarkan nama artis"
 
 #: handlers/help.py:20
 msgid "/my — list your playlist"
-msgstr "/my — daftar putar Anda"
+msgstr "/my — daftar putar kamu"
 
 #: handlers/help.py:21
 msgid "/top — popular songs"
@@ -189,11 +188,11 @@ msgstr "Artis apa yang kamu cari?"
 
 #: handlers/search.py:280 handlers/search.py:303
 msgid "You need to search for something before"
-msgstr "Anda perlu mencari sesuatu sebelumnya"
+msgstr "Kamu perlu mencari sesuatu sebelumnya"
 
 #: handlers/search.py:308
 msgid "You're at the first page already"
-msgstr "Anda sudah berada di halaman pertama"
+msgstr "Kamu sudah berada di halaman pertama"
 
 #: handlers/settings.py:31
 msgid "Enabled"
@@ -234,7 +233,7 @@ msgstr "Hasil pencarian: %d"
 
 #: handlers/settings.py:54
 msgid "What would you like to change?"
-msgstr "Apa yang ingin Anda ubah?"
+msgstr "Apa yang ingin kamu ubah?"
 
 #: handlers/settings.py:74
 msgid "Please, select new language"

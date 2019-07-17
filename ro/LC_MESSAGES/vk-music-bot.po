@@ -1,4 +1,3 @@
-# Romanian translations for PACKAGE package.
 # Copyright (C) 2019 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Victor Mihalache, 2019.
@@ -8,155 +7,144 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-01 16:38+0300\n"
-"PO-Revision-Date: 2019-06-01 16:53+0300\n"
-"Last-Translator: Victor Mihalache\n"
+"PO-Revision-Date: 2019-07-16 20:06+0300\n"
+"Last-Translator: Sturzu George\n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #: handlers/audio.py:118
 msgid "Please wait, your audio is coming..."
-msgstr ""
+msgstr "Te rog să aștepți, fișierul audio e pe drum..."
 
 #: handlers/audio.py:134
 msgid "Song is removed by copyright owners"
-msgstr ""
+msgstr "Melodia a fost eliminată de proprietarii drepturilor de autor"
 
 #: handlers/docdb.py:64
 msgid "Got it! Note: it may take time for the song to appear in the search"
-msgstr ""
-"Primit! Ține minte: poate o să fie nevoie de ceva timp pentru ca muzica să "
-"apară printre rezultate"
+msgstr "Am înțeles! Ține minte: poate o să fie nevoie de ceva timp pentru ca melodia să apară printre rezultate"
 
 #: handlers/donation.py:43 handlers/donation.py:113 handlers/settings.py:52
 #: handlers/settings.py:72
 msgid "Close"
-msgstr ""
+msgstr "Închide"
 
 #: handlers/donation.py:46
 msgid "Support us"
-msgstr ""
+msgstr "Sprijină creatorii"
 
 #: handlers/donation.py:48
-msgid ""
-"Your donations help us to develop new features, increase stability and pay "
-"for our servers."
-msgstr ""
+msgid "Your donations help us to develop new features, increase stability and pay for our servers."
+msgstr "Donațiile dumneavoastră ne ajută să adăugăm noi caracteristici, să mărim stabilitatea și să plătim pentru serverele noastre."
 
 #: handlers/donation.py:51 handlers/donation.py:131
-msgid ""
-"For just one donation we will gift your account with a *lifetime* premium "
-"status. There is a short list of premium features you will receive:"
-msgstr ""
+msgid "For just one donation we will gift your account with a *lifetime* premium status. There is a short list of premium features you will receive:"
+msgstr "Pentru doar o donație, o să îți recompensăm contul cu un status premium *pe viață*. Lista avantajelor premium include:"
 
 #: handlers/donation.py:54 handlers/donation.py:134
 msgid "No more ads and spam to you, *forever*"
-msgstr ""
+msgstr "Fără reclame și spam, *pentru totdeauna*"
 
 #: handlers/donation.py:55 handlers/donation.py:135
 msgid "An option to disable advertising inline captions"
-msgstr ""
+msgstr "O opțiune să dezactivezi anunțurile publicitare inline"
 
 #: handlers/donation.py:56 handlers/donation.py:136
 msgid "An option to display audio format info"
-msgstr ""
+msgstr "O opțiune să afișezi informații în legătură cu formatul audio"
 
 #: handlers/donation.py:57 handlers/donation.py:137
 msgid "An option to change search results size"
-msgstr ""
+msgstr "O opțiune să schimbi dimensiunea rezultatelor căutate"
 
 #: handlers/donation.py:58 handlers/donation.py:138
 msgid "More options under /settings command"
-msgstr ""
+msgstr "Mai multe opțiuni folosind comanda /settings"
 
 #: handlers/donation.py:60
 #, python-format
-msgid ""
-"Subscribe to our news channel to be notified of new features: %(channel)s"
-msgstr ""
+msgid "Subscribe to our news channel to be notified of new features: %(channel)s"
+msgstr "Abonează-te la noul nostru canal ca să rămâi în legătură cu noile adiții: %(channel)s"
 
 #: handlers/donation.py:118
 msgid "You are a premium user!"
-msgstr ""
+msgstr "Ești un utilizator premium!"
 
 #: handlers/donation.py:120
-msgid ""
-"You're a good person who kindly supports us, so we granted you a *lifetime* "
-"premium status, enjoy it."
-msgstr ""
+msgid "You're a good person who kindly supports us, so we granted you a *lifetime* premium status, enjoy it."
+msgstr "Ești o persoană care ne-a ajutat cu bunătate, drept pentru care îți garantăm un status premium *pe viață*, distrează-te."
 
 #: handlers/donation.py:124
 msgid "There is a short list of premium features you have:"
-msgstr ""
+msgstr "Mică listă cu opțiuni premium pe care le ai:"
 
 #: handlers/donation.py:126
 msgid "You are not premium, yet"
-msgstr ""
+msgstr "Nu ai cont premium încă"
 
 #: handlers/donation.py:128
-msgid ""
-"Use /donate command to support us and get your *lifetime* premium status"
-msgstr ""
+msgid "Use /donate command to support us and get your *lifetime* premium status"
+msgstr "Folosește comanda /donate ca să ne sprijini și pentru a-ți revendica statusul premium *pe viață*"
 
 #: handlers/favorites.py:34
 msgid "Added to your playlist (/my)"
-msgstr "Adaugat la playlistul tău (/my)"
+msgstr "Adăugat la playlist-ul tău (/my)"
 
 #: handlers/favorites.py:47
 msgid "Removed from your playlist"
-msgstr "Scos de pe playlistul tău"
+msgstr "Eliminat din playlist-ul tău"
 
 #: handlers/help.py:16
 msgid "🔥 Commands"
-msgstr ""
+msgstr "🔥 Comenzi"
 
 #: handlers/help.py:17 handlers/start.py:37
-msgid ""
-"Just send me an artist and/or a song name and I will find music for you!"
-msgstr ""
+msgid "Just send me an artist and/or a song name and I will find music for you!"
+msgstr "Doar trimite-mi numele artistului sau al melodiei și am să găsesc muzică pentru tine!"
 
 #: handlers/help.py:18 handlers/start.py:38
 msgid "/song — search by song title"
-msgstr ""
+msgstr "/song — caută după titlul melodiei"
 
 #: handlers/help.py:19 handlers/start.py:39
 msgid "/artist — search for artist name"
-msgstr ""
+msgstr "/artist — caută după numele artistului"
 
 #: handlers/help.py:20
 #| msgid "Removed from your playlist"
 msgid "/my — list your playlist"
-msgstr ""
+msgstr "/my — listează-ți playlist-ul"
 
 #: handlers/help.py:21
 msgid "/top — popular songs"
-msgstr ""
+msgstr "/top — melodii populare"
 
 #: handlers/help.py:22 handlers/start.py:41
 msgid "/settings — change settings"
-msgstr ""
+msgstr "/settings — schimbă setările"
 
 #: handlers/help.py:23
 msgid "/donate — support authors"
-msgstr ""
+msgstr "/donate — sprijină autorii"
 
 #: handlers/help.py:24
 msgid "/premium — premium info"
-msgstr ""
+msgstr "/premium — despre statusul premium"
 
 #: handlers/help.py:26
 #, python-format
 msgid "Official news channel: %(channel)s"
-msgstr ""
+msgstr "Canalul oficial de știri: %(channel)s"
 
 #: handlers/help.py:27
 #, python-format
 msgid "Contact information: %(contact)s"
-msgstr ""
+msgstr "Informații de contact: %(contact)s"
 
 #: handlers/search.py:117 handlers/search.py:172
 msgid "I found nothing"
@@ -169,7 +157,7 @@ msgstr "Rezultatele %(first)d-%(last)d din %(total)d\n"
 
 #: handlers/search.py:213
 msgid "What song are you looking for?"
-msgstr "Ce muzică cauţi?"
+msgstr "Ce melodie cauţi?"
 
 #: handlers/search.py:224
 msgid "What artist are you looking for?"
@@ -198,78 +186,77 @@ msgstr "Limbă"
 #: handlers/settings.py:37
 #, python-format
 msgid "Bitrate preview: %s"
-msgstr "Previsualizarea biţi: %s"
+msgstr "Previzualizare bitrate: %s"
 
 #: handlers/settings.py:40
 #, python-format
 msgid "Like (heart) buttons: %s"
-msgstr "Butonul de like (inimioarele): %s"
+msgstr "Buton de like (inimioară): %s"
 
 #: handlers/settings.py:43
 #, python-format
 msgid "Inline mode captions: %s"
-msgstr ""
+msgstr "Legenda modului inline: %s"
 
 #: handlers/settings.py:46
 #, python-format
 msgid "Show audio format: %s"
-msgstr ""
+msgstr "Arată formatul audio: %s"
 
 #: handlers/settings.py:49
 #, python-format
 msgid "Search results: %d"
-msgstr ""
+msgstr "Caută rezultate: %d"
 
 #: handlers/settings.py:54
 msgid "What would you like to change?"
-msgstr "Ce îti ar place să schimbi?"
+msgstr "Ce ți-ar plăcea să schimbi?"
 
 #: handlers/settings.py:74
 msgid "Please, select new language"
-msgstr "Alegeţi o nouă limbă, vă rog"
+msgstr "Te rog, alege noua limbă"
 
 #: handlers/settings.py:83
 msgid "Please help us with a donation (/donate) to access this feature"
-msgstr ""
+msgstr "Vă rugăm să ne ajutați cu o donație (/donate) ca să accesați această opțiune"
 
 #: handlers/settings.py:141
 msgid "Language settings updated"
-msgstr "Setările limbei au fost schimbate"
+msgstr "Setările de limbă au fost actualizate"
 
 #: handlers/start.py:40
 msgid "/setlang — change language"
-msgstr ""
+msgstr "/setlang — schimbă limba"
 
 #: handlers/unknowncommand.py:27
 #, python-format
-msgid ""
-"Unknown command: %(command)s. Call /help for a list of available commands."
+msgid "Unknown command: %(command)s. Call /help for a list of available commands."
 msgstr ""
 
 #~ msgid "Empty file size, skipping"
-#~ msgstr "Fişier gol, sărind peste"
+#~ msgstr "Fişier gol, sar peste"
 
 #~ msgid "We don't support '%(mime_type)s' audio yet"
-#~ msgstr "Încă nu suportăm muzică '%(mime_type)s'"
+#~ msgstr "Încă nu avem suport '%(mime_type)s' audio"
 
 #~ msgid "We require artist and title tags to be set"
-#~ msgstr "Avem nevoie ca eticheta titului și a artistului să fiu setate"
+#~ msgstr "Avem nevoie ca eticheta titului și a artistului să fie setate"
 
 #~ msgid "Audio must be at least %(seconds)d seconds long"
-#~ msgstr "Înregistrarea trebuie să fie lungă măcar %(seconds)d secunde"
+#~ msgstr "Înregistrarea trebuie să fie lungă de măcar %(seconds)d secunde"
 
 #~ msgid "Song bitrate must be in range from %(lowest)d to %(highest)d"
 #~ msgstr ""
-#~ "Bitreitul înregistrări trebuie să fie printre %(lowest)d și %(highest)d"
+#~ "Bitrate-ul înregistrării trebuie să fie de la %(lowest)d la %(highest)d"
 
 #~ msgid "We already have this song, but thank you anyway!"
-#~ msgstr "Avem deja această melodie, dar te mulţumim la fel!"
+#~ msgstr "Avem deja această melodie, dar îți mulţumim oricum!"
 
 #~ msgid "Oops, something went wrong. Please try again later."
-#~ msgstr "Oops, ceva nu a mers bine. Încearcă mai terziu."
+#~ msgstr "Ooof, ceva nu a mers bine. Te rugăm să încerci mai târziu."
 
 #~ msgid "Choose a song number from 1 to %d"
-#~ msgstr "Alege numărul unui melodi printre 1 și %d"
+#~ msgstr "Alege numărul unuei melodii de la 1 la %d"
 
 #~ msgid "Download something first!"
 #~ msgstr "Descarcă ceva mai întâi!"
@@ -277,8 +264,8 @@ msgstr ""
 #~ msgid ""
 #~ "This command can not be used in a group chat, send it as a private message"
 #~ msgstr ""
-#~ "Această comandă nu poate fi folosită într-o conversaţie de grup, trimitel "
-#~ "ca un mesaj privat"
+#~ "Această comandă nu poate fi folosită într-o conversaţie de grup, trimite-l "
+#~ "ca mesaj privat"
 
 #~ msgid ""
 #~ "Hi! Just send me an artist and/or a song name and I will find music for "
@@ -325,10 +312,10 @@ msgstr ""
 #~ msgstr "Donează"
 
 #~ msgid "Remind later"
-#~ msgstr "Amintește-mi mai Încolo"
+#~ msgstr "Amintește-mi mai târziu"
 
 #~ msgid "Ok, we won't bother you for a while"
-#~ msgstr "Ok, nu te mai vom deranja pentru ceva timp"
+#~ msgstr "Ok, nu te mai vom deranja pentru o vreme"
 
 #~ msgid "Leave a positive feedback"
 #~ msgstr "Lasă un feedback pozitiv"
@@ -343,7 +330,7 @@ msgstr ""
 #~ msgid ""
 #~ "If you like this bot there are a few ways you can support the developer!"
 #~ msgstr ""
-#~ "Dacă îţi place acest roboţel să știi ca sunt câteva feluri ca să ajuţi "
+#~ "Dacă îţi place acest roboţel, să știi că sunt câteva feluri în care să ne ajuţi "
 #~ "programatorul!"
 
 #~ msgid "You didn't specify the artist"
@@ -358,10 +345,10 @@ msgstr ""
 #~ msgstr ""
 #~ "Ai sfătuit niște schimbări pentru artistul: \"%(new_artist)s\"\n"
 #~ "Vom reviziona sfatul tău și îl vom salva în baza noastră de date. "
-#~ "Mulţumesc!"
+#~ "Mulţumim!"
 
 #~ msgid "To select new language, use the following commands"
-#~ msgstr "Ca să alegi o nouă limbă, folosește următoarile comenzi"
+#~ msgstr "Ca să alegi o nouă limbă, folosește următoarele comenzi"
 
 #~ msgid "I like this bot!"
 #~ msgstr "Îmi place acest robot!"
@@ -370,7 +357,7 @@ msgstr ""
 #~ "Your playlist is empty. Upload MP3 audios or use /add to add songs from "
 #~ "search to it"
 #~ msgstr ""
-#~ "Playlistul tău este gol. Încarca niște înregistrări MP3 sau folosește /"
+#~ "Playlistul tău este gol. Încarcă niște înregistrări MP3 sau folosește /"
 #~ "add pentru a ia adauga căntece din căutările dmv."
 
 #~ msgid "Caption under audios: %s"
@@ -381,3 +368,4 @@ msgstr ""
 
 #~ msgid "Cancel"
 #~ msgstr "Șterge"
+

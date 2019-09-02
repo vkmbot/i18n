@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-01 16:38+0300\n"
-"PO-Revision-Date: 2019-06-01 16:54+0300\n"
+"PO-Revision-Date: 2019-08-30 16:48+0500\n"
 "Last-Translator: vkmowner <vkmowner@telegram>\n"
 "Language-Team: \n"
 "Language: uz\n"
@@ -11,11 +11,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #: handlers/audio.py:118
 msgid "Please wait, your audio is coming..."
-msgstr ""
+msgstr "Iltimos kuting, sizning auidoingiz jo'natilyapti..."
 
 #: handlers/audio.py:134
 msgid "Song is removed by copyright owners"
@@ -24,148 +24,162 @@ msgstr "⛔️ Qo’shiq mualliflik egalari tomonidan o’chirildi"
 #: handlers/docdb.py:64
 msgid "Got it! Note: it may take time for the song to appear in the search"
 msgstr ""
+"Bo'ldi! Yodda tuting: qo'shiqni qidirish bir necha soniya olishi mumkin"
 
 #: handlers/donation.py:43 handlers/donation.py:113 handlers/settings.py:52
 #: handlers/settings.py:72
 msgid "Close"
-msgstr ""
+msgstr "Yopish"
 
 #: handlers/donation.py:46
 msgid "Support us"
-msgstr ""
+msgstr "Bizni qo'llab quvvatlang"
 
 #: handlers/donation.py:48
 msgid ""
 "Your donations help us to develop new features, increase stability and pay "
 "for our servers."
 msgstr ""
+"Sizning hadyalaringiz bizga yangi imkoniyatlarni kashf etish, barqarorlikni "
+"kengaytirish va serverlaraga pul to'lash uchun yordam beradi."
 
 #: handlers/donation.py:51 handlers/donation.py:131
 msgid ""
 "For just one donation we will gift your account with a *lifetime* premium "
 "status. There is a short list of premium features you will receive:"
 msgstr ""
+"Faqatgina bir dona hadya uchun biz sizga sovg'a qilib 'lifetime' nomli "
+"premium akkaunt beramiz. Bu tarifda siz bir qancha yangi qo'shimcha "
+"imkoniyatarga ega bo'lasiz:"
 
 #: handlers/donation.py:54 handlers/donation.py:134
 msgid "No more ads and spam to you, *forever*"
-msgstr ""
+msgstr "Boshqa reklama yo'q va sizga  spam *umurbod*"
 
 #: handlers/donation.py:55 handlers/donation.py:135
 msgid "An option to disable advertising inline captions"
-msgstr ""
+msgstr "Inlayn sarlavhadagi reklamalarni o'chirish imkoniyati"
 
 #: handlers/donation.py:56 handlers/donation.py:136
 msgid "An option to display audio format info"
-msgstr ""
+msgstr "Audio formati haqida batafsil malumot berish imkoniyati"
 
 #: handlers/donation.py:57 handlers/donation.py:137
 msgid "An option to change search results size"
-msgstr ""
+msgstr "Qidiruv natijalaridagi audiolarni hajmini boshqarish imkoniyati"
 
 #: handlers/donation.py:58 handlers/donation.py:138
 msgid "More options under /settings command"
-msgstr ""
+msgstr "Yana ko'proq imkoniyatlar /settings buyrug'ida"
 
 #: handlers/donation.py:60
 #, python-format
 msgid ""
 "Subscribe to our news channel to be notified of new features: %(channel)s"
 msgstr ""
+"Yangi imkoniyatlar va yangiliklardan boxabar bolish uchun bizning yangi "
+"kanalga ubuna bo'ling - %(channel)s"
 
 #: handlers/donation.py:118
 msgid "You are a premium user!"
-msgstr ""
+msgstr "Siz premium foydalanuvchisiz!"
 
 #: handlers/donation.py:120
 msgid ""
 "You're a good person who kindly supports us, so we granted you a *lifetime* "
 "premium status, enjoy it."
 msgstr ""
+"Siz bizni qo'llab quvvatlagan yaxshi insonsiz, sizga *lifetime* premium "
+"stautusini berdik, undan rohatlaning."
 
 #: handlers/donation.py:124
 msgid "There is a short list of premium features you have:"
-msgstr ""
+msgstr "Sizda bir qancha premium imkoniyatlar ro'yhati:"
 
 #: handlers/donation.py:126
 msgid "You are not premium, yet"
-msgstr ""
+msgstr "Siz hali premium emassiz"
 
 #: handlers/donation.py:128
 msgid ""
 "Use /donate command to support us and get your *lifetime* premium status"
 msgstr ""
+"Bizni qo'llab quvatlash uchun - /donate va *lifetime* premium statusini "
+"olish uchun"
 
 #: handlers/favorites.py:34
 msgid "Added to your playlist (/my)"
-msgstr ""
+msgstr "Sizning playlistingizga qo'shildi (/my)"
 
 #: handlers/favorites.py:47
 msgid "Removed from your playlist"
-msgstr ""
+msgstr "Playlistdan o'chirildi"
 
 #: handlers/help.py:16
 msgid "🔥 Commands"
-msgstr ""
+msgstr "🔥 Buyruqlar"
 
 #: handlers/help.py:17 handlers/start.py:37
 msgid ""
 "Just send me an artist and/or a song name and I will find music for you!"
 msgstr ""
+"Shunchaki menga qo'shiqchi yoki qo'shiq nomini jo'nating va men siz uchun "
+"musiqa topib beraman!"
 
 #: handlers/help.py:18 handlers/start.py:38
 msgid "/song — search by song title"
-msgstr ""
+msgstr "/song - qo'shiq bomi orqali qidirish"
 
 #: handlers/help.py:19 handlers/start.py:39
 msgid "/artist — search for artist name"
-msgstr ""
+msgstr "/artist - Qo'shiqchi ismi orqali qidirish"
 
 #: handlers/help.py:20
 msgid "/my — list your playlist"
-msgstr ""
+msgstr "/my - sizning pleylistlaringiz ro'yhati"
 
 #: handlers/help.py:21
 msgid "/top — popular songs"
-msgstr ""
+msgstr "/top - mashhur qo'shiqlar"
 
 #: handlers/help.py:22 handlers/start.py:41
 msgid "/settings — change settings"
-msgstr ""
+msgstr "/settings - sozlamalarni o'zgartirish"
 
 #: handlers/help.py:23
 msgid "/donate — support authors"
-msgstr ""
+msgstr "/donate - muallifni qo'llab quvvatlash"
 
 #: handlers/help.py:24
 msgid "/premium — premium info"
-msgstr ""
+msgstr "/premium - premium ma'lumoti"
 
 #: handlers/help.py:26
 #, python-format
 msgid "Official news channel: %(channel)s"
-msgstr ""
+msgstr "Rasmiy yangiliklar kanali %(channel)s"
 
 #: handlers/help.py:27
 #, python-format
 msgid "Contact information: %(contact)s"
-msgstr ""
+msgstr "Bog'lanish uchun ma'lumot: %(contact)s"
 
 #: handlers/search.py:117 handlers/search.py:172
 msgid "I found nothing"
-msgstr "Hech narsa topilmadi. 😔"
+msgstr "Afsuski hech narsa topilmadi. 😔"
 
 #: handlers/search.py:135
 #, python-format
 msgid "Results %(first)d-%(last)d of %(total)d\n"
-msgstr ""
+msgstr "Natijalar %(first)d-%(last)d %(total)d dan\n"
 
 #: handlers/search.py:213
 msgid "What song are you looking for?"
-msgstr ""
+msgstr "Qaysi qo'shini qidiryapsiz?"
 
 #: handlers/search.py:224
 msgid "What artist are you looking for?"
-msgstr ""
+msgstr "Qaysi qo'shiqchining qo'shiqlarini qidiryapsiz?"
 
 #: handlers/search.py:280 handlers/search.py:303
 msgid "You need to search for something before"
@@ -173,7 +187,7 @@ msgstr "Siz oldin biror narsa qidirishingiz kerak"
 
 #: handlers/search.py:308
 msgid "You're at the first page already"
-msgstr ""
+msgstr "Siz allaqachon birinchi sahifadasiz"
 
 #: handlers/settings.py:31
 msgid "Enabled"
@@ -190,27 +204,27 @@ msgstr "Til"
 #: handlers/settings.py:37
 #, python-format
 msgid "Bitrate preview: %s"
-msgstr ""
+msgstr "Bitreyt ko'rish: %s"
 
 #: handlers/settings.py:40
 #, python-format
 msgid "Like (heart) buttons: %s"
-msgstr ""
+msgstr "Yoqdi (yurak) tugmalari: %s"
 
 #: handlers/settings.py:43
 #, python-format
 msgid "Inline mode captions: %s"
-msgstr ""
+msgstr "Inlayn sarlavhalar: %s"
 
 #: handlers/settings.py:46
 #, python-format
 msgid "Show audio format: %s"
-msgstr ""
+msgstr "Audio formatini ko'rsatish: %s"
 
 #: handlers/settings.py:49
 #, python-format
 msgid "Search results: %d"
-msgstr ""
+msgstr "Qidiruv natijalari: %d"
 
 #: handlers/settings.py:54
 msgid "What would you like to change?"
@@ -223,6 +237,8 @@ msgstr "Iltimos, yangi tilni tanlang"
 #: handlers/settings.py:83
 msgid "Please help us with a donation (/donate) to access this feature"
 msgstr ""
+"Bu imkoniyatga ega bo'lish uchun iltimos bizga hadya (/donate) qilish orqali "
+"bizga yordam bering"
 
 #: handlers/settings.py:141
 msgid "Language settings updated"
@@ -230,13 +246,14 @@ msgstr "👌🇺🇿 Til sozlamalari yangilandi"
 
 #: handlers/start.py:40
 msgid "/setlang — change language"
-msgstr ""
+msgstr "/setlang - tilni sozlash"
 
 #: handlers/unknowncommand.py:27
 #, python-format
 msgid ""
 "Unknown command: %(command)s. Call /help for a list of available commands."
 msgstr ""
+"Noto'g'ri buyruq: %(command)s. Mavjud buyruqlar ro'yhati uchun - /help."
 
 #~ msgid ""
 #~ "Thanks! Now you can use personalized commands.\n"

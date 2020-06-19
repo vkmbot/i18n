@@ -166,7 +166,7 @@ msgstr "Bog'lanish uchun ma'lumot: %(contact)s"
 
 #: handlers/search.py:117 handlers/search.py:172
 msgid "I found nothing"
-msgstr "Afsuski hech narsa topilmadi. 😔"
+msgstr "Afsuski hech narsa topilmadi 😔"
 
 #: handlers/search.py:135
 #, python-format

@@ -22,8 +22,8 @@ msgstr ""
 #: handlers/audio.py:127
 #, python-brace-format
 msgid ""
-"This group is out of downloads (%{limit}d per day), please use the bot "
-"via direct message: @%{bot_name}s"
+"This group is out of downloads (%(limit)d per day), please use the bot "
+"via direct message: @%(bot_name)s"
 msgstr ""
 
 #: handlers/audio.py:140

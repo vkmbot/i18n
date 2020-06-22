@@ -16,11 +16,11 @@ msgstr ""
 #: handlers/audio.py:127
 #, python-brace-format
 msgid ""
-"This group is out of downloads (%{limit}d per day), please use the bot via "
-"direct message: @%{bot_name}s"
+"This group is out of downloads (%(limit)d per day), please use the bot via "
+"direct message: @%(bot_name)s"
 msgstr ""
-"В этой группе превышен лимит загрузок (%{limit}d в день), для "
-"индивидуального поиска пишите боту напрямую: @%{bot_name}s"
+"В этой группе превышен лимит загрузок (%(limit)d в день), для "
+"индивидуального поиска пишите боту напрямую: @%(bot_name)s"
 
 #: handlers/audio.py:140
 #, python-format

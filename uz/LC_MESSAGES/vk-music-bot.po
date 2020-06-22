@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-22 16:08+0300\n"
-"PO-Revision-Date: 2020-06-22 16:15+0300\n"
+"POT-Creation-Date: 2020-06-22 17:42+0300\n"
+"PO-Revision-Date: 2020-06-22 17:43+0300\n"
 "Last-Translator: vkmowner <vkmowner@telegram>\n"
 "Language-Team: \n"
 "Language: uz\n"
@@ -13,32 +13,32 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.3.1\n"
 
-#: handlers/audio.py:110
-#, python-format
+#: handlers/audio.py:127
+#, python-brace-format
 msgid ""
-"This group is out of downloads (%d per day), please use the bot via direct "
-"message"
+"This group is out of downloads (%{limit}d per day), please use the bot via "
+"direct message: @%{bot_name}s"
 msgstr ""
-"В этой группе превышен лимит загрузок (%d в день), для индивидуального "
-"поиска отправьте боту команду /start в личные сообщения"
+"В этой группе превышен лимит загрузок (%{limit}d в день), для "
+"индивидуального поиска пишите боту напрямую: @%{bot_name}s"
 
-#: handlers/audio.py:121
+#: handlers/audio.py:140
 #, python-format
 msgid "You're out of downloads (%d per day), please try again later"
 msgstr ""
 
-#: handlers/audio.py:125
+#: handlers/audio.py:144
 #, python-format
 msgid ""
 "You're out of downloads (%d per day), please try again or /donate to "
 "increase the limit"
 msgstr ""
 
-#: handlers/audio.py:162
+#: handlers/audio.py:165
 msgid "Please wait, your audio is coming..."
 msgstr "Iltimos kuting, sizning auidoingiz jo'natilyapti..."
 
-#: handlers/audio.py:172
+#: handlers/audio.py:175
 msgid "Song is removed by copyright owners"
 msgstr "⛔️ Qo’shiq mualliflik egalari tomonidan o’chirildi"
 
@@ -206,23 +206,23 @@ msgstr "Rasmiy yangiliklar kanali %(channel)s"
 msgid "Contact information: %(contact)s"
 msgstr "Bog'lanish uchun ma'lumot: %(contact)s"
 
-#: handlers/search.py:144 handlers/search.py:217
+#: handlers/search.py:142 handlers/search.py:215
 msgid "I found nothing"
 msgstr "Afsuski hech narsa topilmadi 😔"
 
-#: handlers/search.py:168
+#: handlers/search.py:166
 #, python-format
 msgid "Results %(first)d-%(last)d of %(total)d\n"
 msgstr "Natijalar %(first)d-%(last)d %(total)d dan\n"
 
-#: handlers/search.py:176
+#: handlers/search.py:174
 #, python-format
 msgid ""
 "Some of results were blocked by request of copyright owners. Please follow "
 "%s for details."
 msgstr ""
 
-#: handlers/search.py:262
+#: handlers/search.py:260
 msgid "What song are you looking for?"
 msgstr "Qaysi qo'shini qidiryapsiz?"
 
@@ -230,16 +230,16 @@ msgstr "Qaysi qo'shini qidiryapsiz?"
 msgid "What artist are you looking for?"
 msgstr "Qaysi qo'shiqchining qo'shiqlarini qidiryapsiz?"
 
-#: handlers/search.py:308
+#: handlers/search.py:309
 #, python-format
 msgid "Search is limited. Check %s for details and updates."
 msgstr ""
 
-#: handlers/search.py:339 handlers/search.py:362
+#: handlers/search.py:340 handlers/search.py:363
 msgid "You need to search for something before"
 msgstr "Siz oldin biror narsa qidirishingiz kerak"
 
-#: handlers/search.py:367
+#: handlers/search.py:368
 msgid "You're at the first page already"
 msgstr "Siz allaqachon birinchi sahifadasiz"
 

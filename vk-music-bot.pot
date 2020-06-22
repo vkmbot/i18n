@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-22 16:08+0300\n"
+"POT-Creation-Date: 2020-06-22 17:42+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,30 +19,30 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: handlers/audio.py:110
-#, python-format
+#: handlers/audio.py:127
+#, python-brace-format
 msgid ""
-"This group is out of downloads (%d per day), please use the bot via "
-"direct message"
+"This group is out of downloads (%{limit}d per day), please use the bot "
+"via direct message: @%{bot_name}s"
 msgstr ""
 
-#: handlers/audio.py:121
+#: handlers/audio.py:140
 #, python-format
 msgid "You're out of downloads (%d per day), please try again later"
 msgstr ""
 
-#: handlers/audio.py:125
+#: handlers/audio.py:144
 #, python-format
 msgid ""
 "You're out of downloads (%d per day), please try again or /donate to "
 "increase the limit"
 msgstr ""
 
-#: handlers/audio.py:162
+#: handlers/audio.py:165
 msgid "Please wait, your audio is coming..."
 msgstr ""
 
-#: handlers/audio.py:172
+#: handlers/audio.py:175
 msgid "Song is removed by copyright owners"
 msgstr ""
 
@@ -196,23 +196,23 @@ msgstr ""
 msgid "Contact information: %(contact)s"
 msgstr ""
 
-#: handlers/search.py:144 handlers/search.py:217
+#: handlers/search.py:142 handlers/search.py:215
 msgid "I found nothing"
 msgstr ""
 
-#: handlers/search.py:168
+#: handlers/search.py:166
 #, python-format
 msgid "Results %(first)d-%(last)d of %(total)d\n"
 msgstr ""
 
-#: handlers/search.py:176
+#: handlers/search.py:174
 #, python-format
 msgid ""
 "Some of results were blocked by request of copyright owners. Please "
 "follow %s for details."
 msgstr ""
 
-#: handlers/search.py:262
+#: handlers/search.py:260
 msgid "What song are you looking for?"
 msgstr ""
 
@@ -220,16 +220,16 @@ msgstr ""
 msgid "What artist are you looking for?"
 msgstr ""
 
-#: handlers/search.py:308
+#: handlers/search.py:309
 #, python-format
 msgid "Search is limited. Check %s for details and updates."
 msgstr ""
 
-#: handlers/search.py:339 handlers/search.py:362
+#: handlers/search.py:340 handlers/search.py:363
 msgid "You need to search for something before"
 msgstr ""
 
-#: handlers/search.py:367
+#: handlers/search.py:368
 msgid "You're at the first page already"
 msgstr ""
 

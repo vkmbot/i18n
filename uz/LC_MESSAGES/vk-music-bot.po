@@ -170,7 +170,7 @@ msgstr ""
 
 #: handlers/help.py:15 handlers/start.py:38
 msgid "/song — search by song title"
-msgstr "/song - qo'shiq bomi orqali qidirish"
+msgstr "/song - qo'shiq nomi orqali qidirish"
 
 #: handlers/help.py:16 handlers/start.py:39
 msgid "/artist — search for artist name"

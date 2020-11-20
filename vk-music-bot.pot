@@ -208,8 +208,7 @@ msgstr ""
 #: handlers/search.py:174
 #, python-format
 msgid ""
-"Some of results were blocked by request of copyright owners. Please "
-"follow %s for details."
+"Some of results were blocked by request of copyright owners"
 msgstr ""
 
 #: handlers/search.py:260

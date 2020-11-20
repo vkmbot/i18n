@@ -223,11 +223,9 @@ msgstr "Результаты %(first)d-%(last)d из %(total)d\n"
 #: handlers/search.py:174
 #, python-format
 msgid ""
-"Some of results were blocked by request of copyright owners. Please follow "
-"%s for details."
+"Some of results were blocked by request of copyright owners"
 msgstr ""
-"Некоторые результаты поиска заблокированы по запросу правообладателей. "
-"Подпишитесь на %s, чтобы быть в курсе."
+"Некоторые результаты поиска заблокированы по запросу правообладателей"
 
 #: handlers/search.py:260
 msgid "What song are you looking for?"

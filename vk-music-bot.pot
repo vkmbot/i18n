@@ -8,59 +8,75 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-22 17:42+0300\n"
+"POT-Creation-Date: 2020-12-30 16:59+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: handlers/audio.py:127
-#, python-brace-format
+#: handlers/audio.py:185
+#, python-format
 msgid ""
 "This group is out of downloads (%(limit)d per day), please use the bot "
 "via direct message: @%(bot_name)s"
 msgstr ""
 
-#: handlers/audio.py:140
+#: handlers/audio.py:198
 #, python-format
 msgid "You're out of downloads (%d per day), please try again later"
 msgstr ""
 
-#: handlers/audio.py:144
+#: handlers/audio.py:202
 #, python-format
 msgid ""
 "You're out of downloads (%d per day), please try again or /donate to "
 "increase the limit"
 msgstr ""
 
-#: handlers/audio.py:165
+#: handlers/audio.py:223
 msgid "Please wait, your audio is coming..."
 msgstr ""
 
-#: handlers/audio.py:175
+#: handlers/audio.py:233
 msgid "Song is removed by copyright owners"
 msgstr ""
 
-#: handlers/docdb.py:79
+#: handlers/audio.py:253
+msgid "Reason for report:"
+msgstr ""
+
+#: handlers/audio.py:257
+msgid "Bad/broken audio"
+msgstr ""
+
+#: handlers/audio.py:261
+msgid "Wrong artist/title"
+msgstr ""
+
+#: handlers/audio.py:264 handlers/donation.py:49 handlers/donation.py:141
+#: handlers/settings.py:57 handlers/settings.py:77
+msgid "Close"
+msgstr ""
+
+#: handlers/audio.py:274 handlers/audio.py:282
+msgid "Audio reported"
+msgstr ""
+
+#: handlers/docdb.py:80
 msgid "Got it! Note: it may take time for the song to appear in the search"
 msgstr ""
 
-#: handlers/docdb.py:82
+#: handlers/docdb.py:83
 msgid "Artist and/or title is missing. Please update the tags and re-upload"
 msgstr ""
 
-#: handlers/docdb.py:86
+#: handlers/docdb.py:87
 msgid "Bitrate is too low. Please upload audio in better quality"
-msgstr ""
-
-#: handlers/donation.py:49 handlers/donation.py:141 handlers/settings.py:57
-#: handlers/settings.py:77
-msgid "Close"
 msgstr ""
 
 #: handlers/donation.py:52
@@ -141,11 +157,11 @@ msgid ""
 "Use /donate command to support us and get your *lifetime* premium status"
 msgstr ""
 
-#: handlers/favorites.py:34
+#: handlers/favorites.py:37
 msgid "Added to your playlist (/my)"
 msgstr ""
 
-#: handlers/favorites.py:47
+#: handlers/favorites.py:43
 msgid "Removed from your playlist"
 msgstr ""
 
@@ -186,49 +202,42 @@ msgstr ""
 msgid "/premium — premium info"
 msgstr ""
 
-#: handlers/help.py:23
-#, python-format
-msgid "Official news channel: %(channel)s"
-msgstr ""
-
 #: handlers/help.py:24
 #, python-format
 msgid "Contact information: %(contact)s"
 msgstr ""
 
-#: handlers/search.py:142 handlers/search.py:215
+#: handlers/search.py:150 handlers/search.py:244
 msgid "I found nothing"
-msgstr ""
-
-#: handlers/search.py:166
-#, python-format
-msgid "Results %(first)d-%(last)d of %(total)d\n"
 msgstr ""
 
 #: handlers/search.py:174
 #, python-format
-msgid ""
-"Some of results were blocked by request of copyright owners"
+msgid "Results %(first)d-%(last)d of %(total)d\n"
 msgstr ""
 
-#: handlers/search.py:260
+#: handlers/search.py:182
+msgid "Some of results were blocked by request of copyright owners"
+msgstr ""
+
+#: handlers/search.py:295
 msgid "What song are you looking for?"
 msgstr ""
 
-#: handlers/search.py:273
+#: handlers/search.py:308
 msgid "What artist are you looking for?"
 msgstr ""
 
-#: handlers/search.py:309
+#: handlers/search.py:347
 #, python-format
 msgid "Search is limited. Check %s for details and updates."
 msgstr ""
 
-#: handlers/search.py:340 handlers/search.py:363
+#: handlers/search.py:378 handlers/search.py:401
 msgid "You need to search for something before"
 msgstr ""
 
-#: handlers/search.py:368
+#: handlers/search.py:406
 msgid "You're at the first page already"
 msgstr ""
 
@@ -252,11 +261,6 @@ msgstr ""
 #: handlers/settings.py:45
 #, python-format
 msgid "Like (heart) buttons: %s"
-msgstr ""
-
-#: handlers/settings.py:48
-#, python-format
-msgid "Inline mode captions: %s"
 msgstr ""
 
 #: handlers/settings.py:51
@@ -291,6 +295,11 @@ msgstr ""
 
 #: handlers/settings.py:217
 msgid "Language settings updated"
+msgstr ""
+
+#: handlers/shazam.py:47
+#, python-format
+msgid "Extracted title: %s"
 msgstr ""
 
 #: handlers/start.py:40

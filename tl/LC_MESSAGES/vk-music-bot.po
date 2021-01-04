@@ -1,0 +1,342 @@
+# Copyright (C) 2019-2020 vkmowner
+# This file is distributed under the same license as vkmbot.
+# Ian Lopez <ianlopez1115@telegram>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-04 17:32+0800\n"
+"PO-Revision-Date: 2021-01-04 18:04+0800\n"
+"Language-Team: Tagalog\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Last-Translator: Ian lopez (<@ianlopez1115>)\n"
+"Plural-Forms: nplurals=2; plural(n != 1);\n"
+"Language: tl_PH\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: handlers/audio.py:127
+#, python-brace-format
+msgid ""
+"This group is out of downloads (%(limit)d per day), please use the bot "
+"via direct message: @%(bot_name)s"
+msgstr ""
+"Ang grupo na ito'y lumampas sa limitasyon sa pag-download (%(limit)d kada "
+"araw), maaring gamitin ang bot sa pamamagitan ng direktang mensahe: @"
+"%(bot_name)s"
+
+#: handlers/audio.py:140
+#, python-format
+msgid "You're out of downloads (%d per day), please try again later"
+msgstr ""
+"Ika'y lumampas sa limitasyon sa pag-download (%d kada araw), pakisubukan "
+"ulit mamaya"
+
+#: handlers/audio.py:144
+#, python-format
+msgid ""
+"You're out of downloads (%d per day), please try again or /donate to "
+"increase the limit"
+msgstr ""
+"Ika'y lumampas sa limitasyon sa pag-download (%d kada araw), pakisubukan "
+"ulit o /donate para dagdagan ang limitasyon"
+
+#: handlers/audio.py:165
+msgid "Please wait, your audio is coming..."
+msgstr "Mangyaring maghintay, parating na ang iyong audio..."
+
+#: handlers/audio.py:175
+msgid "Song is removed by copyright owners"
+msgstr "Kanta ay pinatanggal ng mga may-ari ng karapatang magpalathala"
+
+#: handlers/docdb.py:79
+msgid "Got it! Note: it may take time for the song to appear in the search"
+msgstr ""
+"Nakuha ko na! Tandaan: maaaring tumagal ng ilang oras para lumitaw ang "
+"kanta sa paghahanap"
+
+#: handlers/docdb.py:82
+msgid "Artist and/or title is missing. Please update the tags and re-upload"
+msgstr ""
+"Kulang ang pangalan ng artista o pamagat. Mangyaring baguhin ang mga tag "
+"at muling i-upload"
+
+#: handlers/docdb.py:86
+msgid "Bitrate is too low. Please upload audio in better quality"
+msgstr ""
+"Masyadong mababa ang bitrate. Mangyaring mag-upload ng audio sa mas "
+"mahusay na kalidad"
+
+#: handlers/donation.py:49 handlers/donation.py:141 handlers/settings.py:57
+#: handlers/settings.py:77
+msgid "Close"
+msgstr "Isara"
+
+#: handlers/donation.py:52
+msgid "Support us"
+msgstr "Suportahan kami"
+
+#: handlers/donation.py:54
+msgid ""
+"Your donations help us to develop new features, increase stability and "
+"pay for our servers."
+msgstr ""
+"Ang iyong mga donasyon ay tumutulong sa amin na bumuo ng mga bagong "
+"tampok, dagdagan ang katatagan at bayaran ang aming mga server."
+
+#: handlers/donation.py:57 handlers/donation.py:159
+msgid ""
+"For just one donation we will gift your account with a *lifetime* premium "
+"status. There is a short list of premium features you will receive:"
+msgstr ""
+"Para sa isang donasyon lamang bibigyan namin ang iyong account ng *habang-"
+"buhay* na katayuang premium. Ito ang isang maikling listahan ng mga "
+"premium na mga tampok na matatanggap mo:"
+
+#: handlers/donation.py:60 handlers/donation.py:162
+msgid "No more ads and spam to you, *forever*"
+msgstr "Wala nang mga ad at spam para sa iyo, *magpakailanman*"
+
+#: handlers/donation.py:61 handlers/donation.py:163
+#, python-format
+msgid "%d daily downloads"
+msgstr "%d pang-araw-araw na mga download"
+
+#: handlers/donation.py:62 handlers/donation.py:164
+msgid "An option to disable advertising inline captions"
+msgstr "Opsyon upang huwag paganahin ang mga inline na teksto ng ad"
+
+#: handlers/donation.py:63 handlers/donation.py:165
+msgid "An option to display audio format info"
+msgstr "Opsyon upang ipakita ang impormasyon sa audio format"
+
+#: handlers/donation.py:64 handlers/donation.py:166
+msgid "An option to change search results size"
+msgstr "Opsyon upang baguhin ang laki ng mga resulta ng paghahanap"
+
+#: handlers/donation.py:65 handlers/donation.py:167
+msgid "More options under /settings command"
+msgstr "Iba pang mga pagpipilian sa ilalim ng utos na /settings"
+
+#: handlers/donation.py:67
+#, python-format
+msgid ""
+"Subscribe to our news channel to be notified of new features: %(channel)s"
+msgstr ""
+"Mag-subscribe sa aming news channel upang ipagbigay-alam ang mga bagong "
+"tampok: %(channel)s"
+
+#: handlers/donation.py:100
+#, python-format
+msgid ""
+"Please forward this message to %(contact)s and you will get the donation "
+"instructions.\n"
+"\n"
+msgstr ""
+"Maaring ipasa ang mensahe kay %(contact)s at makukuha mo ang mga "
+"tagubilin sa donasyon.\n"
+"\n"
+
+#: handlers/donation.py:146
+msgid "You are a premium user!"
+msgstr "Ikaw ay isang premium na gumagamit!"
+
+#: handlers/donation.py:148
+msgid ""
+"You're a good person who kindly supports us, so we granted you a "
+"*lifetime* premium status, enjoy it."
+msgstr ""
+"Ika'y mabait na tao na na sumusuporta sa amin, kaya binigyan ka namin ng "
+"*habang-buhay* na katayuang premium, tamasahin ito."
+
+#: handlers/donation.py:152
+msgid "There is a short list of premium features you have:"
+msgstr ""
+"Ito ang isang maikling listahan ng mga premium na mga tampok na mayroon "
+"ka:"
+
+#: handlers/donation.py:154
+msgid "You are not premium, yet"
+msgstr "Hindi ka pa premium, sa ngayon"
+
+#: handlers/donation.py:156
+msgid ""
+"Use /donate command to support us and get your *lifetime* premium status"
+msgstr ""
+"Gamitin ang /donate na utos para suportahan mo kami at makuha ang iyong "
+"*habang-buhay* na katayuang premium"
+
+#: handlers/favorites.py:34
+msgid "Added to your playlist (/my)"
+msgstr "Dinagdag sa iyong playlist (/my)"
+
+#: handlers/favorites.py:47
+msgid "Removed from your playlist"
+msgstr "Tinanggal sa iyong playlist"
+
+#: handlers/help.py:13
+msgid "🔥 Commands"
+msgstr "🔥 Mga utos"
+
+#: handlers/help.py:14 handlers/start.py:37
+msgid ""
+"Just send me an artist and/or a song name and I will find music for you!"
+msgstr ""
+"Padalhan mo ako ng pangalan ng artista at/o kanta at makakahanap ako ng "
+"musika para sa iyo!"
+
+#: handlers/help.py:15 handlers/start.py:38
+msgid "/song — search by song title"
+msgstr "/song — hanapin gamit ang pamagat ng kanta"
+
+#: handlers/help.py:16 handlers/start.py:39
+msgid "/artist — search for artist name"
+msgstr "/artist — hanapin gamit ang pangalan ng artista"
+
+#: handlers/help.py:17
+msgid "/my — list your playlist"
+msgstr "/my — listahin ang iyong playlist"
+
+#: handlers/help.py:18
+msgid "/top — popular songs"
+msgstr "/top — mga sikat na kanta"
+
+#: handlers/help.py:19 handlers/start.py:41
+msgid "/settings — change settings"
+msgstr "/settings — baguhin ang mga setting"
+
+#: handlers/help.py:20
+msgid "/donate — support authors"
+msgstr "/donate — suportahan ang mga may-akda"
+
+#: handlers/help.py:21
+msgid "/premium — premium info"
+msgstr "/premium — patungkol sa premium"
+
+#: handlers/help.py:23
+#, python-format
+msgid "Official news channel: %(channel)s"
+msgstr "Opisyal na news channel: %(channel)s"
+
+#: handlers/help.py:24
+#, python-format
+msgid "Contact information: %(contact)s"
+msgstr "Impormasyon sa pakikipag-ugnay: %(contact)s"
+
+#: handlers/search.py:142 handlers/search.py:215
+msgid "I found nothing"
+msgstr "Wala akong nahanap"
+
+#: handlers/search.py:166
+#, python-format
+msgid "Results %(first)d-%(last)d of %(total)d\n"
+msgstr "Resulta %(first)d-%(last)d ng %(total)d\n"
+
+#: handlers/search.py:174
+#, python-format
+msgid "Some of results were blocked by request of copyright owners"
+msgstr ""
+"Ilan sa mga resulta ay hinarang dahil sa kahilingan ng mga mga may-ari ng "
+"karapatang magpalathala"
+
+#: handlers/search.py:260
+msgid "What song are you looking for?"
+msgstr "Anong kanta ang hinahanap mo?"
+
+#: handlers/search.py:273
+msgid "What artist are you looking for?"
+msgstr "Sinong artista ang hinahanap mo?"
+
+#: handlers/search.py:309
+#, python-format
+msgid "Search is limited. Check %s for details and updates."
+msgstr ""
+"Limitado ang paghahanap. Tignan ang %s para sa mga detalye at pagbabago."
+
+#: handlers/search.py:340 handlers/search.py:363
+msgid "You need to search for something before"
+msgstr "Kailangan mo munang maghanap ng isang bagay"
+
+#: handlers/search.py:368
+msgid "You're at the first page already"
+msgstr "Ika'y nasa unang pahina"
+
+#: handlers/settings.py:36
+msgid "Enabled"
+msgstr "Pinagana"
+
+#: handlers/settings.py:37
+msgid "Disabled"
+msgstr "Hindi pinagana"
+
+#: handlers/settings.py:40
+msgid "Language"
+msgstr "Wika"
+
+#: handlers/settings.py:42
+#, python-format
+msgid "Bitrate preview: %s"
+msgstr "Preview ng bitrate: %s"
+
+#: handlers/settings.py:45
+#, python-format
+msgid "Like (heart) buttons: %s"
+msgstr "Mga pindutan ng gusto (heart) : %s"
+
+#: handlers/settings.py:48
+#, python-format
+msgid "Inline mode captions: %s"
+msgstr "Mga teksto sa inline mode: %s"
+
+#: handlers/settings.py:51
+#, python-format
+msgid "Show audio format: %s"
+msgstr "Ipakita ang audio format: %s"
+
+#: handlers/settings.py:54
+#, python-format
+msgid "Search results: %d"
+msgstr "Ipakita ang mga resulta: %d"
+
+#: handlers/settings.py:59
+msgid "What would you like to change?"
+msgstr "Ano ang gusto mong baguhin?"
+
+#: handlers/settings.py:79
+msgid "Please, select new language"
+msgstr "Mangyaring pumili ng wika"
+
+#: handlers/settings.py:88
+msgid "Please help us with a donation (/donate) to access this feature"
+msgstr ""
+"Mangyaring tulungan kami sa pamamagitan ng donasyon (/donate) upang "
+"gamitin ang tampok na ito"
+
+#: handlers/settings.py:132
+msgid "Please, help us to know you better. *Where are you from?*"
+msgstr ""
+"Mangyari na tulungan kami na malaman ka ng mas mahusay.  *Taga-saan ka?*"
+
+#: handlers/settings.py:198
+msgid "Thank you"
+msgstr "Maraming salamat"
+
+#: handlers/settings.py:217
+msgid "Language settings updated"
+msgstr "Binago ang setting ng wika"
+
+#: handlers/start.py:40
+msgid "/setlang — change language"
+msgstr "/setlang — baguhin ang wika"
+
+#: handlers/unknowncommand.py:27
+#, python-format
+msgid ""
+"Unknown command: %(command)s. Call /help for a list of available commands."
+msgstr ""
+"Hindi kilalang utos: %(command)s. Gamitin ang /help para sa listahan ng "
+"mga utos na pwedeng gamitin."

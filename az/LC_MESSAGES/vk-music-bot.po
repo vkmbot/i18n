@@ -1,0 +1,336 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-30 16:59+0300\n"
+"PO-Revision-Date: 2021-02-18 18:58+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: handlers/audio.py:185
+#, python-format
+msgid ""
+"This group is out of downloads (%(limit)d per day), please use the bot via "
+"direct message: @%(bot_name)s"
+msgstr ""
+"Bu qrup yüklənmədi (%(limit) limit gün üçün), zəhmət olmasa bir başa bot ilə "
+"əlaqəyə keçin: @%(bot_name)s"
+
+#: handlers/audio.py:198
+#, python-format
+msgid "You're out of downloads (%d per day), please try again later"
+msgstr ""
+"Yüklənmə bitdi. (%d limit gün üçün), zəhmət olmasa daha sonra cəhd edin"
+
+#: handlers/audio.py:202
+#, python-format
+msgid ""
+"You're out of downloads (%d per day), please try again or /donate to "
+"increase the limit"
+msgstr ""
+"Yüklənmə bitdi. (%d limit gün üçün), zəhmət olmasa daha sonra cəhd edin. ya "
+"da /donate yazaraq limiti artırmağa kömək edin"
+
+#: handlers/audio.py:223
+msgid "Please wait, your audio is coming..."
+msgstr "Zəhmət olmasa gözləyin, musiqi yüklənir ..."
+
+#: handlers/audio.py:233
+msgid "Song is removed by copyright owners"
+msgstr "Musiqi müəllif hüquqları sahibləri tərəfindən silinib"
+
+#: handlers/audio.py:253
+msgid "Reason for report:"
+msgstr "Silinmə səbəbi:"
+
+#: handlers/audio.py:257
+msgid "Bad/broken audio"
+msgstr "Pis / sınıq səs"
+
+#: handlers/audio.py:261
+msgid "Wrong artist/title"
+msgstr "Yalnış artist və ya ad"
+
+#: handlers/audio.py:264 handlers/donation.py:49 handlers/donation.py:141
+#: handlers/settings.py:57 handlers/settings.py:77
+msgid "Close"
+msgstr "Bağla"
+
+#: handlers/audio.py:274 handlers/audio.py:282
+msgid "Audio reported"
+msgstr "Səs şikayət olunub"
+
+#: handlers/docdb.py:80
+msgid "Got it! Note: it may take time for the song to appear in the search"
+msgstr "Anladım! Qeyd: mahnının axtarışda görünməsi vaxt ala bilər"
+
+#: handlers/docdb.py:83
+msgid "Artist and/or title is missing. Please update the tags and re-upload"
+msgstr ""
+"Sənətçi və ya başlıq yoxdur. Xahiş edirəm nə axtardığınız haqda bir daha "
+"düşünün"
+
+#: handlers/docdb.py:87
+msgid "Bitrate is too low. Please upload audio in better quality"
+msgstr "Keyfiyyət çox aşağıdır. Xahiş edirəm səsi daha keyfiyyətli yükləyin"
+
+#: handlers/donation.py:52
+msgid "Support us"
+msgstr "Bizimlə əlaqəyə keç"
+
+#: handlers/donation.py:54
+msgid ""
+"Your donations help us to develop new features, increase stability and pay "
+"for our servers."
+msgstr ""
+"Bağışlarınız bizə yeni xüsusiyyətlər inkişaf etdirməyə, sabitliyi artırmağa "
+"və serverlərimiz üçün pul ödəməyimizə kömək edir."
+
+#: handlers/donation.py:57 handlers/donation.py:159
+msgid ""
+"For just one donation we will gift your account with a *lifetime* premium "
+"status. There is a short list of premium features you will receive:"
+msgstr ""
+"Yalnız bir ianə üçün hesabınıza * ömür boyu * premium statusu hədiyyə "
+"edəcəyik. Aldığınız premium xüsusiyyətlərin qısa bir siyahısı var:"
+
+#: handlers/donation.py:60 handlers/donation.py:162
+msgid "No more ads and spam to you, *forever*"
+msgstr "*Ömür boyu* spam və reklam görməyəcəksiz"
+
+#: handlers/donation.py:61 handlers/donation.py:163
+#, python-format
+msgid "%d daily downloads"
+msgstr "%d günlük yükləmə limiti"
+
+#: handlers/donation.py:62 handlers/donation.py:164
+msgid "An option to disable advertising inline captions"
+msgstr "Sətr içi alt yazılı reklam deaktiv etmək seçimi"
+
+#: handlers/donation.py:63 handlers/donation.py:165
+msgid "An option to display audio format info"
+msgstr "Səs formatı məlumatlarını göstərmək seçimi"
+
+#: handlers/donation.py:64 handlers/donation.py:166
+msgid "An option to change search results size"
+msgstr "Axtarış nəticələrinin ölçüsünü dəyişdirmək seçimi"
+
+#: handlers/donation.py:65 handlers/donation.py:167
+msgid "More options under /settings command"
+msgstr "/settings əmri altında daha çox seçim"
+
+#: handlers/donation.py:67
+#, python-format
+msgid ""
+"Subscribe to our news channel to be notified of new features: %(channel)s"
+msgstr ""
+"Yeniliklərdən xəbərdar olmaq üçün xəbər kanalımıza abunə olun: %(channel)s"
+
+#: handlers/donation.py:100
+#, python-format
+msgid ""
+"Please forward this message to %(contact)s and you will get the donation "
+"instructions.\n"
+"\n"
+msgstr ""
+"Xahiş edirəm bu mesajı %(contact)s -a göndərin və ianə təlimatlarını "
+"alacaqsınız.\n"
+
+#: handlers/donation.py:146
+msgid "You are a premium user!"
+msgstr "Siz premium istifadəçisiniz!"
+
+#: handlers/donation.py:148
+msgid ""
+"You're a good person who kindly supports us, so we granted you a *lifetime* "
+"premium status, enjoy it."
+msgstr ""
+"Siz xeyirxah və yaxşı insansız, buna görə sizə * ömür boyu * premium statusu "
+"verdik, bundan həzz alın."
+
+#: handlers/donation.py:152
+msgid "There is a short list of premium features you have:"
+msgstr "Sizdə olan premium xüsusiyyətlərin qısa bir siyahısı:"
+
+#: handlers/donation.py:154
+msgid "You are not premium, yet"
+msgstr "Siz hələ premium deyilsiniz"
+
+#: handlers/donation.py:156
+msgid ""
+"Use /donate command to support us and get your *lifetime* premium status"
+msgstr ""
+"Bizi dəstəkləmək və *ömür boyu* premium statusunuzu almaq üçün /donate yazın"
+
+#: handlers/favorites.py:37
+msgid "Added to your playlist (/my)"
+msgstr "Pleylistinizə əlavə edildi (/my)"
+
+#: handlers/favorites.py:43
+msgid "Removed from your playlist"
+msgstr "Pleylistinizdən silindi"
+
+#: handlers/help.py:13
+msgid "🔥 Commands"
+msgstr "🔥 Komandalar"
+
+#: handlers/help.py:14 handlers/start.py:37
+msgid ""
+"Just send me an artist and/or a song name and I will find music for you!"
+msgstr ""
+"Mənə bir sənətçi ya bir mahnı adı göndərin, sizin üçün musiqini tapacam!"
+
+#: handlers/help.py:15 handlers/start.py:38
+msgid "/song — search by song title"
+msgstr "/song — musiqi axtar"
+
+#: handlers/help.py:16 handlers/start.py:39
+msgid "/artist — search for artist name"
+msgstr "/artist — sənətçi axtar"
+
+#: handlers/help.py:17
+msgid "/my — list your playlist"
+msgstr "/my — sənin pleylistin"
+
+#: handlers/help.py:18
+msgid "/top — popular songs"
+msgstr "/top — populyar musiqilər"
+
+#: handlers/help.py:19 handlers/start.py:41
+msgid "/settings — change settings"
+msgstr "/settings — tənzimləmələri dəyiş"
+
+#: handlers/help.py:20
+msgid "/donate — support authors"
+msgstr "/donate — müəllif üçün bağış"
+
+#: handlers/help.py:21
+msgid "/premium — premium info"
+msgstr "/premium — premium haqqında"
+
+#: handlers/help.py:24
+#, python-format
+msgid "Contact information: %(contact)s"
+msgstr "Əlaqə üçün: %(contact)s"
+
+#: handlers/search.py:150 handlers/search.py:244
+msgid "I found nothing"
+msgstr "Heç bir şey tapa bilmədim"
+
+#: handlers/search.py:174
+#, python-format
+msgid "Results %(first)d-%(last)d of %(total)d\n"
+msgstr "Axtarış nəticəsi %(first)d-%(last)d of %(total)d\n"
+
+#: handlers/search.py:182
+msgid "Some of results were blocked by request of copyright owners"
+msgstr "Bəzi nəticələr müəllif hüquqları tələbi ilə bloklandı"
+
+#: handlers/search.py:295
+msgid "What song are you looking for?"
+msgstr "Hansı mahnını axtarırsınız?"
+
+#: handlers/search.py:308
+msgid "What artist are you looking for?"
+msgstr "Hansı sənətkarı axtarırsınız?"
+
+#: handlers/search.py:347
+#, python-format
+msgid "Search is limited. Check %s for details and updates."
+msgstr "Axtarış məhduddur. Ətraflı məlumat və yeniləmələr üçün % s baxın."
+
+#: handlers/search.py:378 handlers/search.py:401
+msgid "You need to search for something before"
+msgstr "İlk öncə nəşə axtarmalısan"
+
+#: handlers/search.py:406
+msgid "You're at the first page already"
+msgstr "Onsuzda ilk səhifədəsiniz"
+
+#: handlers/settings.py:36
+msgid "Enabled"
+msgstr "Aktiv"
+
+#: handlers/settings.py:37
+msgid "Disabled"
+msgstr "Deaktiv"
+
+#: handlers/settings.py:40
+msgid "Language"
+msgstr "Dil"
+
+#: handlers/settings.py:42
+#, python-format
+msgid "Bitrate preview: %s"
+msgstr "Keyfiyyət:% s"
+
+#: handlers/settings.py:45
+#, python-format
+msgid "Like (heart) buttons: %s"
+msgstr "Bəyən (ürək) butonu: %s"
+
+#: handlers/settings.py:51
+#, python-format
+msgid "Show audio format: %s"
+msgstr "Musiqi formatın göstər: %s"
+
+#: handlers/settings.py:54
+#, python-format
+msgid "Search results: %d"
+msgstr "Axtarış nəticələri: %d"
+
+#: handlers/settings.py:59
+msgid "What would you like to change?"
+msgstr "Nəyi dəyişdirmək istərdin?"
+
+#: handlers/settings.py:79
+msgid "Please, select new language"
+msgstr "Zəhmət olmasa yeni dil seçin"
+
+#: handlers/settings.py:88
+msgid "Please help us with a donation (/donate) to access this feature"
+msgstr ""
+"Xahiş edirəm bu xüsusiyyəti əldə etmək üçün bizə bir ianə (/donate) ilə "
+"kömək edin"
+
+#: handlers/settings.py:132
+msgid "Please, help us to know you better. *Where are you from?*"
+msgstr ""
+"Xahiş edirəm, sizi daha yaxından tanımağımıza kömək edin. * Haralısan? *"
+
+#: handlers/settings.py:198
+msgid "Thank you"
+msgstr "Təşəkkürlər"
+
+#: handlers/settings.py:217
+msgid "Language settings updated"
+msgstr "Dil tənzimləmələri yeniləndi"
+
+#: handlers/shazam.py:47
+#, python-format
+msgid "Extracted title: %s"
+msgstr "Çıxarılan başlıq: %s"
+
+#: handlers/start.py:40
+msgid "/setlang — change language"
+msgstr "/setlang — dili dəyiş"
+
+#: handlers/unknowncommand.py:27
+#, python-format
+msgid ""
+"Unknown command: %(command)s. Call /help for a list of available commands."
+msgstr ""
+"Yalnış komanda: %(command)s. /help yazaraq bütün komandaları görə bilərsiz."

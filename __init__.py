@@ -12,6 +12,7 @@ LANG_PAIRS = [
   ('fr', u"Français"),
   ('nl', u"Nederlands"),
   ('kz', u"Қазақ"),
+  ('az', u"Azərbaycan dili"),
   ('id', u"Indonesian"),
   ('ro', u"Română"),
   ('hi', u"हिन्दी"),

@@ -1,4 +1,5 @@
 LANG_PAIRS = [
+  ('az', u"Azərbaycanca"),
   ('en', u"English"),
   ('ru', u"Русский"),
   ('es', u"Español"),

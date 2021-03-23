@@ -16,5 +16,6 @@ LANG_PAIRS = [
   ('id', u"Indonesian"),
   ('ro', u"Română"),
   ('hi', u"हिन्दी"),
-  ('hing', u"Hinglish")
+  ('hing', u"Hinglish"),
+  ('ckb', u"کوردی")
 ]

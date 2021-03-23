@@ -1,0 +1,337 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-30 16:59+0300\n"
+"PO-Revision-Date: 2021-03-23 17:36+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ckb\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: handlers/audio.py:185
+#, python-format
+msgid ""
+"This group is out of downloads (%(limit)d per day), please use the bot via "
+"direct message: @%(bot_name)s"
+msgstr ""
+"لە یەک ڕۆژدا ئەم گروپە دەتوانێت تەنها %(limit) جار داگرتن بکات، تکایە دواتر "
+"هەوڵبدەوە..."
+
+#: handlers/audio.py:198
+#, python-format
+msgid "You're out of downloads (%d per day), please try again later"
+msgstr ""
+"لە یەک ڕۆژدا دەتوانیت تەنها %d جار داگرتن بکەیت، تکایە دواتر هەوڵبدەوە..."
+
+#: handlers/audio.py:202
+#, python-format
+msgid ""
+"You're out of downloads (%d per day), please try again or /donate to "
+"increase the limit"
+msgstr ""
+"لە یەک ڕۆژدا دەتوانیت تەنها %d جار داگرتن بکەیت، تکایە دواتر هەوڵبدەوە..."
+
+#: handlers/audio.py:223
+msgid "Please wait, your audio is coming..."
+msgstr "تکایە چاوەڕوان بە، باردەکرێت..."
+
+#: handlers/audio.py:233
+msgid "Song is removed by copyright owners"
+msgstr "ئەم گۆرانییە لەبەر مافی لەبەرگرتنەوە قەدەغەکراوە"
+
+#: handlers/audio.py:253
+msgid "Reason for report:"
+msgstr "هۆکاری سکاڵاکە:"
+
+#: handlers/audio.py:257
+msgid "Bad/broken audio"
+msgstr "خراپە یان تێکشکاوە"
+
+#: handlers/audio.py:261
+msgid "Wrong artist/title"
+msgstr "هونەرمەند/ناونیشانەکە هەڵەیە"
+
+#: handlers/audio.py:264 handlers/donation.py:49 handlers/donation.py:141
+#: handlers/settings.py:57 handlers/settings.py:77
+msgid "Close"
+msgstr "دایخە"
+
+#: handlers/audio.py:274 handlers/audio.py:282
+msgid "Audio reported"
+msgstr "سکاڵای لێکرا"
+
+#: handlers/docdb.py:80
+msgid "Got it! Note: it may take time for the song to appear in the search"
+msgstr ""
+"تەواو! تەنها تێبینیی ئەوە بکە کە لەوانەیە هەندێک کاتی پێبچێت بۆ ئەوەی "
+"گۆرانییەکە لە گەڕانەکاندا دەربکەوێت."
+
+#: handlers/docdb.py:83
+msgid "Artist and/or title is missing. Please update the tags and re-upload"
+msgstr ""
+"هونەرمەند و/یان ناونیشان نەدراوە. تکایە دایانبنێ و دووبارە بەرزی بکەوە."
+
+#: handlers/docdb.py:87
+msgid "Bitrate is too low. Please upload audio in better quality"
+msgstr "بیترەیتەکەی زۆر کەمە. تکایە بە کوالیتییەکی چاکتر بەرزی بکەوە."
+
+#: handlers/donation.py:52
+msgid "Support us"
+msgstr "پشتگیریمان بکە"
+
+#: handlers/donation.py:54
+msgid ""
+"Your donations help us to develop new features, increase stability and pay "
+"for our servers."
+msgstr ""
+"بەخشینەکانت ئاسانکاریمان بۆ دەکات لە پەرەپێدان بە تایبەتمەندیی نوێ و دانی "
+"کرێی ڕاژەکانمان."
+
+#: handlers/donation.py:57 handlers/donation.py:159
+msgid ""
+"For just one donation we will gift your account with a *lifetime* premium "
+"status. There is a short list of premium features you will receive:"
+msgstr ""
+"تەنها بە یەک بەخشین هەتاهەتایە کۆمەڵێک تایبەتمەندیی شاز بۆ هەژمارەکەت "
+"بەدەستبێنە:"
+
+#: handlers/donation.py:60 handlers/donation.py:162
+msgid "No more ads and spam to you, *forever*"
+msgstr "*هەتاهەتایە* ڕیکلام و سپام ڕووبەڕووت نابێتەوە"
+
+#: handlers/donation.py:61 handlers/donation.py:163
+#, python-format
+msgid "%d daily downloads"
+msgstr "%d جار ڕۆژانە داگرتن بکە"
+
+#: handlers/donation.py:62 handlers/donation.py:164
+msgid "An option to disable advertising inline captions"
+msgstr "ڕیکلام لابە"
+
+#: handlers/donation.py:63 handlers/donation.py:165
+msgid "An option to display audio format info"
+msgstr "شێوەی نیشاندانی جۆری فایل بگۆڕە"
+
+#: handlers/donation.py:64 handlers/donation.py:166
+msgid "An option to change search results size"
+msgstr "ژمارەی ئەنجامەکان زیاتر بکە"
+
+#: handlers/donation.py:65 handlers/donation.py:167
+msgid "More options under /settings command"
+msgstr "هەڵبژاردنی زیاتر لە ڕێکخستنەکان ببینە"
+
+#: handlers/donation.py:67
+#, python-format
+msgid ""
+"Subscribe to our news channel to be notified of new features: %(channel)s"
+msgstr ""
+"پەیوەستی کەناڵەکەمان بە بۆ ئاگاداربوون لە دوایین هەواڵ و تایبەتمەندییەکانی "
+"بۆتەکە: %(channel)s"
+
+#: handlers/donation.py:100
+#, python-format
+msgid ""
+"Please forward this message to %(contact)s and you will get the donation "
+"instructions.\n"
+"\n"
+msgstr ""
+"تکایە ئەم پەیامە بگوازەوە بۆ %(contact)s بۆ بینینی ڕێگاکانی پشتگیریکردن\n"
+"\n"
+
+#: handlers/donation.py:146
+msgid "You are a premium user!"
+msgstr "تۆ تایبەتمەندییە شازەکانت هەیە!"
+
+#: handlers/donation.py:148
+msgid ""
+"You're a good person who kindly supports us, so we granted you a *lifetime* "
+"premium status, enjoy it."
+msgstr ""
+"تۆ مرۆڤێکی باشیت و پشتگیریی ئێمەت کردووە، هەر لەبەر ئەوەش ئێمەش *بۆ هەمیشە* "
+"تایبەتمەندییە شازەکانت بۆ بەردەست دەکەین."
+
+#: handlers/donation.py:152
+msgid "There is a short list of premium features you have:"
+msgstr "ئەم تایبەتمەندییە شازانەت هەیە:"
+
+#: handlers/donation.py:154
+msgid "You are not premium, yet"
+msgstr "تۆ تایبەتمەندییە شازەکانت نییە"
+
+#: handlers/donation.py:156
+msgid ""
+"Use /donate command to support us and get your *lifetime* premium status"
+msgstr ""
+"فەرمانی /donate بەکاربێنە، پشتگیریمان بکە و بۆ *هەتاهەتایە* چەند "
+"تایبەتمەندییەکی شاز بەدەستبێنە."
+
+#: handlers/favorites.py:37
+msgid "Added to your playlist (/my)"
+msgstr "زیادکرا بۆ لیستەی لێدانەکەت (/my)"
+
+#: handlers/favorites.py:43
+msgid "Removed from your playlist"
+msgstr "لە لیستەی لێدانەکەت لابرا"
+
+#: handlers/help.py:13
+msgid "🔥 Commands"
+msgstr "🔥 فەرمانەکان"
+
+#: handlers/help.py:14 handlers/start.py:37
+msgid ""
+"Just send me an artist and/or a song name and I will find music for you!"
+msgstr "تەنها ناونیشانی گۆرانی یان هونەرمەندەکەی بنێرە و من بۆت دەدۆزمەوە!"
+
+#: handlers/help.py:15 handlers/start.py:38
+msgid "/song — search by song title"
+msgstr "/song — بە ناونیشانی گۆرانی بگەڕێ"
+
+#: handlers/help.py:16 handlers/start.py:39
+msgid "/artist — search for artist name"
+msgstr "/artist — بە ناوی هونەرمەند بگەڕێ"
+
+#: handlers/help.py:17
+msgid "/my — list your playlist"
+msgstr "/my — لیستەی لێدانەکەت ببینە"
+
+#: handlers/help.py:18
+msgid "/top — popular songs"
+msgstr "/top — گۆرانییە بەناوبانگەکان ببینە"
+
+#: handlers/help.py:19 handlers/start.py:41
+msgid "/settings — change settings"
+msgstr "/settings — ڕێکخستنەکانت بگۆڕە"
+
+#: handlers/help.py:20
+msgid "/donate — support authors"
+msgstr "/donate — پشتگیریی پەرەپێدەرەکان بکە"
+
+#: handlers/help.py:21
+msgid "/premium — premium info"
+msgstr "/premium — زانیاری دەربارەی هەژماری شاز ببینە"
+
+#: handlers/help.py:24
+#, python-format
+msgid "Contact information: %(contact)s"
+msgstr "زانیاریی بەردەنگ: %(contact)s"
+
+#: handlers/search.py:150 handlers/search.py:244
+msgid "I found nothing"
+msgstr "هیچم نەدۆزییەوە"
+
+#: handlers/search.py:174
+#, python-format
+msgid "Results %(first)d-%(last)d of %(total)d\n"
+msgstr "%(first)d بۆ %(last)d ئەنجامی %(total)d ئەنجام\n"
+
+#: handlers/search.py:182
+msgid "Some of results were blocked by request of copyright owners"
+msgstr "هەندێک لە ئەنجامەکان لەبەر مافی لەبەرگرتنەوە قەدەغەکراون"
+
+#: handlers/search.py:295
+msgid "What song are you looking for?"
+msgstr "بۆ چ گۆرانییەک دەگەڕێیت؟"
+
+#: handlers/search.py:308
+msgid "What artist are you looking for?"
+msgstr "بۆ چ هونەرمەندێک دەگەڕێیت؟"
+
+#: handlers/search.py:347
+#, python-format
+msgid "Search is limited. Check %s for details and updates."
+msgstr "گەڕان سنووردارە. سەردانی %s بکە بۆ زانیاریی زیاتر."
+
+#: handlers/search.py:378 handlers/search.py:401
+msgid "You need to search for something before"
+msgstr "دەبێت پێشتر بۆ شتێک بگەڕێیت"
+
+#: handlers/search.py:406
+msgid "You're at the first page already"
+msgstr "تۆ خۆت لە پەڕەی یەکەمیت"
+
+#: handlers/settings.py:36
+msgid "Enabled"
+msgstr "چالاکە"
+
+#: handlers/settings.py:37
+msgid "Disabled"
+msgstr "ناچالاکە"
+
+#: handlers/settings.py:40
+msgid "Language"
+msgstr "زمان"
+
+#: handlers/settings.py:42
+#, python-format
+msgid "Bitrate preview: %s"
+msgstr "پێشبینینی بیترەیت: %s"
+
+#: handlers/settings.py:45
+#, python-format
+msgid "Like (heart) buttons: %s"
+msgstr "دوگمەی دڵ: %s"
+
+#: handlers/settings.py:51
+#, python-format
+msgid "Show audio format: %s"
+msgstr "جۆری فایل: %s"
+
+#: handlers/settings.py:54
+#, python-format
+msgid "Search results: %d"
+msgstr "ئەنجامەکانی گەڕان: %d"
+
+#: handlers/settings.py:59
+msgid "What would you like to change?"
+msgstr "دەتەوێت چی بگۆڕیت؟"
+
+#: handlers/settings.py:79
+msgid "Please, select new language"
+msgstr "تکایە زمانێکی نوێ هەڵبژێرە"
+
+#: handlers/settings.py:88
+msgid "Please help us with a donation (/donate) to access this feature"
+msgstr ""
+"بە بەخشینێک پشتگیریمان بکە بە فەرمانی /donate ئەوجا ئەم تایبەتمەندییە "
+"بەکاربێنە"
+
+#: handlers/settings.py:132
+msgid "Please, help us to know you better. *Where are you from?*"
+msgstr "تکایە هاوکاریمان بکە بۆ ئەوەی زیاتر بتناسین. *خەڵکی کوێیت؟*"
+
+#: handlers/settings.py:198
+msgid "Thank you"
+msgstr "زۆر سپاس"
+
+#: handlers/settings.py:217
+msgid "Language settings updated"
+msgstr "👌❤️💛💚 ڕێکخستنی زمان نوێکرایەوە"
+
+#: handlers/shazam.py:47
+#, python-format
+msgid "Extracted title: %s"
+msgstr "ناونیشانی لێدەرهێنراو: %s"
+
+#: handlers/start.py:40
+msgid "/setlang — change language"
+msgstr "/setlang — زمان بگۆڕە"
+
+#: handlers/unknowncommand.py:27
+#, python-format
+msgid ""
+"Unknown command: %(command)s. Call /help for a list of available commands."
+msgstr ""
+"ئەم فەرمانە نەزانراوە: %(command)s. فەرمانی /help بەکاربێنە بۆ بینینی "
+"لیستەی فەرمانە بەردەستەکان."

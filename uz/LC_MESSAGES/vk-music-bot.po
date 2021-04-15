@@ -292,7 +292,7 @@ msgstr "Nimani o'zgartirishni xohlaysiz?"
 
 #: handlers/settings.py:79
 msgid "Please, select new language"
-msgstr "Iltimos, yangi tilni tanlang nf"
+msgstr "Iltimos, yangi tilni tanlang"
 
 #: handlers/settings.py:88
 msgid "Please help us with a donation (/donate) to access this feature"

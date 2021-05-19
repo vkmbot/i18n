@@ -26,7 +26,7 @@ msgstr ""
 #, python-format
 msgid "You're out of downloads (%d per day), please try again later"
 msgstr ""
-"SIz yuklamalar cheklovi (%d per day) dan o'tdingiz, iltimos keyinroq urunib "
+"Siz yuklamalar cheklovi (kunlik %d ta) dan o'tdingiz, iltimos keyinroq urunib "
 "ko'ring "
 
 #: handlers/audio.py:144
@@ -35,7 +35,7 @@ msgid ""
 "You're out of downloads (%d per day), please try again or /donate to "
 "increase the limit"
 msgstr ""
-"SIz yuklamalar cheklovi (%d per day) dan o'tdingiz, iltimos keyinroq urunib "
+"Siz yuklamalar cheklovi (kunlik %d ta) dan o'tdingiz, iltimos keyinroq urunib "
 "ko'ring yoki /donate orqali limitni uzaytiring"
 
 #: handlers/audio.py:165
@@ -54,7 +54,7 @@ msgstr ""
 #: handlers/docdb.py:82
 msgid "Artist and/or title is missing. Please update the tags and re-upload"
 msgstr ""
-"Artist va/yoki qo'shiq nomi to'liq emas. Iltimos teglarni yangilang va qayta "
+"Artist va/yoki qo'shiqning nomi to'liq emas. Iltimos teglarni yangilang va qayta "
 "yuklang"
 
 #: handlers/docdb.py:86
@@ -76,7 +76,7 @@ msgid ""
 "for our servers."
 msgstr ""
 "Sizning hadyalaringiz bizga yangi imkoniyatlarni kashf etish, barqarorlikni "
-"kengaytirish va serverlaraga pul to'lash uchun yordam beradi."
+"kengaytirish va serverlarga pul to'lash uchun yordam beradi."
 
 #: handlers/donation.py:57 handlers/donation.py:159
 msgid ""
@@ -89,7 +89,7 @@ msgstr ""
 
 #: handlers/donation.py:60 handlers/donation.py:162
 msgid "No more ads and spam to you, *forever*"
-msgstr "Boshqa reklama yo'q va sizga  spam *umurbod*"
+msgstr "Boshqa reklama yo'q va sizga spam *umurbod*"
 
 #: handlers/donation.py:61 handlers/donation.py:163
 #, python-format
@@ -117,7 +117,7 @@ msgstr "Yana ko'proq imkoniyatlar /settings buyrug'ida"
 msgid ""
 "Subscribe to our news channel to be notified of new features: %(channel)s"
 msgstr ""
-"Yangi imkoniyatlar va yangiliklardan boxabar bolish uchun bizning yangi "
+"Yangi imkoniyatlar va yangiliklardan boxabar bo'lish uchun bizning yangi "
 "kanalga ubuna bo'ling - %(channel)s"
 
 #: handlers/donation.py:100
@@ -127,7 +127,7 @@ msgid ""
 "instructions.\n"
 "\n"
 msgstr ""
-"Iltimos bu habarni %(contact)s ga yo'llang va siz hadya ma'lumotlarini "
+"Iltimos bu xabarni %(contact)s ga yo'llang va siz hadya ma'lumotlarini "
 "olasiz.\n"
 
 #: handlers/donation.py:146
@@ -393,7 +393,7 @@ msgstr ""
 #~ "storebot?start=vkmusic_bot"
 
 #~ msgid "Ok, we won't bother you for a while"
-#~ msgstr "Hop, biz ozginaga sizni bezovta qilmay turamiz"
+#~ msgstr "Ho'p, biz ozginaga sizni bezovta qilmay turamiz"
 
 #~ msgid ""
 #~ "If you like this bot there are a few ways you can support the developer!"
@@ -416,7 +416,7 @@ msgstr ""
 #~ msgid "unknown_user_in_chat_msg"
 #~ msgstr ""
 #~ "Salom! Biz hali uchrashmaganga o'xshaymiz 😳\n"
-#~ "Menga shaxsiy xabar yozing /start, va men keyin nima qilish kerakligini "
+#~ "Menga shaxsiy /start buyrug'ini yozing, va men keyin nima qilish kerakligini "
 #~ "tushuntiraman."
 
 #~ msgid ""

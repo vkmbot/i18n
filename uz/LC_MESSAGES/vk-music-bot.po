@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-22 17:42+0300\n"
-"PO-Revision-Date: 2021-04-02 19:36+0500\n"
+"POT-Creation-Date: 2023-05-31 11:20+0300\n"
+"PO-Revision-Date: 2023-05-31 11:22+0300\n"
 "Last-Translator: vkmowner <vkmowner@telegram>\n"
 "Language-Team: \n"
 "Language: uz\n"
@@ -11,10 +11,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.3.1\n"
 
-#: handlers/audio.py:127
-#, python-brace-format
+#: handlers/antiadmin.py:34
+msgid ""
+"Please, don't make me a group admin. Add me as a regular user and use /song "
+"or /artist commands to init search. For now I'm leaving, bye!"
+msgstr ""
+
+#: handlers/audio.py:213
+#, python-format
 msgid ""
 "This group is out of downloads (%(limit)d per day), please use the bot via "
 "direct message: @%(bot_name)s"
@@ -22,146 +28,71 @@ msgstr ""
 "Bu guruhda yuklamalar limiti (%(limit)d kunlik),dan oshib ketdi, yakka "
 "qidiruv uchun to'g'ridan to'g'ri botga yozing:: @%(bot_name)s"
 
-#: handlers/audio.py:140
+#: handlers/audio.py:224
 #, python-format
 msgid "You're out of downloads (%d per day), please try again later"
 msgstr ""
 "SIz yuklamalar cheklovi (%d per day) dan o'tdingiz, iltimos keyinroq urunib "
 "ko'ring "
 
-#: handlers/audio.py:144
-#, python-format
-msgid ""
-"You're out of downloads (%d per day), please try again or /donate to "
-"increase the limit"
-msgstr ""
-"SIz yuklamalar cheklovi (%d per day) dan o'tdingiz, iltimos keyinroq urunib "
-"ko'ring yoki /donate orqali limitni uzaytiring"
-
-#: handlers/audio.py:165
+#: handlers/audio.py:245
 msgid "Please wait, your audio is coming..."
 msgstr "Iltimos kuting, sizning auidoingiz jo'natilyapti..."
 
-#: handlers/audio.py:175
+#: handlers/audio.py:255
 msgid "Song is removed by copyright owners"
 msgstr "⛔️ Qo’shiq mualliflik egalari tomonidan o’chirildi"
 
-#: handlers/docdb.py:79
+#: handlers/audio.py:275
+msgid "Reason for report:"
+msgstr ""
+
+#: handlers/audio.py:279
+msgid "Bad/broken audio"
+msgstr ""
+
+#: handlers/audio.py:283
+msgid "Wrong artist/title"
+msgstr ""
+
+#: handlers/audio.py:286 handlers/settings.py:74 handlers/settings.py:96
+msgid "Close"
+msgstr "Yopish"
+
+#: handlers/audio.py:297 handlers/audio.py:306
+msgid "Audio reported"
+msgstr ""
+
+#: handlers/docdb.py:78
 msgid "Got it! Note: it may take time for the song to appear in the search"
 msgstr ""
 "Bo'ldi! Yodda tuting: qo'shiqni qidirish bir necha soniya olishi mumkin"
 
-#: handlers/docdb.py:82
+#: handlers/docdb.py:83
 msgid "Artist and/or title is missing. Please update the tags and re-upload"
 msgstr ""
 "Artist va/yoki qo'shiq nomi to'liq emas. Iltimos teglarni yangilang va qayta "
 "yuklang"
 
-#: handlers/docdb.py:86
+#: handlers/docdb.py:85
 msgid "Bitrate is too low. Please upload audio in better quality"
 msgstr "Bitreyt juda past. Iltimos yaxshiroq sifatdagi audioni yuklang"
 
-#: handlers/donation.py:49 handlers/donation.py:141 handlers/settings.py:57
-#: handlers/settings.py:77
-msgid "Close"
-msgstr "Yopish"
+#: handlers/docdb.py:87
+#, fuzzy, python-format
+#| msgid "Show audio format: %s"
+msgid "Unsupported audio format: %s"
+msgstr "Audio formatini ko'rsatish: %s"
 
-#: handlers/donation.py:52
-msgid "Support us"
-msgstr "Bizni qo'llab quvvatlang"
-
-#: handlers/donation.py:54
-msgid ""
-"Your donations help us to develop new features, increase stability and pay "
-"for our servers."
+#: handlers/docdb.py:89
+msgid "Too small file"
 msgstr ""
-"Sizning hadyalaringiz bizga yangi imkoniyatlarni kashf etish, barqarorlikni "
-"kengaytirish va serverlaraga pul to'lash uchun yordam beradi."
 
-#: handlers/donation.py:57 handlers/donation.py:159
-msgid ""
-"For just one donation we will gift your account with a *lifetime* premium "
-"status. There is a short list of premium features you will receive:"
-msgstr ""
-"Faqatgina bir dona hadya uchun biz sizga sovg'a qilib 'lifetime' nomli "
-"premium akkaunt beramiz. Bu tarifda siz bir qancha yangi qo'shimcha "
-"imkoniyatarga ega bo'lasiz:"
-
-#: handlers/donation.py:60 handlers/donation.py:162
-msgid "No more ads and spam to you, *forever*"
-msgstr "Boshqa reklama yo'q va sizga  spam *umurbod*"
-
-#: handlers/donation.py:61 handlers/donation.py:163
-#, python-format
-msgid "%d daily downloads"
-msgstr "Kunlik yuklamalar soni %d"
-
-#: handlers/donation.py:62 handlers/donation.py:164
-msgid "An option to disable advertising inline captions"
-msgstr "Inlayn sarlavhadagi reklamalarni o'chirish imkoniyati"
-
-#: handlers/donation.py:63 handlers/donation.py:165
-msgid "An option to display audio format info"
-msgstr "Audio formati haqida batafsil malumot berish imkoniyati"
-
-#: handlers/donation.py:64 handlers/donation.py:166
-msgid "An option to change search results size"
-msgstr "Qidiruv natijalaridagi audiolarni hajmini boshqarish imkoniyati"
-
-#: handlers/donation.py:65 handlers/donation.py:167
-msgid "More options under /settings command"
-msgstr "Yana ko'proq imkoniyatlar /settings buyrug'ida"
-
-#: handlers/donation.py:67
-#, python-format
-msgid ""
-"Subscribe to our news channel to be notified of new features: %(channel)s"
-msgstr ""
-"Yangi imkoniyatlar va yangiliklardan boxabar bolish uchun bizning yangi "
-"kanalga ubuna bo'ling - %(channel)s"
-
-#: handlers/donation.py:100
-#, python-format
-msgid ""
-"Please forward this message to %(contact)s and you will get the donation "
-"instructions.\n"
-"\n"
-msgstr ""
-"Iltimos bu habarni %(contact)s ga yo'llang va siz hadya ma'lumotlarini "
-"olasiz.\n"
-
-#: handlers/donation.py:146
-msgid "You are a premium user!"
-msgstr "Siz premium foydalanuvchisiz!"
-
-#: handlers/donation.py:148
-msgid ""
-"You're a good person who kindly supports us, so we granted you a *lifetime* "
-"premium status, enjoy it."
-msgstr ""
-"Siz bizni qo'llab quvvatlagan yaxshi insonsiz, sizga *lifetime* premium "
-"stautusini berdik, undan rohatlaning."
-
-#: handlers/donation.py:152
-msgid "There is a short list of premium features you have:"
-msgstr "Sizda bir qancha premium imkoniyatlar ro'yhati:"
-
-#: handlers/donation.py:154
-msgid "You are not premium, yet"
-msgstr "Siz hali premium emassiz"
-
-#: handlers/donation.py:156
-msgid ""
-"Use /donate command to support us and get your *lifetime* premium status"
-msgstr ""
-"Bizni qo'llab quvatlash uchun - /donate va *lifetime* premium statusini "
-"olish uchun"
-
-#: handlers/favorites.py:34
+#: handlers/favorites.py:36
 msgid "Added to your playlist (/my)"
 msgstr "Sizning playlistingizga qo'shildi (/my)"
 
-#: handlers/favorites.py:47
+#: handlers/favorites.py:42
 msgid "Removed from your playlist"
 msgstr "Playlistdan o'chirildi"
 
@@ -196,125 +127,132 @@ msgstr "/top - mashhur qo'shiqlar"
 msgid "/settings — change settings"
 msgstr "/settings - sozlamalarni o'zgartirish"
 
-#: handlers/help.py:20
-msgid "/donate — support authors"
-msgstr "/donate - muallifni qo'llab quvvatlash"
-
-#: handlers/help.py:21
-msgid "/premium — premium info"
-msgstr "/premium - premium haqida ma'lumot"
-
-#: handlers/help.py:23
-#, python-format
-msgid "Official news channel: %(channel)s"
-msgstr "Rasmiy yangiliklar kanali %(channel)s"
-
 #: handlers/help.py:24
 #, python-format
 msgid "Contact information: %(contact)s"
 msgstr "Bog'lanish uchun aloqa: %(contact)s"
 
-#: handlers/search.py:142 handlers/search.py:215
+#: handlers/search.py:155 handlers/search.py:253
 msgid "I found nothing"
 msgstr "Hech narsa topilmadi 😔"
 
-#: handlers/search.py:166
+#: handlers/search.py:179
 #, python-format
 msgid "Results %(first)d-%(last)d of %(total)d\n"
 msgstr "Natijalar %(first)d-%(last)d %(total)d dan\n"
 
-#: handlers/search.py:174
-#, python-format
+#: handlers/search.py:187
 msgid "Some of results were blocked by request of copyright owners"
 msgstr "Bir qancha natijalar egalik huquqlari buzilgani tufayli o'chirildi."
 
-#: handlers/search.py:260
+#: handlers/search.py:306
 msgid "What song are you looking for?"
 msgstr "Qaysi qo'shiqni qidiryapsiz?"
 
-#: handlers/search.py:273
+#: handlers/search.py:319
 msgid "What artist are you looking for?"
 msgstr "Qaysi qo'shiqchining qo'shiqlarini qidiryapsiz?"
 
-#: handlers/search.py:309
-#, python-format
-msgid "Search is limited. Check %s for details and updates."
-msgstr "Qidirish cheklangan. Tafsilotlarni va yangiliklarni bilish uchun %s"
-
-#: handlers/search.py:340 handlers/search.py:363
+#: handlers/search.py:391 handlers/search.py:414
 msgid "You need to search for something before"
 msgstr "Siz oldin biror narsa qidirishingiz kerak"
 
-#: handlers/search.py:368
+#: handlers/search.py:419
 msgid "You're at the first page already"
 msgstr "Siz allaqachon birinchi sahifadasiz"
 
-#: handlers/settings.py:36
+#: handlers/settings.py:53
 msgid "Enabled"
 msgstr "Yoqilgan"
 
-#: handlers/settings.py:37
+#: handlers/settings.py:54
 msgid "Disabled"
 msgstr "O'chirilgan"
 
-#: handlers/settings.py:40
+#: handlers/settings.py:57
 msgid "Language"
 msgstr "Til"
 
-#: handlers/settings.py:42
+#: handlers/settings.py:59
 #, python-format
 msgid "Bitrate preview: %s"
 msgstr "Bitreyt ko'rish: %s"
 
-#: handlers/settings.py:45
+#: handlers/settings.py:62
 #, python-format
 msgid "Like (heart) buttons: %s"
 msgstr "Yoqdi (yurak) tugmalari: %s"
 
-#: handlers/settings.py:48
-#, python-format
-msgid "Inline mode captions: %s"
-msgstr "Inlayn sarlavhalar: %s"
-
-#: handlers/settings.py:51
+#: handlers/settings.py:68
 #, python-format
 msgid "Show audio format: %s"
 msgstr "Audio formatini ko'rsatish: %s"
 
-#: handlers/settings.py:54
+#: handlers/settings.py:71
 #, python-format
 msgid "Search results: %d"
 msgstr "Qidiruv natijalari: %d"
 
-#: handlers/settings.py:59
+#: handlers/settings.py:76
 msgid "What would you like to change?"
 msgstr "Nimani o'zgartirishni xohlaysiz?"
 
-#: handlers/settings.py:79
+#: handlers/settings.py:99
 msgid "Please, select new language"
 msgstr "Iltimos, yangi tilni tanlang"
 
-#: handlers/settings.py:88
+#: handlers/settings.py:108
 msgid "Please help us with a donation (/donate) to access this feature"
 msgstr ""
 "Bu imkoniyatga ega bo'lish uchun iltimos bizga hadya (/donate) qilish orqali "
 "bizga yordam bering"
 
-#: handlers/settings.py:132
+#: handlers/settings.py:152
 msgid "Please, help us to know you better. *Where are you from?*"
 msgstr "Sizni yaxshiroq bilishimizga yordam bering. *Qaysi davlatdansiz?*"
 
-#: handlers/settings.py:198
+#: handlers/settings.py:218
 msgid "Thank you"
 msgstr "Rahmat sizga"
 
-#: handlers/settings.py:217
+#: handlers/settings.py:237
 msgid "Language settings updated"
 msgstr "👌🇺🇿 Til sozlamalari yangilandi"
+
+#: handlers/shazam.py:47
+#, fuzzy, python-format
+#| msgid "Bitrate preview: %s"
+msgid "Extracted title: %s"
+msgstr "Bitreyt ko'rish: %s"
 
 #: handlers/start.py:40
 msgid "/setlang — change language"
 msgstr "/setlang - tilni sozlash"
+
+#: handlers/sub_confirmation.py:48
+msgid ""
+"Please subscribe to the following channels and then click \"Check "
+"subscription\" button.\n"
+"\n"
+"You're supporting our team by subscribing to these channels. Thank you!"
+msgstr ""
+"Iltimos, quyidagi kanallarga obuna bo'ling va \"Obunani tekshirish\" "
+"tugmasini bosing.\n"
+"\n"
+"Siz ushbu kanallarga obuna bo'lish orqali jamoamizni qo'llab-quvvatlayapsiz. "
+"Rahmat!"
+
+#: handlers/sub_confirmation.py:62
+msgid "✅ Check subscription"
+msgstr "✅ Obunani tekshiring"
+
+#: handlers/sub_confirmation.py:92
+msgid "Thank you for subscription!"
+msgstr "Obuna uchun rahmat!"
+
+#: handlers/sub_confirmation.py:97
+msgid "Please subscribe to the channels and try again!"
+msgstr "Iltimos, kanallarga obuna bo'ling va qaytadan urinib ko'ring!"
 
 #: handlers/unknowncommand.py:27
 #, python-format
@@ -323,6 +261,112 @@ msgid ""
 msgstr ""
 "Noto'g'ri buyruq: %(command)s. Mavjud buyruqlar ro'yhatini olish uchun - /"
 "help."
+
+#: handlers/url.py:37
+msgid "I got your url, figuring it out"
+msgstr ""
+
+#, python-format
+#~ msgid ""
+#~ "You're out of downloads (%d per day), please try again or /donate to "
+#~ "increase the limit"
+#~ msgstr ""
+#~ "SIz yuklamalar cheklovi (%d per day) dan o'tdingiz, iltimos keyinroq "
+#~ "urunib ko'ring yoki /donate orqali limitni uzaytiring"
+
+#~ msgid "Support us"
+#~ msgstr "Bizni qo'llab quvvatlang"
+
+#~ msgid ""
+#~ "Your donations help us to develop new features, increase stability and "
+#~ "pay for our servers."
+#~ msgstr ""
+#~ "Sizning hadyalaringiz bizga yangi imkoniyatlarni kashf etish, "
+#~ "barqarorlikni kengaytirish va serverlaraga pul to'lash uchun yordam "
+#~ "beradi."
+
+#~ msgid ""
+#~ "For just one donation we will gift your account with a *lifetime* premium "
+#~ "status. There is a short list of premium features you will receive:"
+#~ msgstr ""
+#~ "Faqatgina bir dona hadya uchun biz sizga sovg'a qilib 'lifetime' nomli "
+#~ "premium akkaunt beramiz. Bu tarifda siz bir qancha yangi qo'shimcha "
+#~ "imkoniyatarga ega bo'lasiz:"
+
+#~ msgid "No more ads and spam to you, *forever*"
+#~ msgstr "Boshqa reklama yo'q va sizga  spam *umurbod*"
+
+#, python-format
+#~ msgid "%d daily downloads"
+#~ msgstr "Kunlik yuklamalar soni %d"
+
+#~ msgid "An option to disable advertising inline captions"
+#~ msgstr "Inlayn sarlavhadagi reklamalarni o'chirish imkoniyati"
+
+#~ msgid "An option to display audio format info"
+#~ msgstr "Audio formati haqida batafsil malumot berish imkoniyati"
+
+#~ msgid "An option to change search results size"
+#~ msgstr "Qidiruv natijalaridagi audiolarni hajmini boshqarish imkoniyati"
+
+#~ msgid "More options under /settings command"
+#~ msgstr "Yana ko'proq imkoniyatlar /settings buyrug'ida"
+
+#, python-format
+#~ msgid ""
+#~ "Subscribe to our news channel to be notified of new features: %(channel)s"
+#~ msgstr ""
+#~ "Yangi imkoniyatlar va yangiliklardan boxabar bolish uchun bizning yangi "
+#~ "kanalga ubuna bo'ling - %(channel)s"
+
+#, python-format
+#~ msgid ""
+#~ "Please forward this message to %(contact)s and you will get the donation "
+#~ "instructions.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Iltimos bu habarni %(contact)s ga yo'llang va siz hadya ma'lumotlarini "
+#~ "olasiz.\n"
+
+#~ msgid "You are a premium user!"
+#~ msgstr "Siz premium foydalanuvchisiz!"
+
+#~ msgid ""
+#~ "You're a good person who kindly supports us, so we granted you a "
+#~ "*lifetime* premium status, enjoy it."
+#~ msgstr ""
+#~ "Siz bizni qo'llab quvvatlagan yaxshi insonsiz, sizga *lifetime* premium "
+#~ "stautusini berdik, undan rohatlaning."
+
+#~ msgid "There is a short list of premium features you have:"
+#~ msgstr "Sizda bir qancha premium imkoniyatlar ro'yhati:"
+
+#~ msgid "You are not premium, yet"
+#~ msgstr "Siz hali premium emassiz"
+
+#~ msgid ""
+#~ "Use /donate command to support us and get your *lifetime* premium status"
+#~ msgstr ""
+#~ "Bizni qo'llab quvatlash uchun - /donate va *lifetime* premium statusini "
+#~ "olish uchun"
+
+#~ msgid "/donate — support authors"
+#~ msgstr "/donate - muallifni qo'llab quvvatlash"
+
+#~ msgid "/premium — premium info"
+#~ msgstr "/premium - premium haqida ma'lumot"
+
+#, python-format
+#~ msgid "Official news channel: %(channel)s"
+#~ msgstr "Rasmiy yangiliklar kanali %(channel)s"
+
+#, python-format
+#~ msgid "Search is limited. Check %s for details and updates."
+#~ msgstr "Qidirish cheklangan. Tafsilotlarni va yangiliklarni bilish uchun %s"
+
+#, python-format
+#~ msgid "Inline mode captions: %s"
+#~ msgstr "Inlayn sarlavhalar: %s"
 
 #~ msgid ""
 #~ "Thanks! Now you can use personalized commands.\n"

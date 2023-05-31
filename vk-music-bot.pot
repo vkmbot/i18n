@@ -8,66 +8,64 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-30 16:59+0300\n"
+"POT-Creation-Date: 2023-05-31 11:20+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.3.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: handlers/audio.py:185
+#: handlers/antiadmin.py:34
+msgid ""
+"Please, don't make me a group admin. Add me as a regular user and use /"
+"song or /artist commands to init search. For now I'm leaving, bye!"
+msgstr ""
+
+#: handlers/audio.py:213
 #, python-format
 msgid ""
 "This group is out of downloads (%(limit)d per day), please use the bot "
 "via direct message: @%(bot_name)s"
 msgstr ""
 
-#: handlers/audio.py:198
+#: handlers/audio.py:224
 #, python-format
 msgid "You're out of downloads (%d per day), please try again later"
 msgstr ""
 
-#: handlers/audio.py:202
-#, python-format
-msgid ""
-"You're out of downloads (%d per day), please try again or /donate to "
-"increase the limit"
-msgstr ""
-
-#: handlers/audio.py:223
+#: handlers/audio.py:245
 msgid "Please wait, your audio is coming..."
 msgstr ""
 
-#: handlers/audio.py:233
+#: handlers/audio.py:255
 msgid "Song is removed by copyright owners"
 msgstr ""
 
-#: handlers/audio.py:253
+#: handlers/audio.py:275
 msgid "Reason for report:"
 msgstr ""
 
-#: handlers/audio.py:257
+#: handlers/audio.py:279
 msgid "Bad/broken audio"
 msgstr ""
 
-#: handlers/audio.py:261
+#: handlers/audio.py:283
 msgid "Wrong artist/title"
 msgstr ""
 
-#: handlers/audio.py:264 handlers/donation.py:49 handlers/donation.py:141
-#: handlers/settings.py:57 handlers/settings.py:77
+#: handlers/audio.py:286 handlers/settings.py:74 handlers/settings.py:96
 msgid "Close"
 msgstr ""
 
-#: handlers/audio.py:274 handlers/audio.py:282
+#: handlers/audio.py:297 handlers/audio.py:306
 msgid "Audio reported"
 msgstr ""
 
-#: handlers/docdb.py:80
+#: handlers/docdb.py:78
 msgid "Got it! Note: it may take time for the song to appear in the search"
 msgstr ""
 
@@ -75,93 +73,24 @@ msgstr ""
 msgid "Artist and/or title is missing. Please update the tags and re-upload"
 msgstr ""
 
-#: handlers/docdb.py:87
+#: handlers/docdb.py:85
 msgid "Bitrate is too low. Please upload audio in better quality"
 msgstr ""
 
-#: handlers/donation.py:52
-msgid "Support us"
-msgstr ""
-
-#: handlers/donation.py:54
-msgid ""
-"Your donations help us to develop new features, increase stability and "
-"pay for our servers."
-msgstr ""
-
-#: handlers/donation.py:57 handlers/donation.py:159
-msgid ""
-"For just one donation we will gift your account with a *lifetime* premium "
-"status. There is a short list of premium features you will receive:"
-msgstr ""
-
-#: handlers/donation.py:60 handlers/donation.py:162
-msgid "No more ads and spam to you, *forever*"
-msgstr ""
-
-#: handlers/donation.py:61 handlers/donation.py:163
+#: handlers/docdb.py:87
 #, python-format
-msgid "%d daily downloads"
+msgid "Unsupported audio format: %s"
 msgstr ""
 
-#: handlers/donation.py:62 handlers/donation.py:164
-msgid "An option to disable advertising inline captions"
+#: handlers/docdb.py:89
+msgid "Too small file"
 msgstr ""
 
-#: handlers/donation.py:63 handlers/donation.py:165
-msgid "An option to display audio format info"
-msgstr ""
-
-#: handlers/donation.py:64 handlers/donation.py:166
-msgid "An option to change search results size"
-msgstr ""
-
-#: handlers/donation.py:65 handlers/donation.py:167
-msgid "More options under /settings command"
-msgstr ""
-
-#: handlers/donation.py:67
-#, python-format
-msgid ""
-"Subscribe to our news channel to be notified of new features: %(channel)s"
-msgstr ""
-
-#: handlers/donation.py:100
-#, python-format
-msgid ""
-"Please forward this message to %(contact)s and you will get the donation "
-"instructions.\n"
-"\n"
-msgstr ""
-
-#: handlers/donation.py:146
-msgid "You are a premium user!"
-msgstr ""
-
-#: handlers/donation.py:148
-msgid ""
-"You're a good person who kindly supports us, so we granted you a "
-"*lifetime* premium status, enjoy it."
-msgstr ""
-
-#: handlers/donation.py:152
-msgid "There is a short list of premium features you have:"
-msgstr ""
-
-#: handlers/donation.py:154
-msgid "You are not premium, yet"
-msgstr ""
-
-#: handlers/donation.py:156
-msgid ""
-"Use /donate command to support us and get your *lifetime* premium status"
-msgstr ""
-
-#: handlers/favorites.py:37
+#: handlers/favorites.py:36
 msgid "Added to your playlist (/my)"
 msgstr ""
 
-#: handlers/favorites.py:43
+#: handlers/favorites.py:42
 msgid "Removed from your playlist"
 msgstr ""
 
@@ -194,106 +123,93 @@ msgstr ""
 msgid "/settings — change settings"
 msgstr ""
 
-#: handlers/help.py:20
-msgid "/donate — support authors"
-msgstr ""
-
-#: handlers/help.py:21
-msgid "/premium — premium info"
-msgstr ""
-
 #: handlers/help.py:24
 #, python-format
 msgid "Contact information: %(contact)s"
 msgstr ""
 
-#: handlers/search.py:150 handlers/search.py:244
+#: handlers/search.py:155 handlers/search.py:253
 msgid "I found nothing"
 msgstr ""
 
-#: handlers/search.py:174
+#: handlers/search.py:179
 #, python-format
 msgid "Results %(first)d-%(last)d of %(total)d\n"
 msgstr ""
 
-#: handlers/search.py:182
+#: handlers/search.py:187
 msgid "Some of results were blocked by request of copyright owners"
 msgstr ""
 
-#: handlers/search.py:295
+#: handlers/search.py:306
 msgid "What song are you looking for?"
 msgstr ""
 
-#: handlers/search.py:308
+#: handlers/search.py:319
 msgid "What artist are you looking for?"
 msgstr ""
 
-#: handlers/search.py:347
-#, python-format
-msgid "Search is limited. Check %s for details and updates."
-msgstr ""
-
-#: handlers/search.py:378 handlers/search.py:401
+#: handlers/search.py:391 handlers/search.py:414
 msgid "You need to search for something before"
 msgstr ""
 
-#: handlers/search.py:406
+#: handlers/search.py:419
 msgid "You're at the first page already"
 msgstr ""
 
-#: handlers/settings.py:36
+#: handlers/settings.py:53
 msgid "Enabled"
 msgstr ""
 
-#: handlers/settings.py:37
+#: handlers/settings.py:54
 msgid "Disabled"
 msgstr ""
 
-#: handlers/settings.py:40
+#: handlers/settings.py:57
 msgid "Language"
 msgstr ""
 
-#: handlers/settings.py:42
+#: handlers/settings.py:59
 #, python-format
 msgid "Bitrate preview: %s"
 msgstr ""
 
-#: handlers/settings.py:45
+#: handlers/settings.py:62
 #, python-format
 msgid "Like (heart) buttons: %s"
 msgstr ""
 
-#: handlers/settings.py:51
+#: handlers/settings.py:68
 #, python-format
 msgid "Show audio format: %s"
 msgstr ""
 
-#: handlers/settings.py:54
+#: handlers/settings.py:71
 #, python-format
 msgid "Search results: %d"
 msgstr ""
 
-#: handlers/settings.py:59
+#: handlers/settings.py:76
 msgid "What would you like to change?"
 msgstr ""
 
-#: handlers/settings.py:79
+#: handlers/settings.py:99
 msgid "Please, select new language"
 msgstr ""
 
-#: handlers/settings.py:88
+#: handlers/settings.py:108
 msgid "Please help us with a donation (/donate) to access this feature"
 msgstr ""
 
-#: handlers/settings.py:132
+#: handlers/settings.py:152
 msgid "Please, help us to know you better. *Where are you from?*"
 msgstr ""
 
-#: handlers/settings.py:198
+#: handlers/settings.py:218
 msgid "Thank you"
 msgstr ""
 
-#: handlers/settings.py:217
+#: handlers/settings.py:237
 msgid "Language settings updated"
 msgstr ""
 
@@ -306,8 +222,32 @@ msgstr ""
 msgid "/setlang — change language"
 msgstr ""
 
+#: handlers/sub_confirmation.py:48
+msgid ""
+"Please subscribe to the following channels and then click \"Check "
+"subscription\" button.\n"
+"\n"
+"You're supporting our team by subscribing to these channels. Thank you!"
+msgstr ""
+
+#: handlers/sub_confirmation.py:62
+msgid "✅ Check subscription"
+msgstr ""
+
+#: handlers/sub_confirmation.py:92
+msgid "Thank you for subscription!"
+msgstr ""
+
+#: handlers/sub_confirmation.py:97
+msgid "Please subscribe to the channels and try again!"
+msgstr ""
+
 #: handlers/unknowncommand.py:27
 #, python-format
 msgid ""
 "Unknown command: %(command)s. Call /help for a list of available commands."
+msgstr ""
+
+#: handlers/url.py:37
+msgid "I got your url, figuring it out"
 msgstr ""

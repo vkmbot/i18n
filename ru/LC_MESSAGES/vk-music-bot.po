@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-31 11:20+0300\n"
-"PO-Revision-Date: 2023-05-31 11:28+0300\n"
+"POT-Creation-Date: 2024-09-27 07:38+0900\n"
+"PO-Revision-Date: 2024-09-27 07:40+0900\n"
 "Last-Translator: vkmowner <vkmowner@telegram>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: bot.py\n"
 
@@ -21,8 +21,11 @@ msgid ""
 "Please, don't make me a group admin. Add me as a regular user and use /song "
 "or /artist commands to init search. For now I'm leaving, bye!"
 msgstr ""
+"Пожалуйста, не делайте меня администратором группы. Добавьте меня как "
+"обычного пользователя и используйте команды /song или /artist для "
+"инициализации поиска. А пока я ухожу, до свидания!"
 
-#: handlers/audio.py:213
+#: handlers/audio.py:216
 #, python-format
 msgid ""
 "This group is out of downloads (%(limit)d per day), please use the bot via "
@@ -31,36 +34,36 @@ msgstr ""
 "В этой группе превышен лимит загрузок (%(limit)d в день), для "
 "индивидуального поиска пишите боту напрямую: @%(bot_name)s"
 
-#: handlers/audio.py:224
+#: handlers/audio.py:227
 #, python-format
 msgid "You're out of downloads (%d per day), please try again later"
 msgstr ""
 
-#: handlers/audio.py:245
+#: handlers/audio.py:253
 msgid "Please wait, your audio is coming..."
 msgstr "Подождите, аудио на подходе..."
 
-#: handlers/audio.py:255
+#: handlers/audio.py:263
 msgid "Song is removed by copyright owners"
 msgstr "Трек удален по запросу правообладателей"
 
-#: handlers/audio.py:275
+#: handlers/audio.py:283
 msgid "Reason for report:"
 msgstr ""
 
-#: handlers/audio.py:279
+#: handlers/audio.py:287
 msgid "Bad/broken audio"
 msgstr ""
 
-#: handlers/audio.py:283
+#: handlers/audio.py:291
 msgid "Wrong artist/title"
 msgstr ""
 
-#: handlers/audio.py:286 handlers/settings.py:74 handlers/settings.py:96
+#: handlers/audio.py:294 handlers/settings.py:78 handlers/settings.py:100
 msgid "Close"
 msgstr "Закрыть"
 
-#: handlers/audio.py:297 handlers/audio.py:306
+#: handlers/audio.py:305 handlers/audio.py:314
 msgid "Audio reported"
 msgstr ""
 
@@ -81,14 +84,13 @@ msgid "Bitrate is too low. Please upload audio in better quality"
 msgstr "Слишком низкий битрейт. Пожалуйста, загрузите аудио лучшего качества"
 
 #: handlers/docdb.py:87
-#, fuzzy, python-format
-#| msgid "Show audio format: %s"
+#, python-format
 msgid "Unsupported audio format: %s"
-msgstr "Показывать формат аудио: %s"
+msgstr "Неподдерживаемый аудиоформат: %s"
 
 #: handlers/docdb.py:89
 msgid "Too small file"
-msgstr ""
+msgstr "Слишком маленький файл"
 
 #: handlers/favorites.py:36
 msgid "Added to your playlist (/my)"
@@ -134,103 +136,116 @@ msgstr "/settings — изменить настройки"
 msgid "Contact information: %(contact)s"
 msgstr "Контакт и реклама в боте: %(contact)s"
 
-#: handlers/search.py:155 handlers/search.py:253
+#: handlers/search.py:179
 msgid "I found nothing"
 msgstr "Ничего не нашлось 😔"
 
-#: handlers/search.py:179
+#: handlers/search.py:203
 #, python-format
 msgid "Results %(first)d-%(last)d of %(total)d\n"
 msgstr "Результаты %(first)d-%(last)d из %(total)d\n"
 
-#: handlers/search.py:187
+#: handlers/search.py:211
 msgid "Some of results were blocked by request of copyright owners"
 msgstr "Некоторые результаты поиска заблокированы по запросу правообладателей"
 
-#: handlers/search.py:306
+#: handlers/search.py:398
 msgid "What song are you looking for?"
 msgstr "Какую композицию ищете?"
 
-#: handlers/search.py:319
+#: handlers/search.py:400
+msgid "Song title"
+msgstr ""
+
+#: handlers/search.py:426
 msgid "What artist are you looking for?"
 msgstr "Какого исполнителя ищете?"
 
-#: handlers/search.py:391 handlers/search.py:414
+#: handlers/search.py:428
+msgid "Artist name"
+msgstr ""
+
+#: handlers/search.py:478 handlers/search.py:501 handlers/search.py:527
+#: handlers/search.py:557 handlers/search.py:583
 msgid "You need to search for something before"
 msgstr "Для начала поищите что-нибудь"
 
-#: handlers/search.py:419
+#: handlers/search.py:506
 msgid "You're at the first page already"
 msgstr "Вы уже на первой странице"
 
-#: handlers/settings.py:53
+#: handlers/settings.py:54
 msgid "Enabled"
 msgstr "Вкл"
 
-#: handlers/settings.py:54
+#: handlers/settings.py:55
 msgid "Disabled"
 msgstr "Выкл"
 
-#: handlers/settings.py:57
+#: handlers/settings.py:58
 msgid "Language"
 msgstr "Язык"
 
-#: handlers/settings.py:59
+#: handlers/settings.py:60
 #, python-format
 msgid "Bitrate preview: %s"
 msgstr "Показывать битрейт: %s"
 
-#: handlers/settings.py:62
+#: handlers/settings.py:63
 #, python-format
 msgid "Like (heart) buttons: %s"
 msgstr "Кнопки с сердечками: %s"
 
-#: handlers/settings.py:68
+#: handlers/settings.py:69
 #, python-format
 msgid "Show audio format: %s"
 msgstr "Показывать формат аудио: %s"
 
-#: handlers/settings.py:71
+#: handlers/settings.py:72
 #, python-format
 msgid "Search results: %d"
 msgstr "Результатов поиска: %d"
 
-#: handlers/settings.py:76
+#: handlers/settings.py:75
+#, python-format
+msgid "Advanced search: %s"
+msgstr "Расширенный поиск: %s"
+
+#: handlers/settings.py:80
 msgid "What would you like to change?"
 msgstr "Какие опции хотите изменить?"
 
-#: handlers/settings.py:99
+#: handlers/settings.py:103
 msgid "Please, select new language"
 msgstr "Выберите новый язык"
 
-#: handlers/settings.py:108
+#: handlers/settings.py:112
 msgid "Please help us with a donation (/donate) to access this feature"
 msgstr ""
 "Пожалуйста, поддержите нашу команду (/donate) для доступа к этой функции"
 
-#: handlers/settings.py:152
+#: handlers/settings.py:155
 msgid "Please, help us to know you better. *Where are you from?*"
 msgstr ""
 
-#: handlers/settings.py:218
+#: handlers/settings.py:221
 msgid "Thank you"
-msgstr ""
+msgstr "Спасибо"
 
-#: handlers/settings.py:237
+#: handlers/settings.py:240
 msgid "Language settings updated"
 msgstr "👌🇷🇺 Настройки языка обновлены"
 
-#: handlers/shazam.py:47
-#, fuzzy, python-format
-#| msgid "Bitrate preview: %s"
+#: handlers/shazam.py:51
+#, python-format
 msgid "Extracted title: %s"
-msgstr "Показывать битрейт: %s"
+msgstr "Название: %s"
 
 #: handlers/start.py:40
 msgid "/setlang — change language"
 msgstr "/setlang — изменить язык"
 
-#: handlers/sub_confirmation.py:48
+#: handlers/sub_confirmation.py:61
 msgid ""
 "Please subscribe to the following channels and then click \"Check "
 "subscription\" button.\n"
@@ -242,15 +257,15 @@ msgstr ""
 "\n"
 "Вы поддерживаете нашу команду, подписываясь на эти каналы. Спасибо!"
 
-#: handlers/sub_confirmation.py:62
+#: handlers/sub_confirmation.py:76
 msgid "✅ Check subscription"
 msgstr "✅ Проверить подписку"
 
-#: handlers/sub_confirmation.py:92
-msgid "Thank you for subscription!"
-msgstr "Спасибо за подписку!"
+#: handlers/sub_confirmation.py:105
+msgid "Thank you for subscription! You can now download audios"
+msgstr "Спасибо за подписку! Теперь вы можете скачивать музыку"
 
-#: handlers/sub_confirmation.py:97
+#: handlers/sub_confirmation.py:110
 msgid "Please subscribe to the channels and try again!"
 msgstr "Пожалуйста, подпишитесь на каналы и попробуйте еще раз!"
 
@@ -262,9 +277,12 @@ msgstr ""
 "Неизвестная команда: %(command)s. Используйте /help для получения списка "
 "доступных команд."
 
-#: handlers/url.py:37
-msgid "I got your url, figuring it out"
-msgstr "Я получил вашу ссылку, разбираюсь"
+#: handlers/url.py:47
+msgid "Please, use our bot @mmgetbot to download videos from TikTok!"
+msgstr ""
+
+#~ msgid "I got your url, figuring it out"
+#~ msgstr "Я получил вашу ссылку, разбираюсь"
 
 #~ msgid "Support us"
 #~ msgstr "Поддержите нас"

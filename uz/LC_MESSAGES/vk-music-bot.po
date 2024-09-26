@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-31 11:20+0300\n"
-"PO-Revision-Date: 2023-05-31 11:22+0300\n"
+"PO-Revision-Date: 2024-09-27 07:43+0900\n"
 "Last-Translator: vkmowner <vkmowner@telegram>\n"
 "Language-Team: \n"
 "Language: uz\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.5\n"
 
 #: handlers/antiadmin.py:34
 msgid ""
@@ -33,7 +33,7 @@ msgstr ""
 msgid "You're out of downloads (%d per day), please try again later"
 msgstr ""
 "SIz yuklamalar cheklovi (%d per day) dan o'tdingiz, iltimos keyinroq urunib "
-"ko'ring "
+"ko'ring"
 
 #: handlers/audio.py:245
 msgid "Please wait, your audio is coming..."
@@ -79,14 +79,13 @@ msgid "Bitrate is too low. Please upload audio in better quality"
 msgstr "Bitreyt juda past. Iltimos yaxshiroq sifatdagi audioni yuklang"
 
 #: handlers/docdb.py:87
-#, fuzzy, python-format
-#| msgid "Show audio format: %s"
+#, python-format
 msgid "Unsupported audio format: %s"
-msgstr "Audio formatini ko'rsatish: %s"
+msgstr "Qo'llab-quvvatlanmaydigan audio format: %s"
 
 #: handlers/docdb.py:89
 msgid "Too small file"
-msgstr ""
+msgstr "Juda kichik fayl"
 
 #: handlers/favorites.py:36
 msgid "Added to your playlist (/my)"
@@ -143,7 +142,7 @@ msgstr "Natijalar %(first)d-%(last)d %(total)d dan\n"
 
 #: handlers/search.py:187
 msgid "Some of results were blocked by request of copyright owners"
-msgstr "Bir qancha natijalar egalik huquqlari buzilgani tufayli o'chirildi."
+msgstr "Bir qancha natijalar egalik huquqlari buzilgani tufayli o'chirildi"
 
 #: handlers/search.py:306
 msgid "What song are you looking for?"

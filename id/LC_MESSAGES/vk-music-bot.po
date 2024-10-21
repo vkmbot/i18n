@@ -7,249 +7,267 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-01 16:38+0300\n"
-"PO-Revision-Date: 2019-06-03 12:47+0800\n"
+"POT-Creation-Date: 2024-09-27 07:38+0900\n"
+"PO-Revision-Date: 2024-10-21 08:21+0300\n"
 "Last-Translator: vkmowner <vkmowner@telegram>\n"
 "Language-Team: \n"
 "Language: id_ID\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.3\n"
-"X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: handlers/audio.py:118
+#: handlers/antiadmin.py:34
+msgid ""
+"Please, don't make me a group admin. Add me as a regular user and use /song "
+"or /artist commands to init search. For now I'm leaving, bye!"
+msgstr ""
+
+#: handlers/audio.py:216
+#, python-format
+msgid ""
+"This group is out of downloads (%(limit)d per day), please use the bot via "
+"direct message: @%(bot_name)s"
+msgstr ""
+
+#: handlers/audio.py:227
+#, python-format
+msgid "You're out of downloads (%d per day), please try again later"
+msgstr ""
+
+#: handlers/audio.py:253
 msgid "Please wait, your audio is coming..."
 msgstr "Harap tunggu, Lagu kamu akan muncul ..."
 
-#: handlers/audio.py:134
+#: handlers/audio.py:263
 msgid "Song is removed by copyright owners"
 msgstr "Lagu dihapus, terkait Hak Cipta"
 
-#: handlers/docdb.py:64
+#: handlers/audio.py:283
+msgid "Reason for report:"
+msgstr ""
+
+#: handlers/audio.py:287
+msgid "Bad/broken audio"
+msgstr ""
+
+#: handlers/audio.py:291
+msgid "Wrong artist/title"
+msgstr ""
+
+#: handlers/audio.py:294 handlers/settings.py:78 handlers/settings.py:100
+msgid "Close"
+msgstr "Tutup"
+
+#: handlers/audio.py:305 handlers/audio.py:314
+msgid "Audio reported"
+msgstr ""
+
+#: handlers/docdb.py:78
 msgid "Got it! Note: it may take time for the song to appear in the search"
 msgstr ""
 "Mengerti! Catatan: mungkin butuh waktu sampai lagu muncul dalam pencarian"
 
-#: handlers/donation.py:43 handlers/donation.py:113 handlers/settings.py:52
-#: handlers/settings.py:72
-msgid "Close"
-msgstr "Tutup"
-
-#: handlers/donation.py:46
-msgid "Support us"
-msgstr "Dukung kami"
-
-#: handlers/donation.py:48
-msgid ""
-"Your donations help us to develop new features, increase stability and pay "
-"for our servers."
+#: handlers/docdb.py:83
+msgid "Artist and/or title is missing. Please update the tags and re-upload"
 msgstr ""
-"Donasi kamu membantu kami untuk mengembangkan fitur baru, meningkatkan "
-"stabilitas, dan membayar server kami."
 
-#: handlers/donation.py:51 handlers/donation.py:131
-msgid ""
-"For just one donation we will gift your account with a *lifetime* premium "
-"status. There is a short list of premium features you will receive:"
+#: handlers/docdb.py:85
+msgid "Bitrate is too low. Please upload audio in better quality"
 msgstr ""
-"Untuk hanya satu donasi, kami akan memberi akun kamu dengan status Premium "
-"*seumur hidup*. Ada daftar singkat fitur premium yang akan kamu dapatkan:"
 
-#: handlers/donation.py:54 handlers/donation.py:134
-msgid "No more ads and spam to you, *forever*"
-msgstr "Tidak ada lagi iklan dan spam untuk kamu, *selamanya*"
+#: handlers/docdb.py:87
+#, fuzzy, python-format
+#| msgid "Show audio format: %s"
+msgid "Unsupported audio format: %s"
+msgstr "Tampilkan format audio: %s"
 
-#: handlers/donation.py:55 handlers/donation.py:135
-msgid "An option to disable advertising inline captions"
-msgstr "Opsi untuk menonaktifkan iklan inline teks"
-
-#: handlers/donation.py:56 handlers/donation.py:136
-msgid "An option to display audio format info"
-msgstr "Opsi untuk menampilkan info format audio"
-
-#: handlers/donation.py:57 handlers/donation.py:137
-msgid "An option to change search results size"
-msgstr "Opsi untuk mengubah ukuran hasil pencarian"
-
-#: handlers/donation.py:58 handlers/donation.py:138
-msgid "More options under /settings command"
-msgstr "Opsi lainnya di bawah perintah /settings"
-
-#: handlers/donation.py:60
-#, python-format
-msgid ""
-"Subscribe to our news channel to be notified of new features: %(channel)s"
+#: handlers/docdb.py:89
+msgid "Too small file"
 msgstr ""
-"Berlangganan saluran berita kami untuk diberi tahu fitur baru: %(channel)s"
 
-#: handlers/donation.py:118
-msgid "You are a premium user!"
-msgstr "Kamu adalah pengguna premium!"
-
-#: handlers/donation.py:120
-msgid ""
-"You're a good person who kindly supports us, so we granted you a *lifetime* "
-"premium status, enjoy it."
-msgstr ""
-"Kamu orang baik yang ramah mendukung kami, jadi kami memberikan kamu status "
-"premium *seumur hidup*, nikmatilah."
-
-#: handlers/donation.py:124
-msgid "There is a short list of premium features you have:"
-msgstr "Ada daftar singkat fitur premium yang kamu miliki:"
-
-#: handlers/donation.py:126
-msgid "You are not premium, yet"
-msgstr "Kamu belum premium"
-
-#: handlers/donation.py:128
-msgid ""
-"Use /donate command to support us and get your *lifetime* premium status"
-msgstr ""
-"Gunakan /donate untuk mendukung kami dan dapatkan status premium *seumur "
-"hidup* kamu"
-
-#: handlers/favorites.py:34
+#: handlers/favorites.py:36
 msgid "Added to your playlist (/my)"
 msgstr "Ditambahkan ke daftar putar kamu (/my)"
 
-#: handlers/favorites.py:47
+#: handlers/favorites.py:42
 msgid "Removed from your playlist"
 msgstr "Dihapus dari daftar putar kamu"
 
-#: handlers/help.py:16
+#: handlers/help.py:13
 msgid "🔥 Commands"
 msgstr "🔥 Perintah"
 
-#: handlers/help.py:17 handlers/start.py:37
+#: handlers/help.py:14 handlers/start.py:37
 msgid ""
 "Just send me an artist and/or a song name and I will find music for you!"
 msgstr ""
 "Kirimkan nama artis dan/atau nama lagu dan saya akan mencarikan musik untuk "
 "kamu!"
 
-#: handlers/help.py:18 handlers/start.py:38
+#: handlers/help.py:15 handlers/start.py:38
 msgid "/song — search by song title"
 msgstr "/song — cari berdasarkan judul lagu"
 
-#: handlers/help.py:19 handlers/start.py:39
+#: handlers/help.py:16 handlers/start.py:39
 msgid "/artist — search for artist name"
 msgstr "/artist — cari berdasarkan nama artis"
 
-#: handlers/help.py:20
+#: handlers/help.py:17
 msgid "/my — list your playlist"
 msgstr "/my — daftar putar kamu"
 
-#: handlers/help.py:21
+#: handlers/help.py:18
 msgid "/top — popular songs"
 msgstr "/top — lagu populer"
 
-#: handlers/help.py:22 handlers/start.py:41
+#: handlers/help.py:19 handlers/start.py:41
 msgid "/settings — change settings"
 msgstr "/settings — ubah pengaturan"
 
-#: handlers/help.py:23
-msgid "/donate — support authors"
-msgstr "/donate — dukung pembuat"
-
 #: handlers/help.py:24
-msgid "/premium — premium info"
-msgstr "/premium — info premium"
-
-#: handlers/help.py:26
-#, python-format
-msgid "Official news channel: %(channel)s"
-msgstr "Saluran berita resmi: %(channel)s"
-
-#: handlers/help.py:27
 #, python-format
 msgid "Contact information: %(contact)s"
 msgstr "Informasi kontak: %(contact)s"
 
-#: handlers/search.py:117 handlers/search.py:172
+#: handlers/search.py:179
 msgid "I found nothing"
 msgstr "Saya tidak menemukan apa pun"
 
-#: handlers/search.py:135
+#: handlers/search.py:203
 #, python-format
 msgid "Results %(first)d-%(last)d of %(total)d\n"
 msgstr "Hasil %(first)d-%(last)d dari %(total)d\n"
 
-#: handlers/search.py:213
+#: handlers/search.py:211
+#, fuzzy
+#| msgid "Song is removed by copyright owners"
+msgid "Some of results were blocked by request of copyright owners"
+msgstr "Lagu dihapus, terkait Hak Cipta"
+
+#: handlers/search.py:398
 msgid "What song are you looking for?"
 msgstr "Lagu apa yang kamu cari?"
 
-#: handlers/search.py:224
+#: handlers/search.py:400
+msgid "Song title"
+msgstr ""
+
+#: handlers/search.py:426
 msgid "What artist are you looking for?"
 msgstr "Artis apa yang kamu cari?"
 
-#: handlers/search.py:280 handlers/search.py:303
+#: handlers/search.py:428
+msgid "Artist name"
+msgstr ""
+
+#: handlers/search.py:478 handlers/search.py:501 handlers/search.py:527
+#: handlers/search.py:557 handlers/search.py:583
 msgid "You need to search for something before"
 msgstr "Kamu perlu mencari sesuatu sebelumnya"
 
-#: handlers/search.py:308
+#: handlers/search.py:506
 msgid "You're at the first page already"
 msgstr "Kamu sudah berada di halaman pertama"
 
-#: handlers/settings.py:31
+#: handlers/settings.py:54
 msgid "Enabled"
 msgstr "Diaktifkan"
 
-#: handlers/settings.py:32
+#: handlers/settings.py:55
 msgid "Disabled"
 msgstr "Dimatikan"
 
-#: handlers/settings.py:35
+#: handlers/settings.py:58
 msgid "Language"
 msgstr "Bahasa"
 
-#: handlers/settings.py:37
+#: handlers/settings.py:60
 #, python-format
 msgid "Bitrate preview: %s"
 msgstr "Pratinjau bitrate: %s"
 
-#: handlers/settings.py:40
+#: handlers/settings.py:63
 #, python-format
 msgid "Like (heart) buttons: %s"
 msgstr "Tombol suka (hati): %s"
 
-#: handlers/settings.py:43
-#, python-format
-msgid "Inline mode captions: %s"
-msgstr "Keterangan mode inline: %s"
-
-#: handlers/settings.py:46
+#: handlers/settings.py:69
 #, python-format
 msgid "Show audio format: %s"
 msgstr "Tampilkan format audio: %s"
 
-#: handlers/settings.py:49
+#: handlers/settings.py:72
 #, python-format
 msgid "Search results: %d"
 msgstr "Hasil pencarian: %d"
 
-#: handlers/settings.py:54
+#: handlers/settings.py:75
+#, python-format
+msgid "Advanced search: %s"
+msgstr ""
+
+#: handlers/settings.py:80
 msgid "What would you like to change?"
 msgstr "Apa yang ingin kamu ubah?"
 
-#: handlers/settings.py:74
+#: handlers/settings.py:103
 msgid "Please, select new language"
 msgstr "Silakan pilih bahasa baru"
 
-#: handlers/settings.py:83
+#: handlers/settings.py:112
 msgid "Please help us with a donation (/donate) to access this feature"
 msgstr "Tolong bantu kami dengan donasi (/donate) untuk mengakses fitur ini"
 
-#: handlers/settings.py:141
+#: handlers/settings.py:155
+msgid "Please, help us to know you better. *Where are you from?*"
+msgstr ""
+
+#: handlers/settings.py:221
+msgid "Thank you"
+msgstr ""
+
+#: handlers/settings.py:240
 msgid "Language settings updated"
 msgstr "Pengaturan bahasa diperbarui"
+
+#: handlers/shazam.py:51
+#, fuzzy, python-format
+#| msgid "Bitrate preview: %s"
+msgid "Extracted title: %s"
+msgstr "Pratinjau bitrate: %s"
 
 #: handlers/start.py:40
 msgid "/setlang — change language"
 msgstr "/setlang — ganti bahasa"
+
+#: handlers/sub_confirmation.py:61
+msgid ""
+"Please subscribe to the following channels and then click \"Check "
+"subscription\" button.\n"
+"\n"
+"You're supporting our team by subscribing to these channels. Thank you!"
+msgstr ""
+"Silakan berlangganan ke saluran berikut ini, lalu klik tombol \"Periksa "
+"langganan\".\n"
+"\n"
+"Anda telah mendukung tim kami dengan berlangganan saluran-saluran ini. "
+"Terima kasih!"
+
+#: handlers/sub_confirmation.py:76
+msgid "✅ Check subscription"
+msgstr "✅ Periksa langganan"
+
+#: handlers/sub_confirmation.py:105
+msgid "Thank you for subscription! You can now download audios"
+msgstr "Terima kasih telah berlangganan! Sekarang Anda dapat mengunduh audio"
+
+#: handlers/sub_confirmation.py:110
+msgid "Please subscribe to the channels and try again!"
+msgstr "Silakan berlangganan ke saluran dan coba lagi!"
 
 #: handlers/unknowncommand.py:27
 #, python-format
@@ -258,3 +276,82 @@ msgid ""
 msgstr ""
 "Perintah tidak dikenal: %(command)s. Panggil /help untuk daftar perintah "
 "yang tersedia."
+
+#: handlers/url.py:47
+msgid "Please, use our bot @mmgetbot to download videos from TikTok!"
+msgstr ""
+
+#~ msgid "Support us"
+#~ msgstr "Dukung kami"
+
+#~ msgid ""
+#~ "Your donations help us to develop new features, increase stability and "
+#~ "pay for our servers."
+#~ msgstr ""
+#~ "Donasi kamu membantu kami untuk mengembangkan fitur baru, meningkatkan "
+#~ "stabilitas, dan membayar server kami."
+
+#~ msgid ""
+#~ "For just one donation we will gift your account with a *lifetime* premium "
+#~ "status. There is a short list of premium features you will receive:"
+#~ msgstr ""
+#~ "Untuk hanya satu donasi, kami akan memberi akun kamu dengan status "
+#~ "Premium *seumur hidup*. Ada daftar singkat fitur premium yang akan kamu "
+#~ "dapatkan:"
+
+#~ msgid "No more ads and spam to you, *forever*"
+#~ msgstr "Tidak ada lagi iklan dan spam untuk kamu, *selamanya*"
+
+#~ msgid "An option to disable advertising inline captions"
+#~ msgstr "Opsi untuk menonaktifkan iklan inline teks"
+
+#~ msgid "An option to display audio format info"
+#~ msgstr "Opsi untuk menampilkan info format audio"
+
+#~ msgid "An option to change search results size"
+#~ msgstr "Opsi untuk mengubah ukuran hasil pencarian"
+
+#~ msgid "More options under /settings command"
+#~ msgstr "Opsi lainnya di bawah perintah /settings"
+
+#, python-format
+#~ msgid ""
+#~ "Subscribe to our news channel to be notified of new features: %(channel)s"
+#~ msgstr ""
+#~ "Berlangganan saluran berita kami untuk diberi tahu fitur baru: %(channel)s"
+
+#~ msgid "You are a premium user!"
+#~ msgstr "Kamu adalah pengguna premium!"
+
+#~ msgid ""
+#~ "You're a good person who kindly supports us, so we granted you a "
+#~ "*lifetime* premium status, enjoy it."
+#~ msgstr ""
+#~ "Kamu orang baik yang ramah mendukung kami, jadi kami memberikan kamu "
+#~ "status premium *seumur hidup*, nikmatilah."
+
+#~ msgid "There is a short list of premium features you have:"
+#~ msgstr "Ada daftar singkat fitur premium yang kamu miliki:"
+
+#~ msgid "You are not premium, yet"
+#~ msgstr "Kamu belum premium"
+
+#~ msgid ""
+#~ "Use /donate command to support us and get your *lifetime* premium status"
+#~ msgstr ""
+#~ "Gunakan /donate untuk mendukung kami dan dapatkan status premium *seumur "
+#~ "hidup* kamu"
+
+#~ msgid "/donate — support authors"
+#~ msgstr "/donate — dukung pembuat"
+
+#~ msgid "/premium — premium info"
+#~ msgstr "/premium — info premium"
+
+#, python-format
+#~ msgid "Official news channel: %(channel)s"
+#~ msgstr "Saluran berita resmi: %(channel)s"
+
+#, python-format
+#~ msgid "Inline mode captions: %s"
+#~ msgstr "Keterangan mode inline: %s"

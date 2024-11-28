@@ -28,7 +28,7 @@ msgstr "⛔️ آهنگ توسط صاحبان کپی رایت حذف شده اس
 
 #: handlers/docdb.py:64
 msgid "Got it! Note: it may take time for the song to appear in the search"
-msgstr "گرفتم! نکته: ممکن است نمایش آهنگ در نتایج جستجو کمی طول بکشد"
+msgstr "دریافت کردم! نکته: ممکن است نمایش آهنگ در نتایج جستجو کمی طول بکشد"
 
 #: handlers/donation.py:43 handlers/donation.py:113 handlers/settings.py:52 handlers/settings.py:72
 msgid "Close"

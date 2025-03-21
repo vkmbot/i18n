@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-27 07:38+0900\n"
+"POT-Creation-Date: 2025-03-21 10:18+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,49 +19,63 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: handlers/antiadmin.py:34
+#: handlers/antiadmin.py:43
 msgid ""
 "Please, don't make me a group admin. Add me as a regular user and use /"
 "song or /artist commands to init search. For now I'm leaving, bye!"
 msgstr ""
 
-#: handlers/audio.py:216
+#: handlers/audio.py:230
 #, python-format
 msgid ""
 "This group is out of downloads (%(limit)d per day), please use the bot "
 "via direct message: @%(bot_name)s"
 msgstr ""
 
-#: handlers/audio.py:227
+#: handlers/audio.py:241
 #, python-format
 msgid "You're out of downloads (%d per day), please try again later"
 msgstr ""
 
-#: handlers/audio.py:253
+#: handlers/audio.py:260
+#, python-format
+msgid ""
+"⚠️ <b>Warning!</b> This bot may be blocked soon by request of copyright "
+"owners.\n"
+"\n"
+"Please subscribe to our new bot @%(bot_name)s to download audio"
+msgstr ""
+
+#: handlers/audio.py:267
+#, python-format
+msgid "Subscribe to @%(bot_name)s"
+msgstr ""
+
+#: handlers/audio.py:294
 msgid "Please wait, your audio is coming..."
 msgstr ""
 
-#: handlers/audio.py:263
+#: handlers/audio.py:304
 msgid "Song is removed by copyright owners"
 msgstr ""
 
-#: handlers/audio.py:283
+#: handlers/audio.py:324
 msgid "Reason for report:"
 msgstr ""
 
-#: handlers/audio.py:287
+#: handlers/audio.py:328
 msgid "Bad/broken audio"
 msgstr ""
 
-#: handlers/audio.py:291
+#: handlers/audio.py:332
 msgid "Wrong artist/title"
 msgstr ""
 
-#: handlers/audio.py:294 handlers/settings.py:78 handlers/settings.py:100
+#: handlers/audio.py:335 handlers/settings.py:78 handlers/settings.py:100
 msgid "Close"
 msgstr ""
 
-#: handlers/audio.py:305 handlers/audio.py:314
+#: handlers/audio.py:346 handlers/audio.py:355
 msgid "Audio reported"
 msgstr ""
 
@@ -86,11 +100,11 @@ msgstr ""
 msgid "Too small file"
 msgstr ""
 
-#: handlers/favorites.py:36
+#: handlers/favorites.py:38
 msgid "Added to your playlist (/my)"
 msgstr ""
 
-#: handlers/favorites.py:42
+#: handlers/favorites.py:44
 msgid "Removed from your playlist"
 msgstr ""
 
@@ -98,16 +112,16 @@ msgstr ""
 msgid "🔥 Commands"
 msgstr ""
 
-#: handlers/help.py:14 handlers/start.py:37
+#: handlers/help.py:14 handlers/start.py:77
 msgid ""
 "Just send me an artist and/or a song name and I will find music for you!"
 msgstr ""
 
-#: handlers/help.py:15 handlers/start.py:38
+#: handlers/help.py:15 handlers/start.py:78
 msgid "/song — search by song title"
 msgstr ""
 
-#: handlers/help.py:16 handlers/start.py:39
+#: handlers/help.py:16 handlers/start.py:79
 msgid "/artist — search for artist name"
 msgstr ""
 
@@ -119,7 +133,7 @@ msgstr ""
 msgid "/top — popular songs"
 msgstr ""
 
-#: handlers/help.py:19 handlers/start.py:41
+#: handlers/help.py:19 handlers/start.py:81
 msgid "/settings — change settings"
 msgstr ""
 
@@ -128,41 +142,41 @@ msgstr ""
 msgid "Contact information: %(contact)s"
 msgstr ""
 
-#: handlers/search.py:179
+#: handlers/search.py:187
 msgid "I found nothing"
 msgstr ""
 
-#: handlers/search.py:203
+#: handlers/search.py:210
 #, python-format
 msgid "Results %(first)d-%(last)d of %(total)d\n"
 msgstr ""
 
-#: handlers/search.py:211
+#: handlers/search.py:218
 msgid "Some of results were blocked by request of copyright owners"
 msgstr ""
 
-#: handlers/search.py:398
+#: handlers/search.py:406
 msgid "What song are you looking for?"
 msgstr ""
 
-#: handlers/search.py:400
+#: handlers/search.py:408
 msgid "Song title"
 msgstr ""
 
-#: handlers/search.py:426
+#: handlers/search.py:434
 msgid "What artist are you looking for?"
 msgstr ""
 
-#: handlers/search.py:428
+#: handlers/search.py:436
 msgid "Artist name"
 msgstr ""
 
-#: handlers/search.py:478 handlers/search.py:501 handlers/search.py:527
-#: handlers/search.py:557 handlers/search.py:583
+#: handlers/search.py:486 handlers/search.py:509 handlers/search.py:535
+#: handlers/search.py:565 handlers/search.py:591
 msgid "You need to search for something before"
 msgstr ""
 
-#: handlers/search.py:506
+#: handlers/search.py:514
 msgid "You're at the first page already"
 msgstr ""
 
@@ -227,16 +241,16 @@ msgstr ""
 msgid "Language settings updated"
 msgstr ""
 
-#: handlers/shazam.py:51
+#: handlers/shazam_shared_track.py:51
 #, python-format
 msgid "Extracted title: %s"
 msgstr ""
 
-#: handlers/start.py:40
+#: handlers/start.py:80
 msgid "/setlang — change language"
 msgstr ""
 
-#: handlers/sub_confirmation.py:61
+#: handlers/sub_confirmation.py:52
 msgid ""
 "Please subscribe to the following channels and then click \"Check "
 "subscription\" button.\n"
@@ -244,15 +258,15 @@ msgid ""
 "You're supporting our team by subscribing to these channels. Thank you!"
 msgstr ""
 
-#: handlers/sub_confirmation.py:76
+#: handlers/sub_confirmation.py:67
 msgid "✅ Check subscription"
 msgstr ""
 
-#: handlers/sub_confirmation.py:105
+#: handlers/sub_confirmation.py:127
 msgid "Thank you for subscription! You can now download audios"
 msgstr ""
 
-#: handlers/sub_confirmation.py:110
+#: handlers/sub_confirmation.py:133
 msgid "Please subscribe to the channels and try again!"
 msgstr ""
 
@@ -264,4 +278,8 @@ msgstr ""
 
 #: handlers/url.py:47
 msgid "Please, use our bot @mmgetbot to download videos from TikTok!"
+msgstr ""
+
+#: handlers/voicerec.py:37
+msgid "❓ Audio was not recognized"
 msgstr ""

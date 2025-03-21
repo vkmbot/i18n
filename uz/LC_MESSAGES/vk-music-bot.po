@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-31 11:20+0300\n"
-"PO-Revision-Date: 2024-09-27 07:43+0900\n"
+"POT-Creation-Date: 2025-03-21 10:18+0300\n"
+"PO-Revision-Date: 2025-03-21 10:22+0300\n"
 "Last-Translator: vkmowner <vkmowner@telegram>\n"
 "Language-Team: \n"
 "Language: uz\n"
@@ -13,13 +13,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.5\n"
 
-#: handlers/antiadmin.py:34
+#: handlers/antiadmin.py:43
 msgid ""
 "Please, don't make me a group admin. Add me as a regular user and use /song "
 "or /artist commands to init search. For now I'm leaving, bye!"
 msgstr ""
 
-#: handlers/audio.py:213
+#: handlers/audio.py:230
 #, python-format
 msgid ""
 "This group is out of downloads (%(limit)d per day), please use the bot via "
@@ -28,38 +28,55 @@ msgstr ""
 "Bu guruhda yuklamalar limiti (%(limit)d kunlik),dan oshib ketdi, yakka "
 "qidiruv uchun to'g'ridan to'g'ri botga yozing:: @%(bot_name)s"
 
-#: handlers/audio.py:224
+#: handlers/audio.py:241
 #, python-format
 msgid "You're out of downloads (%d per day), please try again later"
 msgstr ""
 "SIz yuklamalar cheklovi (%d per day) dan o'tdingiz, iltimos keyinroq urunib "
 "ko'ring"
 
-#: handlers/audio.py:245
+#: handlers/audio.py:260
+#, python-format
+msgid ""
+"⚠️ <b>Warning!</b> This bot may be blocked soon by request of copyright "
+"owners.\n"
+"\n"
+"Please subscribe to our new bot @%(bot_name)s to download audio"
+msgstr ""
+"⚠️ <b>Ogohlantirish!</b> Mualliflik huquqi egalarining iltimosiga binoan bu "
+"bot tez orada bloklanishi mumkin. Audioni yuklab olish uchun @%(bot_name)s "
+"yangi botimizga obuna bo'ling"
+
+#: handlers/audio.py:267
+#, python-format
+msgid "Subscribe to @%(bot_name)s"
+msgstr ""
+
+#: handlers/audio.py:294
 msgid "Please wait, your audio is coming..."
 msgstr "Iltimos kuting, sizning auidoingiz jo'natilyapti..."
 
-#: handlers/audio.py:255
+#: handlers/audio.py:304
 msgid "Song is removed by copyright owners"
 msgstr "⛔️ Qo’shiq mualliflik egalari tomonidan o’chirildi"
 
-#: handlers/audio.py:275
+#: handlers/audio.py:324
 msgid "Reason for report:"
 msgstr ""
 
-#: handlers/audio.py:279
+#: handlers/audio.py:328
 msgid "Bad/broken audio"
 msgstr ""
 
-#: handlers/audio.py:283
+#: handlers/audio.py:332
 msgid "Wrong artist/title"
 msgstr ""
 
-#: handlers/audio.py:286 handlers/settings.py:74 handlers/settings.py:96
+#: handlers/audio.py:335 handlers/settings.py:78 handlers/settings.py:100
 msgid "Close"
 msgstr "Yopish"
 
-#: handlers/audio.py:297 handlers/audio.py:306
+#: handlers/audio.py:346 handlers/audio.py:355
 msgid "Audio reported"
 msgstr ""
 
@@ -87,11 +104,11 @@ msgstr "Qo'llab-quvvatlanmaydigan audio format: %s"
 msgid "Too small file"
 msgstr "Juda kichik fayl"
 
-#: handlers/favorites.py:36
+#: handlers/favorites.py:38
 msgid "Added to your playlist (/my)"
 msgstr "Sizning playlistingizga qo'shildi (/my)"
 
-#: handlers/favorites.py:42
+#: handlers/favorites.py:44
 msgid "Removed from your playlist"
 msgstr "Playlistdan o'chirildi"
 
@@ -99,18 +116,18 @@ msgstr "Playlistdan o'chirildi"
 msgid "🔥 Commands"
 msgstr "🔥 Buyruqlar"
 
-#: handlers/help.py:14 handlers/start.py:37
+#: handlers/help.py:14 handlers/start.py:77
 msgid ""
 "Just send me an artist and/or a song name and I will find music for you!"
 msgstr ""
 "Shunchaki menga qo'shiqchi yoki qo'shiq nomini jo'nating va men siz uchun "
 "musiqa topib beraman!"
 
-#: handlers/help.py:15 handlers/start.py:38
+#: handlers/help.py:15 handlers/start.py:78
 msgid "/song — search by song title"
 msgstr "/song - qo'shiq nomi orqali qidirish"
 
-#: handlers/help.py:16 handlers/start.py:39
+#: handlers/help.py:16 handlers/start.py:79
 msgid "/artist — search for artist name"
 msgstr "/artist - Qo'shiqchi ismi orqali qidirish"
 
@@ -122,7 +139,7 @@ msgstr "/my - sizning pleylistlaringiz ro'yhati"
 msgid "/top — popular songs"
 msgstr "/top - mashhur qo'shiqlar"
 
-#: handlers/help.py:19 handlers/start.py:41
+#: handlers/help.py:19 handlers/start.py:81
 msgid "/settings — change settings"
 msgstr "/settings - sozlamalarni o'zgartirish"
 
@@ -131,104 +148,118 @@ msgstr "/settings - sozlamalarni o'zgartirish"
 msgid "Contact information: %(contact)s"
 msgstr "Bog'lanish uchun aloqa: %(contact)s"
 
-#: handlers/search.py:155 handlers/search.py:253
+#: handlers/search.py:187
 msgid "I found nothing"
 msgstr "Hech narsa topilmadi 😔"
 
-#: handlers/search.py:179
+#: handlers/search.py:210
 #, python-format
 msgid "Results %(first)d-%(last)d of %(total)d\n"
 msgstr "Natijalar %(first)d-%(last)d %(total)d dan\n"
 
-#: handlers/search.py:187
+#: handlers/search.py:218
 msgid "Some of results were blocked by request of copyright owners"
 msgstr "Bir qancha natijalar egalik huquqlari buzilgani tufayli o'chirildi"
 
-#: handlers/search.py:306
+#: handlers/search.py:406
 msgid "What song are you looking for?"
 msgstr "Qaysi qo'shiqni qidiryapsiz?"
 
-#: handlers/search.py:319
+#: handlers/search.py:408
+msgid "Song title"
+msgstr ""
+
+#: handlers/search.py:434
 msgid "What artist are you looking for?"
 msgstr "Qaysi qo'shiqchining qo'shiqlarini qidiryapsiz?"
 
-#: handlers/search.py:391 handlers/search.py:414
+#: handlers/search.py:436
+msgid "Artist name"
+msgstr ""
+
+#: handlers/search.py:486 handlers/search.py:509 handlers/search.py:535
+#: handlers/search.py:565 handlers/search.py:591
 msgid "You need to search for something before"
 msgstr "Siz oldin biror narsa qidirishingiz kerak"
 
-#: handlers/search.py:419
+#: handlers/search.py:514
 msgid "You're at the first page already"
 msgstr "Siz allaqachon birinchi sahifadasiz"
 
-#: handlers/settings.py:53
+#: handlers/settings.py:54
 msgid "Enabled"
 msgstr "Yoqilgan"
 
-#: handlers/settings.py:54
+#: handlers/settings.py:55
 msgid "Disabled"
 msgstr "O'chirilgan"
 
-#: handlers/settings.py:57
+#: handlers/settings.py:58
 msgid "Language"
 msgstr "Til"
 
-#: handlers/settings.py:59
+#: handlers/settings.py:60
 #, python-format
 msgid "Bitrate preview: %s"
 msgstr "Bitreyt ko'rish: %s"
 
-#: handlers/settings.py:62
+#: handlers/settings.py:63
 #, python-format
 msgid "Like (heart) buttons: %s"
 msgstr "Yoqdi (yurak) tugmalari: %s"
 
-#: handlers/settings.py:68
+#: handlers/settings.py:69
 #, python-format
 msgid "Show audio format: %s"
 msgstr "Audio formatini ko'rsatish: %s"
 
-#: handlers/settings.py:71
+#: handlers/settings.py:72
 #, python-format
 msgid "Search results: %d"
 msgstr "Qidiruv natijalari: %d"
 
-#: handlers/settings.py:76
+#: handlers/settings.py:75
+#, python-format
+msgid "Advanced search: %s"
+msgstr ""
+
+#: handlers/settings.py:80
 msgid "What would you like to change?"
 msgstr "Nimani o'zgartirishni xohlaysiz?"
 
-#: handlers/settings.py:99
+#: handlers/settings.py:103
 msgid "Please, select new language"
 msgstr "Iltimos, yangi tilni tanlang"
 
-#: handlers/settings.py:108
+#: handlers/settings.py:112
 msgid "Please help us with a donation (/donate) to access this feature"
 msgstr ""
 "Bu imkoniyatga ega bo'lish uchun iltimos bizga hadya (/donate) qilish orqali "
 "bizga yordam bering"
 
-#: handlers/settings.py:152
+#: handlers/settings.py:155
 msgid "Please, help us to know you better. *Where are you from?*"
 msgstr "Sizni yaxshiroq bilishimizga yordam bering. *Qaysi davlatdansiz?*"
 
-#: handlers/settings.py:218
+#: handlers/settings.py:221
 msgid "Thank you"
 msgstr "Rahmat sizga"
 
-#: handlers/settings.py:237
+#: handlers/settings.py:240
 msgid "Language settings updated"
 msgstr "👌🇺🇿 Til sozlamalari yangilandi"
 
-#: handlers/shazam.py:47
+#: handlers/shazam_shared_track.py:51
 #, fuzzy, python-format
 #| msgid "Bitrate preview: %s"
 msgid "Extracted title: %s"
 msgstr "Bitreyt ko'rish: %s"
 
-#: handlers/start.py:40
+#: handlers/start.py:80
 msgid "/setlang — change language"
 msgstr "/setlang - tilni sozlash"
 
-#: handlers/sub_confirmation.py:48
+#: handlers/sub_confirmation.py:52
 msgid ""
 "Please subscribe to the following channels and then click \"Check "
 "subscription\" button.\n"
@@ -241,15 +272,17 @@ msgstr ""
 "Siz ushbu kanallarga obuna bo'lish orqali jamoamizni qo'llab-quvvatlayapsiz. "
 "Rahmat!"
 
-#: handlers/sub_confirmation.py:62
+#: handlers/sub_confirmation.py:67
 msgid "✅ Check subscription"
 msgstr "✅ Obunani tekshiring"
 
-#: handlers/sub_confirmation.py:92
-msgid "Thank you for subscription!"
+#: handlers/sub_confirmation.py:127
+#, fuzzy
+#| msgid "Thank you for subscription!"
+msgid "Thank you for subscription! You can now download audios"
 msgstr "Obuna uchun rahmat!"
 
-#: handlers/sub_confirmation.py:97
+#: handlers/sub_confirmation.py:133
 msgid "Please subscribe to the channels and try again!"
 msgstr "Iltimos, kanallarga obuna bo'ling va qaytadan urinib ko'ring!"
 
@@ -261,8 +294,12 @@ msgstr ""
 "Noto'g'ri buyruq: %(command)s. Mavjud buyruqlar ro'yhatini olish uchun - /"
 "help."
 
-#: handlers/url.py:37
-msgid "I got your url, figuring it out"
+#: handlers/url.py:47
+msgid "Please, use our bot @mmgetbot to download videos from TikTok!"
+msgstr ""
+
+#: handlers/voicerec.py:37
+msgid "❓ Audio was not recognized"
 msgstr ""
 
 #, python-format
